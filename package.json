@@ -17,9 +17,10 @@
     "lint": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*",
     "lint:stylelint": "stylelint \"**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache --rd",
     "lint:vars": "fusv scss/",
-    "watch:site": "sergey --watch --port=9001 --root=./site/ --imports=partials"
+    "watch:site": "eleventy --serve --port=9001 --input=site/ --formats=html,md,css,js"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
     "autoprefixer": "^10.4.12",
     "clean-css-cli": "^5.6.1",
     "find-unused-sass-variables": "^4.0.4",
@@ -28,7 +29,6 @@
     "postcss": "^8.4.17",
     "postcss-cli": "^10.0.0",
     "sass": "^1.55.0",
-    "sergey": "^0.0.13",
     "shx": "^0.3.4",
     "stylelint": "^14.13.0",
     "stylelint-config-twbs-bootstrap": "^6.0.0"
