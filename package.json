@@ -17,7 +17,7 @@
     "lint": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*",
     "lint:stylelint": "stylelint \"**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache --rd",
     "lint:vars": "fusv scss/",
-    "docs": "sergey --watch --port=9001 --root=./site/ --output=_site --imports=partials"
+    "docs": "sergey --watch --port=9001 --root=./site/ --imports=partials"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
