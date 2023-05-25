@@ -8,7 +8,7 @@
   "style": "dist/css/bootstrap.css",
   "scripts": {
     "start": "npm-run-all --parallel watch:css watch:site",
-    "css": "npm-run-all css:compile css:prefix css:minify",
+    "css": "npm-run-all lint css:compile css:prefix css:minify",
     "css:compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/:dist/css/",
     "css:minify": "cleancss -O1 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output dist/css/ --batch --batch-suffix \".min\" \"dist/css/*.css\" \"!dist/css/*.min.css\"",
     "css:prefix": "postcss --config build/postcss.config.js --replace \"dist/css/*.css\" \"!dist/css/*.min.css\"",
@@ -17,7 +17,7 @@
     "lint": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*",
     "lint:stylelint": "stylelint \"**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache --rd",
     "lint:vars": "fusv scss/",
-    "watch:site": "eleventy --serve --port=9001 --input=site/ --formats=html,md,css,js"
+    "watch:site": "eleventy --serve --port=9001 --input=site/ --formats=html,md,liquid"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
