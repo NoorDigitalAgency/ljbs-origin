@@ -8,12 +8,11 @@ const mapConfig = {
 
 module.exports = context => {
   return {
-    map: context.file.dirname.includes('examples') ? false : mapConfig,
+    map: mapConfig,
     plugins: {
       autoprefixer: {
         cascade: false
-      },
-      rtlcss: context.env === 'RTL'
+      }
     }
   }
 }
