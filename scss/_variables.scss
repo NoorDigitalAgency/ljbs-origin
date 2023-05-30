@@ -36,34 +36,45 @@ $grays: (
 // fusv-enable
 
 // scss-docs-start color-variables
-$blue:    #0d6efd !default;
-$indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
-$pink:    #d63384 !default;
-$red:     #dc3545 !default;
-$orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
-$green:   #198754 !default;
-$teal:    #20c997 !default;
-$cyan:    #0dcaf0 !default;
+$blue:                 #0d6efd !default;
+$indigo:               #6610f2 !default;
+$purple:               #6f42c1 !default;
+$pink:                 #d63384 !default;
+$red:                  #712525 !default;
+$orange:               #fd7e14 !default;
+$yellow:               #ffc107 !default;
+$green:                #009700 !default;
+$teal:                 #bddbd9 !default;
+$cyan:                 #0dcaf0 !default;
+$mint:                 #eafce6 !default;
+$dark-mint:            #daf2d4 !default;
+$light-green:          #fdffee !default;
+$yellow-green:         #e1ff01 !default;
+$dark-yellow-green:    #d8f406 !default;
+$dark-green:           #218069 !default;
+$mid-dark-green:       #2f5854 !default;
+$mid-black-green:      #274643 !default;
+$black-green:          #1e3432 !default;
+$neutral-gray:         #fafafa !default;
+$warm-gray:            #f9faef !default;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
 $colors: (
-  "blue":       $blue,
-  "indigo":     $indigo,
-  "purple":     $purple,
-  "pink":       $pink,
-  "red":        $red,
-  "orange":     $orange,
-  "yellow":     $yellow,
-  "green":      $green,
-  "teal":       $teal,
-  "cyan":       $cyan,
-  "black":      $black,
-  "white":      $white,
-  "gray":       $gray-600,
-  "gray-dark":  $gray-800
+  "blue":                 $blue,
+  "indigo":               $indigo,
+  "purple":               $purple,
+  "pink":                 $pink,
+  "red":                  $red,
+  "orange":               $orange,
+  "yellow":               $yellow,
+  "green":                $green,
+  "teal":                 $teal,
+  "cyan":                 $cyan,
+  "black":                $black,
+  "white":                $white,
+  "gray":                 $gray-600,
+  "gray-dark":            $gray-800,
 ) !default;
 // scss-docs-end colors-map
 
@@ -72,7 +83,7 @@ $colors: (
 $min-contrast-ratio:   4.5 !default;
 
 // Customize the light and dark text colors for use in our color contrast function.
-$color-contrast-dark:      $black !default;
+$color-contrast-dark:      $black-green !default;
 $color-contrast-light:     $white !default;
 
 // fusv-disable
@@ -298,26 +309,37 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$primary:       $dark-green !default;
+$secondary:     $yellow-green !default;
 $success:       $green !default;
-$info:          $cyan !default;
+$info:          $teal !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-900 !default;
+$light:         $neutral-gray !default;
+$dark:          $black-green !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
+  "primary":              $primary,
+  "secondary":            $secondary,
+  "success":              $success,
+  "info":                 $info,
+  "warning":              $warning,
+  "danger":               $danger,
+  "light":                $light,
+  "dark":                 $dark,
+  "mint":                 $mint,
+  "dark-mint":            $dark-mint,
+  "light-green":          $light-green,
+  "yellow-green":         $yellow-green,
+  "dark-yellow-green":    $dark-yellow-green,
+  "dark-green":           $dark-green,
+  "mid-dark-green":       $mid-dark-green,
+  "mid-black-green":      $mid-black-green,
+  "black-green":          $black-green,
+  "neutral-gray":         $neutral-gray,
+  "warm-gray":            $warm-gray,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -378,7 +400,12 @@ $spacers: (
   2: $spacer * .5,
   3: $spacer,
   4: $spacer * 1.5,
-  5: $spacer * 3,
+  5: $spacer * 2,
+  6: $spacer * 2.5,
+  7: $spacer * 3,
+  8: $spacer * 4,
+  9: $spacer * 6,
+  10: $spacer * 8
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -399,7 +426,7 @@ $position-values: (
 // Settings for the `<body>` element.
 
 $body-bg:                   $white !default;
-$body-color:                $gray-900 !default;
+$body-color:                $black !default;
 $body-text-align:           null !default;
 
 // Links
@@ -540,22 +567,27 @@ $aspect-ratios: (
 
 // scss-docs-start font-variables
 // stylelint-disable value-keyword-case
+$font-family-poppins:         "Poppins", sans-serif !default;
+$font-family-open-sans:       "Open Sans", sans-serif !default;
 $font-family-sans-serif:      system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 // stylelint-enable value-keyword-case
-$font-family-base:            var(--#{$prefix}font-sans-serif) !default;
+$font-family-base:            var(--#{$prefix}font-open-sans) !default;
+$font-family-accent:          var(--#{$prefix}font-poppins) !default;
 $font-family-code:            var(--#{$prefix}font-monospace) !default;
 
 // $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
 // $font-size-base affects the font size of the body text
 $font-size-root:              null !default;
 $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-tiny:              $font-size-base * .625 !default;
 $font-size-sm:                $font-size-base * .875 !default;
 $font-size-lg:                $font-size-base * 1.25 !default;
 
 $font-weight-lighter:         lighter !default;
 $font-weight-light:           300 !default;
 $font-weight-normal:          400 !default;
+$font-weight-medium:          500 !default;
 $font-weight-semibold:        600 !default;
 $font-weight-bold:            700 !default;
 $font-weight-bolder:          bolder !default;
@@ -567,8 +599,8 @@ $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
 $h1-font-size:                $font-size-base * 2.5 !default;
-$h2-font-size:                $font-size-base * 2 !default;
-$h3-font-size:                $font-size-base * 1.75 !default;
+$h2-font-size:                $font-size-base * 2.25 !default;
+$h3-font-size:                $font-size-base * 2 !default;
 $h4-font-size:                $font-size-base * 1.5 !default;
 $h5-font-size:                $font-size-base * 1.25 !default;
 $h6-font-size:                $font-size-base !default;
@@ -587,9 +619,9 @@ $font-sizes: (
 
 // scss-docs-start headings-variables
 $headings-margin-bottom:      $spacer * .5 !default;
-$headings-font-family:        null !default;
+$headings-font-family:        $font-family-accent !default;
 $headings-font-style:         null !default;
-$headings-font-weight:        500 !default;
+$headings-font-weight:        $font-weight-medium !default;
 $headings-line-height:        1.2 !default;
 $headings-color:              null !default;
 // scss-docs-end headings-variables
@@ -883,8 +915,8 @@ $form-check-input-focus-box-shadow:       $input-btn-focus-box-shadow !default;
 $form-check-input-checked-color:          $component-active-color !default;
 $form-check-input-checked-bg-color:       $component-active-bg !default;
 $form-check-input-checked-border-color:   $form-check-input-checked-bg-color !default;
-$form-check-input-checked-bg-image:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path fill='none' stroke='#{$form-check-input-checked-color}' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/></svg>") !default;
-$form-check-radio-checked-bg-image:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='2' fill='#{$form-check-input-checked-color}'/></svg>") !default;
+$form-check-input-checked-bg-image:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-3 -0.5 15 10'><path fill='none' stroke='#{$form-check-input-checked-color}' stroke-linecap='square' stroke-linejoin='miter' stroke-width='2.5' d='M1 5.5L3 7.5L8.5 1.5'/></svg>") !default;
+$form-check-radio-checked-bg-image:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3' fill='#{$form-check-input-checked-bg-color}'/></svg>") !default;
 
 $form-check-input-indeterminate-color:          $component-active-color !default;
 $form-check-input-indeterminate-bg-color:       $component-active-bg !default;

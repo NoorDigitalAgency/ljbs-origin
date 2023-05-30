@@ -53,6 +53,10 @@
   @extend mark;
 }
 
+.tiny {
+  @include font-size($font-size-tiny);
+}
+
 //
 // Lists
 //
