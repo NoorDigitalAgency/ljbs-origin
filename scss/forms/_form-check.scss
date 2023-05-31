@@ -69,6 +69,11 @@
       } @else {
         background-image: escape-svg($form-check-input-checked-bg-image);
       }
+
+      &:disabled {
+        background-color: $form-check-input-unchecked-color;
+        border: $form-check-input-border;
+      }
     }
 
     &[type="radio"] {
@@ -78,6 +83,17 @@
         background-image: escape-svg($form-check-radio-checked-bg-image);
       }
       background-color: $white;
+
+      &:disabled {
+        background-color: $cold-gray;
+        border: $form-check-input-border;
+
+        @if $enable-gradients {
+          background-image: escape-svg($form-check-radio-checked-bg-image-disabled), var(--#{$prefix}gradient);
+        } @else {
+          background-image: escape-svg($form-check-radio-checked-bg-image-disabled);
+        }
+      }
     }
   }
 
@@ -94,6 +110,7 @@
 
   &:disabled {
     pointer-events: none;
+    background-color: $cold-gray;
     filter: none;
     opacity: $form-check-input-disabled-opacity;
   }
@@ -112,6 +129,10 @@
 .form-check-label {
   color: $form-check-label-color;
   cursor: $form-check-label-cursor;
+
+  &.disabled {
+    color: tint-color($form-check-label-color, (1 - $form-check-label-disabled-opacity) * 100%);
+  }
 }
 
 //

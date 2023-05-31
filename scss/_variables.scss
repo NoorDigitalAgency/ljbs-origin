@@ -36,27 +36,30 @@ $grays: (
 // fusv-enable
 
 // scss-docs-start color-variables
-$blue:                 #0d6efd !default;
-$indigo:               #6610f2 !default;
-$purple:               #6f42c1 !default;
-$pink:                 #d63384 !default;
-$red:                  #712525 !default;
-$orange:               #fd7e14 !default;
-$yellow:               #ffc107 !default;
-$green:                #009700 !default;
-$teal:                 #bddbd9 !default;
-$cyan:                 #0dcaf0 !default;
-$mint:                 #eafce6 !default;
-$dark-mint:            #daf2d4 !default;
-$light-green:          #fdffee !default;
-$yellow-green:         #e1ff01 !default;
-$dark-yellow-green:    #d8f406 !default;
-$dark-green:           #218069 !default;
-$mid-dark-green:       #2f5854 !default;
-$mid-black-green:      #274643 !default;
-$black-green:          #1e3432 !default;
-$neutral-gray:         #fafafa !default;
-$warm-gray:            #f9faef !default;
+$blue:                      #0d6efd !default;
+$indigo:                    #6610f2 !default;
+$purple:                    #6f42c1 !default;
+$pink:                      #d63384 !default;
+$red:                       #712525 !default;
+$orange:                    #fd7e14 !default;
+$yellow:                    #ffc107 !default;
+$green:                     #009700 !default;
+$teal:                      #bddbd9 !default;
+$cyan:                      #0dcaf0 !default;
+$mint:                      #eafce6 !default;
+$dark-mint:                 #daf2d4 !default;
+$light-green:               #fdffee !default;
+$yellow-green:              #e1ff01 !default;
+$dark-yellow-green:         #d8f406 !default;
+$dark-green:                #218069 !default;
+$mid-dark-green:            #2f5854 !default;
+$mid-black-green:           #274643 !default;
+$black-green:               #1e3432 !default;
+$neutral-gray:              #fafafa !default;
+$warm-gray:                 #f9faef !default;
+$cold-gray:                 #e8eaea !default;
+$black-green-gray:          tint-color($black-green, 50%) !default;
+$black-green-gray-light:    tint-color($black-green, 70%) !default;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -321,25 +324,28 @@ $dark:          $black-green !default;
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-  "primary":              $primary,
-  "secondary":            $secondary,
-  "success":              $success,
-  "info":                 $info,
-  "warning":              $warning,
-  "danger":               $danger,
-  "light":                $light,
-  "dark":                 $dark,
-  "mint":                 $mint,
-  "dark-mint":            $dark-mint,
-  "light-green":          $light-green,
-  "yellow-green":         $yellow-green,
-  "dark-yellow-green":    $dark-yellow-green,
-  "dark-green":           $dark-green,
-  "mid-dark-green":       $mid-dark-green,
-  "mid-black-green":      $mid-black-green,
-  "black-green":          $black-green,
-  "neutral-gray":         $neutral-gray,
-  "warm-gray":            $warm-gray,
+  "primary":                 $primary,
+  "secondary":               $secondary,
+  "tertiary":                $black-green,
+  "success":                 $success,
+  "info":                    $info,
+  "warning":                 $warning,
+  "danger":                  $danger,
+  "light":                   $light,
+  "dark":                    $dark,
+  "mint":                    $mint,
+  "dark-mint":               $dark-mint,
+  "light-green":             $light-green,
+  "yellow-green":            $yellow-green,
+  "dark-yellow-green":       $dark-yellow-green,
+  "dark-green":              $dark-green,
+  "mid-dark-green":          $mid-dark-green,
+  "mid-black-green":         $mid-black-green,
+  "black-green":             $black-green,
+  "neutral-gray":            $neutral-gray,
+  "warm-gray":               $warm-gray,
+  "cold-gray":               $cold-gray,
+  "black-green-gray":        $black-green-gray,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -858,11 +864,12 @@ $input-font-size-lg:                    $input-btn-font-size-lg !default;
 
 $input-bg:                              $body-bg !default;
 $input-disabled-color:                  null !default;
+$input-disabled-opacity:                .4 !default;
 $input-disabled-bg:                     $gray-200 !default;
 $input-disabled-border-color:           null !default;
 
-$input-color:                           $body-color !default;
-$input-border-color:                    $gray-400 !default;
+$input-color:                           $black-green !default;
+$input-border-color:                    $black-green-gray-light !default;
 $input-border-width:                    $input-btn-border-width !default;
 $input-box-shadow:                      $box-shadow-inset !default;
 
@@ -876,7 +883,7 @@ $input-focus-color:                     $input-color !default;
 $input-focus-width:                     $input-btn-focus-width !default;
 $input-focus-box-shadow:                $input-btn-focus-box-shadow !default;
 
-$input-placeholder-color:               $gray-600 !default;
+$input-placeholder-color:               $black-green-gray !default;
 $input-plaintext-color:                 $body-color !default;
 
 $input-height-border:                   $input-border-width * 2 !default;
@@ -895,35 +902,37 @@ $form-color-width:                      3rem !default;
 // scss-docs-end form-input-variables
 
 // scss-docs-start form-check-variables
-$form-check-input-width:                  1em !default;
-$form-check-min-height:                   $font-size-base * $line-height-base !default;
-$form-check-padding-start:                $form-check-input-width + .5em !default;
-$form-check-margin-bottom:                .125rem !default;
-$form-check-label-color:                  null !default;
-$form-check-label-cursor:                 null !default;
-$form-check-transition:                   null !default;
+$form-check-input-width:                        1em !default;
+$form-check-min-height:                         $font-size-base * $line-height-base !default;
+$form-check-padding-start:                      $form-check-input-width + .5em !default;
+$form-check-margin-bottom:                      .125rem !default;
+$form-check-label-color:                        $black-green !default;
+$form-check-label-cursor:                       null !default;
+$form-check-transition:                         null !default;
 
-$form-check-input-active-filter:          brightness(90%) !default;
+$form-check-input-active-filter:                brightness(90%) !default;
 
-$form-check-input-bg:                     $input-bg !default;
-$form-check-input-border:                 1px solid rgba($black, .25) !default;
-$form-check-input-border-radius:          .25em !default;
-$form-check-radio-border-radius:          50% !default;
-$form-check-input-focus-border:           $input-focus-border-color !default;
-$form-check-input-focus-box-shadow:       $input-btn-focus-box-shadow !default;
+$form-check-input-bg:                           $input-bg !default;
+$form-check-input-unchecked-color:              $black-green-gray !default;
+$form-check-input-border:                       1px solid $form-check-input-unchecked-color !default;
+$form-check-input-border-radius:                .25em !default;
+$form-check-radio-border-radius:                50% !default;
+$form-check-input-focus-border:                 $input-focus-border-color !default;
+$form-check-input-focus-box-shadow:             $input-btn-focus-box-shadow !default;
 
-$form-check-input-checked-color:          $component-active-color !default;
-$form-check-input-checked-bg-color:       $component-active-bg !default;
-$form-check-input-checked-border-color:   $form-check-input-checked-bg-color !default;
-$form-check-input-checked-bg-image:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-3 -0.5 15 10'><path fill='none' stroke='#{$form-check-input-checked-color}' stroke-linecap='square' stroke-linejoin='miter' stroke-width='2.5' d='M1 5.5L3 7.5L8.5 1.5'/></svg>") !default;
-$form-check-radio-checked-bg-image:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3' fill='#{$form-check-input-checked-bg-color}'/></svg>") !default;
+$form-check-input-checked-color:                $component-active-color !default;
+$form-check-input-checked-bg-color:             $component-active-bg !default;
+$form-check-input-checked-border-color:         $form-check-input-checked-bg-color !default;
+$form-check-input-checked-bg-image:             url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-3 -0.5 15 10'><path fill='none' stroke='#{$form-check-input-checked-color}' stroke-linecap='square' stroke-linejoin='miter' stroke-width='2.5' d='M1 5.5L3 7.5L8.5 1.5'/></svg>") !default;
+$form-check-radio-checked-bg-image:             url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3' fill='#{$form-check-input-checked-bg-color}'/></svg>") !default;
+$form-check-radio-checked-bg-image-disabled:    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3' fill='#{$form-check-input-unchecked-color}'/></svg>") !default;
 
 $form-check-input-indeterminate-color:          $component-active-color !default;
 $form-check-input-indeterminate-bg-color:       $component-active-bg !default;
 $form-check-input-indeterminate-border-color:   $form-check-input-indeterminate-bg-color !default;
-$form-check-input-indeterminate-bg-image:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path fill='none' stroke='#{$form-check-input-indeterminate-color}' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/></svg>") !default;
+$form-check-input-indeterminate-bg-image:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path fill='none' stroke='#{$form-check-input-indeterminate-color}' stroke-linecap='square' stroke-linejoin='miter' stroke-width='3' d='M6 10h8'/></svg>") !default;
 
-$form-check-input-disabled-opacity:        .5 !default;
+$form-check-input-disabled-opacity:        $input-disabled-opacity !default;
 $form-check-label-disabled-opacity:        $form-check-input-disabled-opacity !default;
 $form-check-btn-check-disabled-opacity:    $btn-disabled-opacity !default;
 
@@ -931,18 +940,18 @@ $form-check-inline-margin-end:    1rem !default;
 // scss-docs-end form-check-variables
 
 // scss-docs-start form-switch-variables
-$form-switch-color:               rgba($black, .25) !default;
-$form-switch-width:               2em !default;
+$form-switch-color:               $form-check-input-unchecked-color !default;
+$form-switch-width:               1.75em !default;
 $form-switch-padding-start:       $form-switch-width + .5em !default;
-$form-switch-bg-image:            url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3' fill='#{$form-switch-color}'/></svg>") !default;
+$form-switch-bg-image:            url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3.5' fill='#{$form-switch-color}'/></svg>") !default;
 $form-switch-border-radius:       $form-switch-width !default;
 $form-switch-transition:          background-position .15s ease-in-out !default;
 
 $form-switch-focus-color:         $input-focus-border-color !default;
-$form-switch-focus-bg-image:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3' fill='#{$form-switch-focus-color}'/></svg>") !default;
+$form-switch-focus-bg-image:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3.5' fill='#{$form-switch-focus-color}'/></svg>") !default;
 
 $form-switch-checked-color:       $component-active-color !default;
-$form-switch-checked-bg-image:    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3' fill='#{$form-switch-checked-color}'/></svg>") !default;
+$form-switch-checked-bg-image:    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3.5' fill='#{$form-switch-checked-color}'/></svg>") !default;
 $form-switch-checked-bg-position: right center !default;
 // scss-docs-end form-switch-variables
 

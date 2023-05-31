@@ -9,17 +9,26 @@
     <div class="col-md-12">
       <h1>Bootstrap starter template</h1>
       <small>Use <span class="text-uppercase tiny fw-semibold">Open Sans 1opx, semi bold, Uppercase</span> document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</small>
+      <div class="dropdown">
+        <button class="btn btn-outline-tertiary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
       <form class="row g-3">
         <div class="col-auto">
-          <label for="staticEmail2" class="visually-hidden">Email</label>
-          <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
-        </div>
-        <div class="col-auto">
           <label for="inputPassword2" class="visually-hidden">Password</label>
-          <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+          <input type="password" class="form-control" id="inputPassword2" placeholder="Password" disabled>
         </div>
         <div class="col-auto">
-          <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
+          <textarea class="form-control" id="inputPassword2" placeholder="Password" disabled></textarea>
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-secondary mb-3">Sök</button>
         </div>
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">

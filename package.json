@@ -15,6 +15,7 @@
     "css:copy": "shx mkdir -p site/css/ && shx mkdir -p site/js/ && shx rm -rf site/css/* && shx rm -rf site/js/* && shx cp -r dist/* site/",
     "watch:css": "nodemon --watch scss/ --ext scss --exec \"npm-run-all lint css:compile css:prefix css:copy\"",
     "lint": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*",
+    "lint:fix": "stylelint \"**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache --rd --fix",
     "lint:stylelint": "stylelint \"**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache --rd",
     "lint:vars": "fusv scss/",
     "watch:site": "eleventy --serve --port=9001 --input=site/ --formats=html,md,liquid,css,js,map"

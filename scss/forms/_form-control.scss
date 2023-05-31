@@ -69,7 +69,7 @@
     background-color: $input-disabled-bg;
     border-color: $input-disabled-border-color;
     // iOS fix for unreadable disabled content; see https://github.com/twbs/bootstrap/issues/11655.
-    opacity: 1;
+    opacity: $input-disabled-opacity;
   }
 
   // File input buttons theming
