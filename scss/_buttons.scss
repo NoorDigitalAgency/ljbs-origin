@@ -148,6 +148,12 @@
 @each $color, $value in $theme-colors {
   .btn-outline-#{$color} {
     @include button-outline-variant($value);
+    &:disabled,
+    &.disabled,
+    fieldset:disabled & {
+      color: var(--#{$prefix}btn-disabled-color);
+      border-color: var(--#{$prefix}btn-disabled-color);
+    }
   }
 }
 // scss-docs-end btn-variant-loops

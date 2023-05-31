@@ -14,9 +14,9 @@
   $active-background: if($color == $color-contrast-light, shade-color($background, $btn-active-bg-shade-amount), tint-color($background, $btn-active-bg-tint-amount)),
   $active-border: if($color == $color-contrast-light, shade-color($border, $btn-active-border-shade-amount), tint-color($border, $btn-active-border-tint-amount)),
   $active-color: color-contrast($active-background),
-  $disabled-background: $background,
-  $disabled-border: $border,
-  $disabled-color: color-contrast($disabled-background)
+  $disabled-background: $disable-gray,
+  $disabled-border: $disable-gray,
+  $disabled-color: $black-green-gray
 ) {
   --#{$prefix}btn-color: #{$color};
   --#{$prefix}btn-bg: #{$background};
@@ -53,9 +53,9 @@
   --#{$prefix}btn-active-bg: #{$active-background};
   --#{$prefix}btn-active-border-color: #{$active-border};
   --#{$prefix}btn-active-shadow: #{$btn-active-box-shadow};
-  --#{$prefix}btn-disabled-color: #{$color};
+  --#{$prefix}btn-disabled-color: #{$black-green-gray};
   --#{$prefix}btn-disabled-bg: transparent;
-  --#{$prefix}btn-disabled-border-color: #{$color};
+  --#{$prefix}btn-disabled-border-color: #{$black-green-gray};
   --#{$prefix}gradient: none;
 }
 // scss-docs-end btn-outline-variant-mixin
