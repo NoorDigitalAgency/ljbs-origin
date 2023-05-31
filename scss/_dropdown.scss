@@ -13,6 +13,10 @@
 
   // Generate the caret automatically
   @include caret();
+
+  &.show {
+    @include caret(up);
+  }
 }
 
 // The dropdown menu
