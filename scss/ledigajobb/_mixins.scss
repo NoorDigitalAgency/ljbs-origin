@@ -1,0 +1,13 @@
+@mixin text-truncate-lines($lines, $font-size, $line-height, $max-width) {
+  display: block;
+  // stylelint-disable-next-line
+  display: -webkit-box;
+  max-width: $max-width;
+  height: $font-size * $line-height * $lines;
+  overflow: hidden;
+  font-size: $font-size;
+  line-height: $line-height;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+}

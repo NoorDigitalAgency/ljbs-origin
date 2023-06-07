@@ -1,0 +1,14 @@
+{% if promoted %}
+  <div class="d-flex flex-column flex-fill">
+    {% if picture %}
+      <div class="m-auto">
+        <img class="img-fluid" src="{{ picture }}" alt="{{ company }}"/>
+      </div>
+    {% else %}
+      <div class="picture-placeholder d-flex flex-fill justify-content-center align-items-center">
+        <i class="iconify mdi-6" data-icon="mdi-briefcase-outline"></i>
+      </div>
+    {% endif %}
+  </div>
+{% endif %}
+

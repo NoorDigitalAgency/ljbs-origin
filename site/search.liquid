@@ -1,0 +1,36 @@
+---
+layout: layouts/default
+title: Search
+---
+<div class="container pt-5">
+  {% for result in search %}
+    <div class="row">
+      <div class="col">
+        <div class="border shadow rounded mb-5 row g-0 overflow-hidden">
+          {% if result.promoted %}
+            <div class="border-end col-1 d-lg-flex d-none">
+              {% render 'picture', picture: result.picture, company: result.company, promoted: result.promoted  %}
+            </div>
+          {% endif %}
+          <div class="col-xl-9 ps-xl-6">
+            <div>
+              <div class="py-4">
+                <a class="h6 text-truncate-2 text-truncate-md-1 text-body text-decoration-none" title="{{ result.title }}" href="#">{{ result.title }}</a>
+                <div class="d-flex justify-content-start">
+                  <a class="d-flex align-items-center text-decoration-none text-body me-6" href="#">
+                    <i class="iconify mdi-1 text-primary me-2" data-icon="mdi-briefcase-outline"></i>
+                    <span class="text-truncate-1 maxw-sm-20-f" title="{{ result.company }}">{{ result.company }}</span>
+                  </a>
+                  <a class="d-flex align-items-center text-decoration-none text-body" href="#">
+                    <i class="iconify mdi-1 text-primary me-2" data-icon="mdi-briefcase-outline"></i>
+                    <span class="text-truncate-1" title="{{ result.city }}">{{ result.city }}</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

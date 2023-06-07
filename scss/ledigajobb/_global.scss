@@ -1,0 +1,72 @@
+$mdi-size: 1rem !default;
+$mdi-sizes: (
+  "n2": $mdi-size * .25,
+  "n1": $mdi-size * .5,
+  "1":  $mdi-size,
+  "2":  $mdi-size * 1.25,
+  "3":  $mdi-size * 1.5,
+  "4":  $mdi-size * 1.75,
+  "5":  $mdi-size * 2,
+  "6":  $mdi-size * 2.25,
+  "7":  $mdi-size * 2.5,
+  "8":  $mdi-size * 2.75,
+  "9":  $mdi-size * 3,
+) !default;
+
+$truncation-lines: (
+  1,
+  2,
+  3,
+  4,
+  5,
+) !default;
+
+$dimension-segments: (
+  "h": .5,
+  "f": 1,
+) !default;
+
+$dimension-maximum: 40 !default;
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+  @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
+
+    @each $lines in $truncation-lines {
+      .text-truncate#{$infix}-#{$lines} {
+        @include text-truncate-lines($lines, $font-size-base, $line-height-base, 100%);
+      }
+    }
+
+    @each $size, $value in $mdi-sizes {
+      .mdi#{$infix}-#{$size} {
+        font-size: $value;
+      }
+    }
+
+    @for $i from 1 through $dimension-maximum {
+      @each $name, $segment in $dimension-segments {
+        $dimension: (($i - 1) + $segment) * 1rem;
+        .w#{$infix}-#{$i}-#{$name} {
+          width: $dimension;
+        }
+        .h#{$infix}-#{$i}-#{$name} {
+          height: $dimension;
+        }
+        .maxw#{$infix}-#{$i}-#{$name} {
+          max-width: $dimension;
+        }
+        .maxh#{$infix}-#{$i}-#{$name} {
+          max-height: $dimension;
+        }
+        .minw#{$infix}-#{$i}-#{$name} {
+          min-width: $dimension;
+        }
+        .minh#{$infix}-#{$i}-#{$name} {
+          min-height: $dimension;
+        }
+      }
+    }
+  }
+}
