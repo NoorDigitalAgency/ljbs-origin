@@ -23,7 +23,7 @@ title: Search
                           {% render 'picture', picture: result.picture, company: result.company, promoted: result.promoted, icon-size: 'mdi-3'  %}
                         </div>
                       {% endif %}
-                      <div class="d-flex flex-column flex-fill ps-4 ps-lg-0 pt-4">
+                      <div class="d-flex flex-column flex-fill ps-lg-0 pt-4{% if result.promoted %} ps-4{% else %} ps-5{% endif %}">
                         <div class="d-flex pe-lg-5">
                           <a class="h6 text-truncate-2 text-truncate-md-1 text-body text-decoration-none" title="{{ result.title }}" href="#">{{ result.title }}</a>
                         </div>
@@ -48,18 +48,21 @@ title: Search
                   </div>
                 </div>
                 <div class="row g-0">
-                  <div class="pt-4 pb-lg-4 pb-md-2 ps-lg-6 col-md-10 px-md-5 px-lg-0">
+                  <div class="pt-4 pb-lg-4 pb-md-3 ps-lg-6 col-md-10 px-md-5 px-lg-0">
                     <div class="d-flex justify-content-start flex-wrap h-md-2-f overflow-hidden">
                       {% for tag in result.tags %}
                         {% render 'ui-tag', tag: tag, classes: 'me-4 mb-4' %}
                       {% endfor %}
                     </div>
                   </div>
-                  <div class="col-lg-2 d-flex justify-content-end align-items-end pb-4 pe-6">
-                    <span class="d-inline-flex align-items-center">
+                  <div class="col-12 col-lg-2 d-flex justify-content-end align-items-end pb-4 pe-6">
+                    <span class="d-inline-flex align-items-center me-auto me-lg-0 ps-5 ps-lg-0">
                       <i class="iconify mdi-1 text-primary me-2" data-icon="mdi-clock-time-five-outline"></i>
                       <small class="text-body">{{ result.days }} {% if result.days > 1 %}dagar{% else %}dag{% endif %} kvar</small>
                     </span>
+                    {% if result.promoted %}
+                      <span class="text-black-green-gray d-inline-block d-lg-none">Annons</span>
+                    {% endif %}
                   </div>
                 </div>
               </div>
