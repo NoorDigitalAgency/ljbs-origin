@@ -18,7 +18,7 @@
     "lint:fix": "stylelint \"**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache --rd --fix",
     "lint:stylelint": "stylelint \"**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache --rd",
     "lint:vars": "fusv scss/",
-    "watch:site": "eleventy --serve --port=9001 --input=site/ --formats=html,md,liquid,css,js,map,png"
+    "watch:site": "eleventy --serve --port=9001 --input=site/ --formats=html,md,liquid,css,js,map,png,svg,xml,ico,webmanifest"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
