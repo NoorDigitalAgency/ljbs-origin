@@ -45,9 +45,12 @@ $dimension-maximum: 40 !default;
       }
     }
 
-    @for $i from 1 through $dimension-maximum {
+    @for $i from 0 through $dimension-maximum {
       @each $name, $segment in $dimension-segments {
         $dimension: (($i - 1) + $segment) * 1rem;
+        @if ($dimension < 0) {
+          $dimension: 0;
+        }
         .w#{$infix}-#{$i}-#{$name} {
           width: $dimension;
         }
@@ -65,6 +68,30 @@ $dimension-maximum: 40 !default;
         }
         .minh#{$infix}-#{$i}-#{$name} {
           min-height: $dimension;
+        }
+        .t#{$infix}-#{$i}-#{$name} {
+          top: $dimension;
+        }
+        .b#{$infix}-#{$i}-#{$name} {
+          bottom: $dimension;
+        }
+        .s#{$infix}-#{$i}-#{$name} {
+          left: $dimension;
+        }
+        .e#{$infix}-#{$i}-#{$name} {
+          right: $dimension;
+        }
+        .t#{$infix}-n#{$i}-#{$name} {
+          top: -$dimension;
+        }
+        .b#{$infix}-n#{$i}-#{$name} {
+          bottom: -$dimension;
+        }
+        .s#{$infix}-n#{$i}-#{$name} {
+          left: -$dimension;
+        }
+        .e#{$infix}-n#{$i}-#{$name} {
+          right: -$dimension;
         }
       }
     }
