@@ -1,0 +1,121 @@
+/* stylelint-disable property-blacklist property-disallowed-list function-disallowed-list selector-max-class */
+.range-slider {
+  $font-color: $white;
+  $font-size: .8rem;
+  $transition: .125s ease;
+  $knob-transitions: margin $transition, height $transition, padding $transition, border-radius $transition;
+  $knob-height: $font-size * 2.5;
+  $knob-expanded-height: $knob-height * 2;
+  $knob-minimum-width: $knob-height;
+  $range-height: $knob-height;
+  $slider-height: $font-size / 1.5;
+
+  $font-lg-size: .8rem;
+  $knob-lg-height: $font-lg-size * 2;
+  $knob-lg-expanded-height: $knob-lg-height * 2.5;
+  $knob-lg-minimum-width: $knob-lg-height;
+  $slider-lg-height: $font-lg-size / 2;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  height: $range-height;
+  padding-right: $grid-gutter-width / 2;
+  padding-left: $grid-gutter-width / 2;
+
+  &.active-dragging .slider .slider-limit {
+    .knob {
+      height: $knob-expanded-height;
+      padding-bottom: $knob-expanded-height - $knob-height;
+      margin-top: $knob-height - $knob-expanded-height;
+      border-radius: $knob-height $knob-height $knob-expanded-height $knob-expanded-height;
+      @include media-breakpoint-up(lg) {
+        height: $knob-lg-expanded-height;
+        padding-bottom: $knob-lg-expanded-height - $knob-lg-height;
+        margin-top: $knob-lg-height - $knob-lg-expanded-height;
+        border-radius: $knob-lg-height $knob-lg-height $knob-lg-expanded-height $knob-lg-expanded-height;
+      }
+    }
+  }
+
+  .slider {
+    position: relative;
+    width: 100%;
+    height: $slider-height;
+    padding: 0 $slider-height 0 0;
+    cursor: pointer;
+    background: lighten(desaturate($primary, 100%), 15%);
+    border-radius: ($slider-height / 2);
+    @include media-breakpoint-up(lg) {
+      height: $slider-lg-height;
+      padding: 0 $slider-lg-height 0 0;
+      border-radius: ($slider-lg-height / 2);
+    }
+
+    .slider-limit {
+      position: relative;
+      height: $slider-height;
+      @include media-breakpoint-up(lg) {
+        height: $slider-lg-height;
+      }
+
+      .filled-up {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: $slider-height;
+        background: lighten($primary, 7.5%);
+        border-radius: ($slider-height / 2);
+        @include media-breakpoint-up(lg) {
+          height: $slider-lg-height;
+          border-radius: ($slider-lg-height / 2);
+        }
+      }
+
+      .knob {
+        @extend .btn;
+        @include transition(join($btn-transition, ($knob-transitions)));
+        position: absolute;
+        top: (($knob-height - $slider-height) / -2);
+        min-width: $knob-minimum-width;
+        height: $knob-height;
+        padding: 0 ($knob-height / 2);
+        overflow: visible;
+        font-size: $font-size;
+        line-height: $font-size;
+        color: $font-color;
+        cursor: pointer;
+        background-color: $primary;
+        border: 0;
+        border-radius: ($knob-height / 2);
+        outline: 0;
+        transform: translateX(-50%);
+        @include media-breakpoint-up(lg) {
+          top: (($knob-lg-height - $slider-lg-height) / -2);
+          min-width: $knob-lg-minimum-width;
+          height: $knob-lg-height;
+          padding: 0 ($knob-lg-height / 2);
+          font-size: $font-lg-size;
+          line-height: $font-lg-size;
+          border-radius: ($knob-lg-height / 2);
+        }
+        &:hover {
+          color: $font-color;
+          background-color: darken($primary, 10%);
+        }
+        &:focus,
+        &:active {
+          color: $font-color;
+          box-shadow: $input-btn-focus-box-shadow;
+        }
+        &::-moz-focus-inner {
+          padding: 0;
+          border: 0;
+        }
+      }
+    }
+  }
+}
+/* stylelint-enable */

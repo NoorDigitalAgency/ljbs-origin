@@ -1,0 +1,125 @@
+/* stylelint-disable property-blacklist property-disallowed-list function-disallowed-list selector-max-class */
+$dimension: 75px !default;
+$border: $dimension / 5 !default;
+.frankly-form {
+  position: relative;
+  .screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: $zindex-modal-backdrop;
+    box-sizing: content-box;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 ($grid-gutter-width / 2);
+    margin: 0 ($grid-gutter-width / -2);
+    background-color: rgba(0, 0, 0, .5);
+    .modal-dialog {
+      position: absolute;
+      display: none;
+    }
+  }
+  &.loading,
+  &.done {
+    .screen {
+      display: flex;
+      &.fade {
+        opacity: 0;
+        transition: opacity .5s ease 0s;
+      }
+    }
+    .box {
+      position: absolute;
+      top: 50%;
+      display: block;
+      width: $dimension;
+      height: $dimension;
+      .content {
+        position: relative;
+        margin: auto;
+      }
+    }
+    .modal-dialog {
+      display: none;
+    }
+  }
+  &.error {
+    .screen {
+      display: flex;
+      &.fade {
+        opacity: 0;
+        transition: opacity .5s ease 0s;
+      }
+      .box {
+        display: none;
+      }
+      .modal-dialog {
+        display: block;
+      }
+    }
+  }
+  &.loading {
+    .box {
+      .content {
+        width: $dimension;
+        height: $dimension;
+        border: $border solid rgba(255, 255, 255, .5);
+        border-bottom: $border solid #fff;
+        border-radius: 50%;
+        animation: spin .5s linear infinite;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    }
+  }
+  &.done {
+    .box {
+      .content {
+        width: $dimension * .6;
+        height: $dimension;
+        border: 0 solid rgba(255, 255, 255, 0);
+        border-right: $border solid #fff;
+        border-bottom: $border solid #fff;
+        border-radius: 0;
+        transform: rotate(410deg);
+        animation: done .5s ease-out 1;
+      }
+      @keyframes done {
+        0% {
+          width: $dimension;
+          height: $dimension;
+          border: $border solid rgba(255, 255, 255, .5);
+          border-right: $border solid #fff;
+          border-radius: 50%;
+          transform: rotate(0deg);
+        }
+        50% {
+          width: $dimension;
+          height: $dimension;
+          border: $border solid rgba(255, 255, 255, 0);
+          border-right: $border solid #fff;
+          border-bottom: $border solid #fff;
+          border-radius: 50%;
+        }
+        100% {
+          width: $dimension * .6;
+          height: $dimension;
+          border-right: $border solid #fff;
+          border-bottom: $border solid #fff;
+          border-radius: 0;
+          transform: rotate(410deg);
+        }
+      }
+    }
+  }
+}
+/* stylelint-enable */
