@@ -12,4 +12,9 @@
   -webkit-box-orient: vertical;
   word-break: break-all;
   white-space: normal;
+  @if ($lines > 1) {
+    height: auto;
+    max-height: $font-size * $line-height * $lines;
+    word-break: break-word;
+  }
 }

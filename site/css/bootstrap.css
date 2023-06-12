@@ -17338,6 +17338,9 @@ textarea.form-control-lg {
   -webkit-box-orient: vertical;
   word-break: break-all;
   white-space: normal;
+  height: auto;
+  max-height: 3rem;
+  word-break: break-word;
 }
 
 .text-truncate-3 {
@@ -17353,6 +17356,9 @@ textarea.form-control-lg {
   -webkit-box-orient: vertical;
   word-break: break-all;
   white-space: normal;
+  height: auto;
+  max-height: 4.5rem;
+  word-break: break-word;
 }
 
 .text-truncate-4 {
@@ -17368,6 +17374,9 @@ textarea.form-control-lg {
   -webkit-box-orient: vertical;
   word-break: break-all;
   white-space: normal;
+  height: auto;
+  max-height: 6rem;
+  word-break: break-word;
 }
 
 .text-truncate-5 {
@@ -17383,6 +17392,9 @@ textarea.form-control-lg {
   -webkit-box-orient: vertical;
   word-break: break-all;
   white-space: normal;
+  height: auto;
+  max-height: 7.5rem;
+  word-break: break-word;
 }
 
 .mdi-n2 {
@@ -17565,36 +17577,28 @@ textarea.form-control-lg {
   min-height: 0.5rem;
 }
 
-.t-1-h {
-  top: 0.5rem;
+.w-1-t {
+  width: 0.75rem;
 }
 
-.b-1-h {
-  bottom: 0.5rem;
+.h-1-t {
+  height: 0.75rem;
 }
 
-.s-1-h {
-  left: 0.5rem;
+.maxw-1-t {
+  max-width: 0.75rem;
 }
 
-.e-1-h {
-  right: 0.5rem;
+.maxh-1-t {
+  max-height: 0.75rem;
 }
 
-.t-n1-h {
-  top: -0.5rem;
+.minw-1-t {
+  min-width: 0.75rem;
 }
 
-.b-n1-h {
-  bottom: -0.5rem;
-}
-
-.s-n1-h {
-  left: -0.5rem;
-}
-
-.e-n1-h {
-  right: -0.5rem;
+.minh-1-t {
+  min-height: 0.75rem;
 }
 
 .w-1-f {
@@ -17677,36 +17681,28 @@ textarea.form-control-lg {
   min-height: 1.5rem;
 }
 
-.t-2-h {
-  top: 1.5rem;
+.w-2-t {
+  width: 1.75rem;
 }
 
-.b-2-h {
-  bottom: 1.5rem;
+.h-2-t {
+  height: 1.75rem;
 }
 
-.s-2-h {
-  left: 1.5rem;
+.maxw-2-t {
+  max-width: 1.75rem;
 }
 
-.e-2-h {
-  right: 1.5rem;
+.maxh-2-t {
+  max-height: 1.75rem;
 }
 
-.t-n2-h {
-  top: -1.5rem;
+.minw-2-t {
+  min-width: 1.75rem;
 }
 
-.b-n2-h {
-  bottom: -1.5rem;
-}
-
-.s-n2-h {
-  left: -1.5rem;
-}
-
-.e-n2-h {
-  right: -1.5rem;
+.minh-2-t {
+  min-height: 1.75rem;
 }
 
 .w-2-f {
@@ -17789,36 +17785,28 @@ textarea.form-control-lg {
   min-height: 2.5rem;
 }
 
-.t-3-h {
-  top: 2.5rem;
+.w-3-t {
+  width: 2.75rem;
 }
 
-.b-3-h {
-  bottom: 2.5rem;
+.h-3-t {
+  height: 2.75rem;
 }
 
-.s-3-h {
-  left: 2.5rem;
+.maxw-3-t {
+  max-width: 2.75rem;
 }
 
-.e-3-h {
-  right: 2.5rem;
+.maxh-3-t {
+  max-height: 2.75rem;
 }
 
-.t-n3-h {
-  top: -2.5rem;
+.minw-3-t {
+  min-width: 2.75rem;
 }
 
-.b-n3-h {
-  bottom: -2.5rem;
-}
-
-.s-n3-h {
-  left: -2.5rem;
-}
-
-.e-n3-h {
-  right: -2.5rem;
+.minh-3-t {
+  min-height: 2.75rem;
 }
 
 .w-3-f {
@@ -17901,36 +17889,28 @@ textarea.form-control-lg {
   min-height: 3.5rem;
 }
 
-.t-4-h {
-  top: 3.5rem;
+.w-4-t {
+  width: 3.75rem;
 }
 
-.b-4-h {
-  bottom: 3.5rem;
+.h-4-t {
+  height: 3.75rem;
 }
 
-.s-4-h {
-  left: 3.5rem;
+.maxw-4-t {
+  max-width: 3.75rem;
 }
 
-.e-4-h {
-  right: 3.5rem;
+.maxh-4-t {
+  max-height: 3.75rem;
 }
 
-.t-n4-h {
-  top: -3.5rem;
+.minw-4-t {
+  min-width: 3.75rem;
 }
 
-.b-n4-h {
-  bottom: -3.5rem;
-}
-
-.s-n4-h {
-  left: -3.5rem;
-}
-
-.e-n4-h {
-  right: -3.5rem;
+.minh-4-t {
+  min-height: 3.75rem;
 }
 
 .w-4-f {
@@ -18013,36 +17993,28 @@ textarea.form-control-lg {
   min-height: 4.5rem;
 }
 
-.t-5-h {
-  top: 4.5rem;
+.w-5-t {
+  width: 4.75rem;
 }
 
-.b-5-h {
-  bottom: 4.5rem;
+.h-5-t {
+  height: 4.75rem;
 }
 
-.s-5-h {
-  left: 4.5rem;
+.maxw-5-t {
+  max-width: 4.75rem;
 }
 
-.e-5-h {
-  right: 4.5rem;
+.maxh-5-t {
+  max-height: 4.75rem;
 }
 
-.t-n5-h {
-  top: -4.5rem;
+.minw-5-t {
+  min-width: 4.75rem;
 }
 
-.b-n5-h {
-  bottom: -4.5rem;
-}
-
-.s-n5-h {
-  left: -4.5rem;
-}
-
-.e-n5-h {
-  right: -4.5rem;
+.minh-5-t {
+  min-height: 4.75rem;
 }
 
 .w-5-f {
@@ -18125,36 +18097,28 @@ textarea.form-control-lg {
   min-height: 5.5rem;
 }
 
-.t-6-h {
-  top: 5.5rem;
+.w-6-t {
+  width: 5.75rem;
 }
 
-.b-6-h {
-  bottom: 5.5rem;
+.h-6-t {
+  height: 5.75rem;
 }
 
-.s-6-h {
-  left: 5.5rem;
+.maxw-6-t {
+  max-width: 5.75rem;
 }
 
-.e-6-h {
-  right: 5.5rem;
+.maxh-6-t {
+  max-height: 5.75rem;
 }
 
-.t-n6-h {
-  top: -5.5rem;
+.minw-6-t {
+  min-width: 5.75rem;
 }
 
-.b-n6-h {
-  bottom: -5.5rem;
-}
-
-.s-n6-h {
-  left: -5.5rem;
-}
-
-.e-n6-h {
-  right: -5.5rem;
+.minh-6-t {
+  min-height: 5.75rem;
 }
 
 .w-6-f {
@@ -18237,36 +18201,28 @@ textarea.form-control-lg {
   min-height: 6.5rem;
 }
 
-.t-7-h {
-  top: 6.5rem;
+.w-7-t {
+  width: 6.75rem;
 }
 
-.b-7-h {
-  bottom: 6.5rem;
+.h-7-t {
+  height: 6.75rem;
 }
 
-.s-7-h {
-  left: 6.5rem;
+.maxw-7-t {
+  max-width: 6.75rem;
 }
 
-.e-7-h {
-  right: 6.5rem;
+.maxh-7-t {
+  max-height: 6.75rem;
 }
 
-.t-n7-h {
-  top: -6.5rem;
+.minw-7-t {
+  min-width: 6.75rem;
 }
 
-.b-n7-h {
-  bottom: -6.5rem;
-}
-
-.s-n7-h {
-  left: -6.5rem;
-}
-
-.e-n7-h {
-  right: -6.5rem;
+.minh-7-t {
+  min-height: 6.75rem;
 }
 
 .w-7-f {
@@ -18349,36 +18305,28 @@ textarea.form-control-lg {
   min-height: 7.5rem;
 }
 
-.t-8-h {
-  top: 7.5rem;
+.w-8-t {
+  width: 7.75rem;
 }
 
-.b-8-h {
-  bottom: 7.5rem;
+.h-8-t {
+  height: 7.75rem;
 }
 
-.s-8-h {
-  left: 7.5rem;
+.maxw-8-t {
+  max-width: 7.75rem;
 }
 
-.e-8-h {
-  right: 7.5rem;
+.maxh-8-t {
+  max-height: 7.75rem;
 }
 
-.t-n8-h {
-  top: -7.5rem;
+.minw-8-t {
+  min-width: 7.75rem;
 }
 
-.b-n8-h {
-  bottom: -7.5rem;
-}
-
-.s-n8-h {
-  left: -7.5rem;
-}
-
-.e-n8-h {
-  right: -7.5rem;
+.minh-8-t {
+  min-height: 7.75rem;
 }
 
 .w-8-f {
@@ -18461,36 +18409,28 @@ textarea.form-control-lg {
   min-height: 8.5rem;
 }
 
-.t-9-h {
-  top: 8.5rem;
+.w-9-t {
+  width: 8.75rem;
 }
 
-.b-9-h {
-  bottom: 8.5rem;
+.h-9-t {
+  height: 8.75rem;
 }
 
-.s-9-h {
-  left: 8.5rem;
+.maxw-9-t {
+  max-width: 8.75rem;
 }
 
-.e-9-h {
-  right: 8.5rem;
+.maxh-9-t {
+  max-height: 8.75rem;
 }
 
-.t-n9-h {
-  top: -8.5rem;
+.minw-9-t {
+  min-width: 8.75rem;
 }
 
-.b-n9-h {
-  bottom: -8.5rem;
-}
-
-.s-n9-h {
-  left: -8.5rem;
-}
-
-.e-n9-h {
-  right: -8.5rem;
+.minh-9-t {
+  min-height: 8.75rem;
 }
 
 .w-9-f {
@@ -18573,36 +18513,28 @@ textarea.form-control-lg {
   min-height: 9.5rem;
 }
 
-.t-10-h {
-  top: 9.5rem;
+.w-10-t {
+  width: 9.75rem;
 }
 
-.b-10-h {
-  bottom: 9.5rem;
+.h-10-t {
+  height: 9.75rem;
 }
 
-.s-10-h {
-  left: 9.5rem;
+.maxw-10-t {
+  max-width: 9.75rem;
 }
 
-.e-10-h {
-  right: 9.5rem;
+.maxh-10-t {
+  max-height: 9.75rem;
 }
 
-.t-n10-h {
-  top: -9.5rem;
+.minw-10-t {
+  min-width: 9.75rem;
 }
 
-.b-n10-h {
-  bottom: -9.5rem;
-}
-
-.s-n10-h {
-  left: -9.5rem;
-}
-
-.e-n10-h {
-  right: -9.5rem;
+.minh-10-t {
+  min-height: 9.75rem;
 }
 
 .w-10-f {
@@ -18685,36 +18617,28 @@ textarea.form-control-lg {
   min-height: 10.5rem;
 }
 
-.t-11-h {
-  top: 10.5rem;
+.w-11-t {
+  width: 10.75rem;
 }
 
-.b-11-h {
-  bottom: 10.5rem;
+.h-11-t {
+  height: 10.75rem;
 }
 
-.s-11-h {
-  left: 10.5rem;
+.maxw-11-t {
+  max-width: 10.75rem;
 }
 
-.e-11-h {
-  right: 10.5rem;
+.maxh-11-t {
+  max-height: 10.75rem;
 }
 
-.t-n11-h {
-  top: -10.5rem;
+.minw-11-t {
+  min-width: 10.75rem;
 }
 
-.b-n11-h {
-  bottom: -10.5rem;
-}
-
-.s-n11-h {
-  left: -10.5rem;
-}
-
-.e-n11-h {
-  right: -10.5rem;
+.minh-11-t {
+  min-height: 10.75rem;
 }
 
 .w-11-f {
@@ -18797,36 +18721,28 @@ textarea.form-control-lg {
   min-height: 11.5rem;
 }
 
-.t-12-h {
-  top: 11.5rem;
+.w-12-t {
+  width: 11.75rem;
 }
 
-.b-12-h {
-  bottom: 11.5rem;
+.h-12-t {
+  height: 11.75rem;
 }
 
-.s-12-h {
-  left: 11.5rem;
+.maxw-12-t {
+  max-width: 11.75rem;
 }
 
-.e-12-h {
-  right: 11.5rem;
+.maxh-12-t {
+  max-height: 11.75rem;
 }
 
-.t-n12-h {
-  top: -11.5rem;
+.minw-12-t {
+  min-width: 11.75rem;
 }
 
-.b-n12-h {
-  bottom: -11.5rem;
-}
-
-.s-n12-h {
-  left: -11.5rem;
-}
-
-.e-n12-h {
-  right: -11.5rem;
+.minh-12-t {
+  min-height: 11.75rem;
 }
 
 .w-12-f {
@@ -18909,36 +18825,28 @@ textarea.form-control-lg {
   min-height: 12.5rem;
 }
 
-.t-13-h {
-  top: 12.5rem;
+.w-13-t {
+  width: 12.75rem;
 }
 
-.b-13-h {
-  bottom: 12.5rem;
+.h-13-t {
+  height: 12.75rem;
 }
 
-.s-13-h {
-  left: 12.5rem;
+.maxw-13-t {
+  max-width: 12.75rem;
 }
 
-.e-13-h {
-  right: 12.5rem;
+.maxh-13-t {
+  max-height: 12.75rem;
 }
 
-.t-n13-h {
-  top: -12.5rem;
+.minw-13-t {
+  min-width: 12.75rem;
 }
 
-.b-n13-h {
-  bottom: -12.5rem;
-}
-
-.s-n13-h {
-  left: -12.5rem;
-}
-
-.e-n13-h {
-  right: -12.5rem;
+.minh-13-t {
+  min-height: 12.75rem;
 }
 
 .w-13-f {
@@ -19021,36 +18929,28 @@ textarea.form-control-lg {
   min-height: 13.5rem;
 }
 
-.t-14-h {
-  top: 13.5rem;
+.w-14-t {
+  width: 13.75rem;
 }
 
-.b-14-h {
-  bottom: 13.5rem;
+.h-14-t {
+  height: 13.75rem;
 }
 
-.s-14-h {
-  left: 13.5rem;
+.maxw-14-t {
+  max-width: 13.75rem;
 }
 
-.e-14-h {
-  right: 13.5rem;
+.maxh-14-t {
+  max-height: 13.75rem;
 }
 
-.t-n14-h {
-  top: -13.5rem;
+.minw-14-t {
+  min-width: 13.75rem;
 }
 
-.b-n14-h {
-  bottom: -13.5rem;
-}
-
-.s-n14-h {
-  left: -13.5rem;
-}
-
-.e-n14-h {
-  right: -13.5rem;
+.minh-14-t {
+  min-height: 13.75rem;
 }
 
 .w-14-f {
@@ -19133,36 +19033,28 @@ textarea.form-control-lg {
   min-height: 14.5rem;
 }
 
-.t-15-h {
-  top: 14.5rem;
+.w-15-t {
+  width: 14.75rem;
 }
 
-.b-15-h {
-  bottom: 14.5rem;
+.h-15-t {
+  height: 14.75rem;
 }
 
-.s-15-h {
-  left: 14.5rem;
+.maxw-15-t {
+  max-width: 14.75rem;
 }
 
-.e-15-h {
-  right: 14.5rem;
+.maxh-15-t {
+  max-height: 14.75rem;
 }
 
-.t-n15-h {
-  top: -14.5rem;
+.minw-15-t {
+  min-width: 14.75rem;
 }
 
-.b-n15-h {
-  bottom: -14.5rem;
-}
-
-.s-n15-h {
-  left: -14.5rem;
-}
-
-.e-n15-h {
-  right: -14.5rem;
+.minh-15-t {
+  min-height: 14.75rem;
 }
 
 .w-15-f {
@@ -19245,36 +19137,28 @@ textarea.form-control-lg {
   min-height: 15.5rem;
 }
 
-.t-16-h {
-  top: 15.5rem;
+.w-16-t {
+  width: 15.75rem;
 }
 
-.b-16-h {
-  bottom: 15.5rem;
+.h-16-t {
+  height: 15.75rem;
 }
 
-.s-16-h {
-  left: 15.5rem;
+.maxw-16-t {
+  max-width: 15.75rem;
 }
 
-.e-16-h {
-  right: 15.5rem;
+.maxh-16-t {
+  max-height: 15.75rem;
 }
 
-.t-n16-h {
-  top: -15.5rem;
+.minw-16-t {
+  min-width: 15.75rem;
 }
 
-.b-n16-h {
-  bottom: -15.5rem;
-}
-
-.s-n16-h {
-  left: -15.5rem;
-}
-
-.e-n16-h {
-  right: -15.5rem;
+.minh-16-t {
+  min-height: 15.75rem;
 }
 
 .w-16-f {
@@ -19357,36 +19241,28 @@ textarea.form-control-lg {
   min-height: 16.5rem;
 }
 
-.t-17-h {
-  top: 16.5rem;
+.w-17-t {
+  width: 16.75rem;
 }
 
-.b-17-h {
-  bottom: 16.5rem;
+.h-17-t {
+  height: 16.75rem;
 }
 
-.s-17-h {
-  left: 16.5rem;
+.maxw-17-t {
+  max-width: 16.75rem;
 }
 
-.e-17-h {
-  right: 16.5rem;
+.maxh-17-t {
+  max-height: 16.75rem;
 }
 
-.t-n17-h {
-  top: -16.5rem;
+.minw-17-t {
+  min-width: 16.75rem;
 }
 
-.b-n17-h {
-  bottom: -16.5rem;
-}
-
-.s-n17-h {
-  left: -16.5rem;
-}
-
-.e-n17-h {
-  right: -16.5rem;
+.minh-17-t {
+  min-height: 16.75rem;
 }
 
 .w-17-f {
@@ -19469,36 +19345,28 @@ textarea.form-control-lg {
   min-height: 17.5rem;
 }
 
-.t-18-h {
-  top: 17.5rem;
+.w-18-t {
+  width: 17.75rem;
 }
 
-.b-18-h {
-  bottom: 17.5rem;
+.h-18-t {
+  height: 17.75rem;
 }
 
-.s-18-h {
-  left: 17.5rem;
+.maxw-18-t {
+  max-width: 17.75rem;
 }
 
-.e-18-h {
-  right: 17.5rem;
+.maxh-18-t {
+  max-height: 17.75rem;
 }
 
-.t-n18-h {
-  top: -17.5rem;
+.minw-18-t {
+  min-width: 17.75rem;
 }
 
-.b-n18-h {
-  bottom: -17.5rem;
-}
-
-.s-n18-h {
-  left: -17.5rem;
-}
-
-.e-n18-h {
-  right: -17.5rem;
+.minh-18-t {
+  min-height: 17.75rem;
 }
 
 .w-18-f {
@@ -19581,36 +19449,28 @@ textarea.form-control-lg {
   min-height: 18.5rem;
 }
 
-.t-19-h {
-  top: 18.5rem;
+.w-19-t {
+  width: 18.75rem;
 }
 
-.b-19-h {
-  bottom: 18.5rem;
+.h-19-t {
+  height: 18.75rem;
 }
 
-.s-19-h {
-  left: 18.5rem;
+.maxw-19-t {
+  max-width: 18.75rem;
 }
 
-.e-19-h {
-  right: 18.5rem;
+.maxh-19-t {
+  max-height: 18.75rem;
 }
 
-.t-n19-h {
-  top: -18.5rem;
+.minw-19-t {
+  min-width: 18.75rem;
 }
 
-.b-n19-h {
-  bottom: -18.5rem;
-}
-
-.s-n19-h {
-  left: -18.5rem;
-}
-
-.e-n19-h {
-  right: -18.5rem;
+.minh-19-t {
+  min-height: 18.75rem;
 }
 
 .w-19-f {
@@ -19693,36 +19553,28 @@ textarea.form-control-lg {
   min-height: 19.5rem;
 }
 
-.t-20-h {
-  top: 19.5rem;
+.w-20-t {
+  width: 19.75rem;
 }
 
-.b-20-h {
-  bottom: 19.5rem;
+.h-20-t {
+  height: 19.75rem;
 }
 
-.s-20-h {
-  left: 19.5rem;
+.maxw-20-t {
+  max-width: 19.75rem;
 }
 
-.e-20-h {
-  right: 19.5rem;
+.maxh-20-t {
+  max-height: 19.75rem;
 }
 
-.t-n20-h {
-  top: -19.5rem;
+.minw-20-t {
+  min-width: 19.75rem;
 }
 
-.b-n20-h {
-  bottom: -19.5rem;
-}
-
-.s-n20-h {
-  left: -19.5rem;
-}
-
-.e-n20-h {
-  right: -19.5rem;
+.minh-20-t {
+  min-height: 19.75rem;
 }
 
 .w-20-f {
@@ -19805,36 +19657,28 @@ textarea.form-control-lg {
   min-height: 20.5rem;
 }
 
-.t-21-h {
-  top: 20.5rem;
+.w-21-t {
+  width: 20.75rem;
 }
 
-.b-21-h {
-  bottom: 20.5rem;
+.h-21-t {
+  height: 20.75rem;
 }
 
-.s-21-h {
-  left: 20.5rem;
+.maxw-21-t {
+  max-width: 20.75rem;
 }
 
-.e-21-h {
-  right: 20.5rem;
+.maxh-21-t {
+  max-height: 20.75rem;
 }
 
-.t-n21-h {
-  top: -20.5rem;
+.minw-21-t {
+  min-width: 20.75rem;
 }
 
-.b-n21-h {
-  bottom: -20.5rem;
-}
-
-.s-n21-h {
-  left: -20.5rem;
-}
-
-.e-n21-h {
-  right: -20.5rem;
+.minh-21-t {
+  min-height: 20.75rem;
 }
 
 .w-21-f {
@@ -19917,36 +19761,28 @@ textarea.form-control-lg {
   min-height: 21.5rem;
 }
 
-.t-22-h {
-  top: 21.5rem;
+.w-22-t {
+  width: 21.75rem;
 }
 
-.b-22-h {
-  bottom: 21.5rem;
+.h-22-t {
+  height: 21.75rem;
 }
 
-.s-22-h {
-  left: 21.5rem;
+.maxw-22-t {
+  max-width: 21.75rem;
 }
 
-.e-22-h {
-  right: 21.5rem;
+.maxh-22-t {
+  max-height: 21.75rem;
 }
 
-.t-n22-h {
-  top: -21.5rem;
+.minw-22-t {
+  min-width: 21.75rem;
 }
 
-.b-n22-h {
-  bottom: -21.5rem;
-}
-
-.s-n22-h {
-  left: -21.5rem;
-}
-
-.e-n22-h {
-  right: -21.5rem;
+.minh-22-t {
+  min-height: 21.75rem;
 }
 
 .w-22-f {
@@ -20029,36 +19865,28 @@ textarea.form-control-lg {
   min-height: 22.5rem;
 }
 
-.t-23-h {
-  top: 22.5rem;
+.w-23-t {
+  width: 22.75rem;
 }
 
-.b-23-h {
-  bottom: 22.5rem;
+.h-23-t {
+  height: 22.75rem;
 }
 
-.s-23-h {
-  left: 22.5rem;
+.maxw-23-t {
+  max-width: 22.75rem;
 }
 
-.e-23-h {
-  right: 22.5rem;
+.maxh-23-t {
+  max-height: 22.75rem;
 }
 
-.t-n23-h {
-  top: -22.5rem;
+.minw-23-t {
+  min-width: 22.75rem;
 }
 
-.b-n23-h {
-  bottom: -22.5rem;
-}
-
-.s-n23-h {
-  left: -22.5rem;
-}
-
-.e-n23-h {
-  right: -22.5rem;
+.minh-23-t {
+  min-height: 22.75rem;
 }
 
 .w-23-f {
@@ -20141,36 +19969,28 @@ textarea.form-control-lg {
   min-height: 23.5rem;
 }
 
-.t-24-h {
-  top: 23.5rem;
+.w-24-t {
+  width: 23.75rem;
 }
 
-.b-24-h {
-  bottom: 23.5rem;
+.h-24-t {
+  height: 23.75rem;
 }
 
-.s-24-h {
-  left: 23.5rem;
+.maxw-24-t {
+  max-width: 23.75rem;
 }
 
-.e-24-h {
-  right: 23.5rem;
+.maxh-24-t {
+  max-height: 23.75rem;
 }
 
-.t-n24-h {
-  top: -23.5rem;
+.minw-24-t {
+  min-width: 23.75rem;
 }
 
-.b-n24-h {
-  bottom: -23.5rem;
-}
-
-.s-n24-h {
-  left: -23.5rem;
-}
-
-.e-n24-h {
-  right: -23.5rem;
+.minh-24-t {
+  min-height: 23.75rem;
 }
 
 .w-24-f {
@@ -20253,36 +20073,28 @@ textarea.form-control-lg {
   min-height: 24.5rem;
 }
 
-.t-25-h {
-  top: 24.5rem;
+.w-25-t {
+  width: 24.75rem;
 }
 
-.b-25-h {
-  bottom: 24.5rem;
+.h-25-t {
+  height: 24.75rem;
 }
 
-.s-25-h {
-  left: 24.5rem;
+.maxw-25-t {
+  max-width: 24.75rem;
 }
 
-.e-25-h {
-  right: 24.5rem;
+.maxh-25-t {
+  max-height: 24.75rem;
 }
 
-.t-n25-h {
-  top: -24.5rem;
+.minw-25-t {
+  min-width: 24.75rem;
 }
 
-.b-n25-h {
-  bottom: -24.5rem;
-}
-
-.s-n25-h {
-  left: -24.5rem;
-}
-
-.e-n25-h {
-  right: -24.5rem;
+.minh-25-t {
+  min-height: 24.75rem;
 }
 
 .w-25-f {
@@ -20365,36 +20177,28 @@ textarea.form-control-lg {
   min-height: 25.5rem;
 }
 
-.t-26-h {
-  top: 25.5rem;
+.w-26-t {
+  width: 25.75rem;
 }
 
-.b-26-h {
-  bottom: 25.5rem;
+.h-26-t {
+  height: 25.75rem;
 }
 
-.s-26-h {
-  left: 25.5rem;
+.maxw-26-t {
+  max-width: 25.75rem;
 }
 
-.e-26-h {
-  right: 25.5rem;
+.maxh-26-t {
+  max-height: 25.75rem;
 }
 
-.t-n26-h {
-  top: -25.5rem;
+.minw-26-t {
+  min-width: 25.75rem;
 }
 
-.b-n26-h {
-  bottom: -25.5rem;
-}
-
-.s-n26-h {
-  left: -25.5rem;
-}
-
-.e-n26-h {
-  right: -25.5rem;
+.minh-26-t {
+  min-height: 25.75rem;
 }
 
 .w-26-f {
@@ -20477,36 +20281,28 @@ textarea.form-control-lg {
   min-height: 26.5rem;
 }
 
-.t-27-h {
-  top: 26.5rem;
+.w-27-t {
+  width: 26.75rem;
 }
 
-.b-27-h {
-  bottom: 26.5rem;
+.h-27-t {
+  height: 26.75rem;
 }
 
-.s-27-h {
-  left: 26.5rem;
+.maxw-27-t {
+  max-width: 26.75rem;
 }
 
-.e-27-h {
-  right: 26.5rem;
+.maxh-27-t {
+  max-height: 26.75rem;
 }
 
-.t-n27-h {
-  top: -26.5rem;
+.minw-27-t {
+  min-width: 26.75rem;
 }
 
-.b-n27-h {
-  bottom: -26.5rem;
-}
-
-.s-n27-h {
-  left: -26.5rem;
-}
-
-.e-n27-h {
-  right: -26.5rem;
+.minh-27-t {
+  min-height: 26.75rem;
 }
 
 .w-27-f {
@@ -20589,36 +20385,28 @@ textarea.form-control-lg {
   min-height: 27.5rem;
 }
 
-.t-28-h {
-  top: 27.5rem;
+.w-28-t {
+  width: 27.75rem;
 }
 
-.b-28-h {
-  bottom: 27.5rem;
+.h-28-t {
+  height: 27.75rem;
 }
 
-.s-28-h {
-  left: 27.5rem;
+.maxw-28-t {
+  max-width: 27.75rem;
 }
 
-.e-28-h {
-  right: 27.5rem;
+.maxh-28-t {
+  max-height: 27.75rem;
 }
 
-.t-n28-h {
-  top: -27.5rem;
+.minw-28-t {
+  min-width: 27.75rem;
 }
 
-.b-n28-h {
-  bottom: -27.5rem;
-}
-
-.s-n28-h {
-  left: -27.5rem;
-}
-
-.e-n28-h {
-  right: -27.5rem;
+.minh-28-t {
+  min-height: 27.75rem;
 }
 
 .w-28-f {
@@ -20701,36 +20489,28 @@ textarea.form-control-lg {
   min-height: 28.5rem;
 }
 
-.t-29-h {
-  top: 28.5rem;
+.w-29-t {
+  width: 28.75rem;
 }
 
-.b-29-h {
-  bottom: 28.5rem;
+.h-29-t {
+  height: 28.75rem;
 }
 
-.s-29-h {
-  left: 28.5rem;
+.maxw-29-t {
+  max-width: 28.75rem;
 }
 
-.e-29-h {
-  right: 28.5rem;
+.maxh-29-t {
+  max-height: 28.75rem;
 }
 
-.t-n29-h {
-  top: -28.5rem;
+.minw-29-t {
+  min-width: 28.75rem;
 }
 
-.b-n29-h {
-  bottom: -28.5rem;
-}
-
-.s-n29-h {
-  left: -28.5rem;
-}
-
-.e-n29-h {
-  right: -28.5rem;
+.minh-29-t {
+  min-height: 28.75rem;
 }
 
 .w-29-f {
@@ -20813,36 +20593,28 @@ textarea.form-control-lg {
   min-height: 29.5rem;
 }
 
-.t-30-h {
-  top: 29.5rem;
+.w-30-t {
+  width: 29.75rem;
 }
 
-.b-30-h {
-  bottom: 29.5rem;
+.h-30-t {
+  height: 29.75rem;
 }
 
-.s-30-h {
-  left: 29.5rem;
+.maxw-30-t {
+  max-width: 29.75rem;
 }
 
-.e-30-h {
-  right: 29.5rem;
+.maxh-30-t {
+  max-height: 29.75rem;
 }
 
-.t-n30-h {
-  top: -29.5rem;
+.minw-30-t {
+  min-width: 29.75rem;
 }
 
-.b-n30-h {
-  bottom: -29.5rem;
-}
-
-.s-n30-h {
-  left: -29.5rem;
-}
-
-.e-n30-h {
-  right: -29.5rem;
+.minh-30-t {
+  min-height: 29.75rem;
 }
 
 .w-30-f {
@@ -20925,36 +20697,28 @@ textarea.form-control-lg {
   min-height: 30.5rem;
 }
 
-.t-31-h {
-  top: 30.5rem;
+.w-31-t {
+  width: 30.75rem;
 }
 
-.b-31-h {
-  bottom: 30.5rem;
+.h-31-t {
+  height: 30.75rem;
 }
 
-.s-31-h {
-  left: 30.5rem;
+.maxw-31-t {
+  max-width: 30.75rem;
 }
 
-.e-31-h {
-  right: 30.5rem;
+.maxh-31-t {
+  max-height: 30.75rem;
 }
 
-.t-n31-h {
-  top: -30.5rem;
+.minw-31-t {
+  min-width: 30.75rem;
 }
 
-.b-n31-h {
-  bottom: -30.5rem;
-}
-
-.s-n31-h {
-  left: -30.5rem;
-}
-
-.e-n31-h {
-  right: -30.5rem;
+.minh-31-t {
+  min-height: 30.75rem;
 }
 
 .w-31-f {
@@ -21037,36 +20801,28 @@ textarea.form-control-lg {
   min-height: 31.5rem;
 }
 
-.t-32-h {
-  top: 31.5rem;
+.w-32-t {
+  width: 31.75rem;
 }
 
-.b-32-h {
-  bottom: 31.5rem;
+.h-32-t {
+  height: 31.75rem;
 }
 
-.s-32-h {
-  left: 31.5rem;
+.maxw-32-t {
+  max-width: 31.75rem;
 }
 
-.e-32-h {
-  right: 31.5rem;
+.maxh-32-t {
+  max-height: 31.75rem;
 }
 
-.t-n32-h {
-  top: -31.5rem;
+.minw-32-t {
+  min-width: 31.75rem;
 }
 
-.b-n32-h {
-  bottom: -31.5rem;
-}
-
-.s-n32-h {
-  left: -31.5rem;
-}
-
-.e-n32-h {
-  right: -31.5rem;
+.minh-32-t {
+  min-height: 31.75rem;
 }
 
 .w-32-f {
@@ -21149,36 +20905,28 @@ textarea.form-control-lg {
   min-height: 32.5rem;
 }
 
-.t-33-h {
-  top: 32.5rem;
+.w-33-t {
+  width: 32.75rem;
 }
 
-.b-33-h {
-  bottom: 32.5rem;
+.h-33-t {
+  height: 32.75rem;
 }
 
-.s-33-h {
-  left: 32.5rem;
+.maxw-33-t {
+  max-width: 32.75rem;
 }
 
-.e-33-h {
-  right: 32.5rem;
+.maxh-33-t {
+  max-height: 32.75rem;
 }
 
-.t-n33-h {
-  top: -32.5rem;
+.minw-33-t {
+  min-width: 32.75rem;
 }
 
-.b-n33-h {
-  bottom: -32.5rem;
-}
-
-.s-n33-h {
-  left: -32.5rem;
-}
-
-.e-n33-h {
-  right: -32.5rem;
+.minh-33-t {
+  min-height: 32.75rem;
 }
 
 .w-33-f {
@@ -21261,36 +21009,28 @@ textarea.form-control-lg {
   min-height: 33.5rem;
 }
 
-.t-34-h {
-  top: 33.5rem;
+.w-34-t {
+  width: 33.75rem;
 }
 
-.b-34-h {
-  bottom: 33.5rem;
+.h-34-t {
+  height: 33.75rem;
 }
 
-.s-34-h {
-  left: 33.5rem;
+.maxw-34-t {
+  max-width: 33.75rem;
 }
 
-.e-34-h {
-  right: 33.5rem;
+.maxh-34-t {
+  max-height: 33.75rem;
 }
 
-.t-n34-h {
-  top: -33.5rem;
+.minw-34-t {
+  min-width: 33.75rem;
 }
 
-.b-n34-h {
-  bottom: -33.5rem;
-}
-
-.s-n34-h {
-  left: -33.5rem;
-}
-
-.e-n34-h {
-  right: -33.5rem;
+.minh-34-t {
+  min-height: 33.75rem;
 }
 
 .w-34-f {
@@ -21373,36 +21113,28 @@ textarea.form-control-lg {
   min-height: 34.5rem;
 }
 
-.t-35-h {
-  top: 34.5rem;
+.w-35-t {
+  width: 34.75rem;
 }
 
-.b-35-h {
-  bottom: 34.5rem;
+.h-35-t {
+  height: 34.75rem;
 }
 
-.s-35-h {
-  left: 34.5rem;
+.maxw-35-t {
+  max-width: 34.75rem;
 }
 
-.e-35-h {
-  right: 34.5rem;
+.maxh-35-t {
+  max-height: 34.75rem;
 }
 
-.t-n35-h {
-  top: -34.5rem;
+.minw-35-t {
+  min-width: 34.75rem;
 }
 
-.b-n35-h {
-  bottom: -34.5rem;
-}
-
-.s-n35-h {
-  left: -34.5rem;
-}
-
-.e-n35-h {
-  right: -34.5rem;
+.minh-35-t {
+  min-height: 34.75rem;
 }
 
 .w-35-f {
@@ -21485,36 +21217,28 @@ textarea.form-control-lg {
   min-height: 35.5rem;
 }
 
-.t-36-h {
-  top: 35.5rem;
+.w-36-t {
+  width: 35.75rem;
 }
 
-.b-36-h {
-  bottom: 35.5rem;
+.h-36-t {
+  height: 35.75rem;
 }
 
-.s-36-h {
-  left: 35.5rem;
+.maxw-36-t {
+  max-width: 35.75rem;
 }
 
-.e-36-h {
-  right: 35.5rem;
+.maxh-36-t {
+  max-height: 35.75rem;
 }
 
-.t-n36-h {
-  top: -35.5rem;
+.minw-36-t {
+  min-width: 35.75rem;
 }
 
-.b-n36-h {
-  bottom: -35.5rem;
-}
-
-.s-n36-h {
-  left: -35.5rem;
-}
-
-.e-n36-h {
-  right: -35.5rem;
+.minh-36-t {
+  min-height: 35.75rem;
 }
 
 .w-36-f {
@@ -21597,36 +21321,28 @@ textarea.form-control-lg {
   min-height: 36.5rem;
 }
 
-.t-37-h {
-  top: 36.5rem;
+.w-37-t {
+  width: 36.75rem;
 }
 
-.b-37-h {
-  bottom: 36.5rem;
+.h-37-t {
+  height: 36.75rem;
 }
 
-.s-37-h {
-  left: 36.5rem;
+.maxw-37-t {
+  max-width: 36.75rem;
 }
 
-.e-37-h {
-  right: 36.5rem;
+.maxh-37-t {
+  max-height: 36.75rem;
 }
 
-.t-n37-h {
-  top: -36.5rem;
+.minw-37-t {
+  min-width: 36.75rem;
 }
 
-.b-n37-h {
-  bottom: -36.5rem;
-}
-
-.s-n37-h {
-  left: -36.5rem;
-}
-
-.e-n37-h {
-  right: -36.5rem;
+.minh-37-t {
+  min-height: 36.75rem;
 }
 
 .w-37-f {
@@ -21709,36 +21425,28 @@ textarea.form-control-lg {
   min-height: 37.5rem;
 }
 
-.t-38-h {
-  top: 37.5rem;
+.w-38-t {
+  width: 37.75rem;
 }
 
-.b-38-h {
-  bottom: 37.5rem;
+.h-38-t {
+  height: 37.75rem;
 }
 
-.s-38-h {
-  left: 37.5rem;
+.maxw-38-t {
+  max-width: 37.75rem;
 }
 
-.e-38-h {
-  right: 37.5rem;
+.maxh-38-t {
+  max-height: 37.75rem;
 }
 
-.t-n38-h {
-  top: -37.5rem;
+.minw-38-t {
+  min-width: 37.75rem;
 }
 
-.b-n38-h {
-  bottom: -37.5rem;
-}
-
-.s-n38-h {
-  left: -37.5rem;
-}
-
-.e-n38-h {
-  right: -37.5rem;
+.minh-38-t {
+  min-height: 37.75rem;
 }
 
 .w-38-f {
@@ -21821,36 +21529,28 @@ textarea.form-control-lg {
   min-height: 38.5rem;
 }
 
-.t-39-h {
-  top: 38.5rem;
+.w-39-t {
+  width: 38.75rem;
 }
 
-.b-39-h {
-  bottom: 38.5rem;
+.h-39-t {
+  height: 38.75rem;
 }
 
-.s-39-h {
-  left: 38.5rem;
+.maxw-39-t {
+  max-width: 38.75rem;
 }
 
-.e-39-h {
-  right: 38.5rem;
+.maxh-39-t {
+  max-height: 38.75rem;
 }
 
-.t-n39-h {
-  top: -38.5rem;
+.minw-39-t {
+  min-width: 38.75rem;
 }
 
-.b-n39-h {
-  bottom: -38.5rem;
-}
-
-.s-n39-h {
-  left: -38.5rem;
-}
-
-.e-n39-h {
-  right: -38.5rem;
+.minh-39-t {
+  min-height: 38.75rem;
 }
 
 .w-39-f {
@@ -21933,36 +21633,28 @@ textarea.form-control-lg {
   min-height: 39.5rem;
 }
 
-.t-40-h {
-  top: 39.5rem;
+.w-40-t {
+  width: 39.75rem;
 }
 
-.b-40-h {
-  bottom: 39.5rem;
+.h-40-t {
+  height: 39.75rem;
 }
 
-.s-40-h {
-  left: 39.5rem;
+.maxw-40-t {
+  max-width: 39.75rem;
 }
 
-.e-40-h {
-  right: 39.5rem;
+.maxh-40-t {
+  max-height: 39.75rem;
 }
 
-.t-n40-h {
-  top: -39.5rem;
+.minw-40-t {
+  min-width: 39.75rem;
 }
 
-.b-n40-h {
-  bottom: -39.5rem;
-}
-
-.s-n40-h {
-  left: -39.5rem;
-}
-
-.e-n40-h {
-  right: -39.5rem;
+.minh-40-t {
+  min-height: 39.75rem;
 }
 
 .w-40-f {
@@ -22049,6 +21741,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 3rem;
+    word-break: break-word;
   }
   .text-truncate-sm-3 {
     display: block;
@@ -22063,6 +21758,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 4.5rem;
+    word-break: break-word;
   }
   .text-truncate-sm-4 {
     display: block;
@@ -22077,6 +21775,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 6rem;
+    word-break: break-word;
   }
   .text-truncate-sm-5 {
     display: block;
@@ -22091,6 +21792,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 7.5rem;
+    word-break: break-word;
   }
   .mdi-sm-n2 {
     font-size: 0.25rem;
@@ -22227,29 +21931,23 @@ textarea.form-control-lg {
   .minh-sm-1-h {
     min-height: 0.5rem;
   }
-  .t-sm-1-h {
-    top: 0.5rem;
+  .w-sm-1-t {
+    width: 0.75rem;
   }
-  .b-sm-1-h {
-    bottom: 0.5rem;
+  .h-sm-1-t {
+    height: 0.75rem;
   }
-  .s-sm-1-h {
-    left: 0.5rem;
+  .maxw-sm-1-t {
+    max-width: 0.75rem;
   }
-  .e-sm-1-h {
-    right: 0.5rem;
+  .maxh-sm-1-t {
+    max-height: 0.75rem;
   }
-  .t-sm-n1-h {
-    top: -0.5rem;
+  .minw-sm-1-t {
+    min-width: 0.75rem;
   }
-  .b-sm-n1-h {
-    bottom: -0.5rem;
-  }
-  .s-sm-n1-h {
-    left: -0.5rem;
-  }
-  .e-sm-n1-h {
-    right: -0.5rem;
+  .minh-sm-1-t {
+    min-height: 0.75rem;
   }
   .w-sm-1-f {
     width: 1rem;
@@ -22311,29 +22009,23 @@ textarea.form-control-lg {
   .minh-sm-2-h {
     min-height: 1.5rem;
   }
-  .t-sm-2-h {
-    top: 1.5rem;
+  .w-sm-2-t {
+    width: 1.75rem;
   }
-  .b-sm-2-h {
-    bottom: 1.5rem;
+  .h-sm-2-t {
+    height: 1.75rem;
   }
-  .s-sm-2-h {
-    left: 1.5rem;
+  .maxw-sm-2-t {
+    max-width: 1.75rem;
   }
-  .e-sm-2-h {
-    right: 1.5rem;
+  .maxh-sm-2-t {
+    max-height: 1.75rem;
   }
-  .t-sm-n2-h {
-    top: -1.5rem;
+  .minw-sm-2-t {
+    min-width: 1.75rem;
   }
-  .b-sm-n2-h {
-    bottom: -1.5rem;
-  }
-  .s-sm-n2-h {
-    left: -1.5rem;
-  }
-  .e-sm-n2-h {
-    right: -1.5rem;
+  .minh-sm-2-t {
+    min-height: 1.75rem;
   }
   .w-sm-2-f {
     width: 2rem;
@@ -22395,29 +22087,23 @@ textarea.form-control-lg {
   .minh-sm-3-h {
     min-height: 2.5rem;
   }
-  .t-sm-3-h {
-    top: 2.5rem;
+  .w-sm-3-t {
+    width: 2.75rem;
   }
-  .b-sm-3-h {
-    bottom: 2.5rem;
+  .h-sm-3-t {
+    height: 2.75rem;
   }
-  .s-sm-3-h {
-    left: 2.5rem;
+  .maxw-sm-3-t {
+    max-width: 2.75rem;
   }
-  .e-sm-3-h {
-    right: 2.5rem;
+  .maxh-sm-3-t {
+    max-height: 2.75rem;
   }
-  .t-sm-n3-h {
-    top: -2.5rem;
+  .minw-sm-3-t {
+    min-width: 2.75rem;
   }
-  .b-sm-n3-h {
-    bottom: -2.5rem;
-  }
-  .s-sm-n3-h {
-    left: -2.5rem;
-  }
-  .e-sm-n3-h {
-    right: -2.5rem;
+  .minh-sm-3-t {
+    min-height: 2.75rem;
   }
   .w-sm-3-f {
     width: 3rem;
@@ -22479,29 +22165,23 @@ textarea.form-control-lg {
   .minh-sm-4-h {
     min-height: 3.5rem;
   }
-  .t-sm-4-h {
-    top: 3.5rem;
+  .w-sm-4-t {
+    width: 3.75rem;
   }
-  .b-sm-4-h {
-    bottom: 3.5rem;
+  .h-sm-4-t {
+    height: 3.75rem;
   }
-  .s-sm-4-h {
-    left: 3.5rem;
+  .maxw-sm-4-t {
+    max-width: 3.75rem;
   }
-  .e-sm-4-h {
-    right: 3.5rem;
+  .maxh-sm-4-t {
+    max-height: 3.75rem;
   }
-  .t-sm-n4-h {
-    top: -3.5rem;
+  .minw-sm-4-t {
+    min-width: 3.75rem;
   }
-  .b-sm-n4-h {
-    bottom: -3.5rem;
-  }
-  .s-sm-n4-h {
-    left: -3.5rem;
-  }
-  .e-sm-n4-h {
-    right: -3.5rem;
+  .minh-sm-4-t {
+    min-height: 3.75rem;
   }
   .w-sm-4-f {
     width: 4rem;
@@ -22563,29 +22243,23 @@ textarea.form-control-lg {
   .minh-sm-5-h {
     min-height: 4.5rem;
   }
-  .t-sm-5-h {
-    top: 4.5rem;
+  .w-sm-5-t {
+    width: 4.75rem;
   }
-  .b-sm-5-h {
-    bottom: 4.5rem;
+  .h-sm-5-t {
+    height: 4.75rem;
   }
-  .s-sm-5-h {
-    left: 4.5rem;
+  .maxw-sm-5-t {
+    max-width: 4.75rem;
   }
-  .e-sm-5-h {
-    right: 4.5rem;
+  .maxh-sm-5-t {
+    max-height: 4.75rem;
   }
-  .t-sm-n5-h {
-    top: -4.5rem;
+  .minw-sm-5-t {
+    min-width: 4.75rem;
   }
-  .b-sm-n5-h {
-    bottom: -4.5rem;
-  }
-  .s-sm-n5-h {
-    left: -4.5rem;
-  }
-  .e-sm-n5-h {
-    right: -4.5rem;
+  .minh-sm-5-t {
+    min-height: 4.75rem;
   }
   .w-sm-5-f {
     width: 5rem;
@@ -22647,29 +22321,23 @@ textarea.form-control-lg {
   .minh-sm-6-h {
     min-height: 5.5rem;
   }
-  .t-sm-6-h {
-    top: 5.5rem;
+  .w-sm-6-t {
+    width: 5.75rem;
   }
-  .b-sm-6-h {
-    bottom: 5.5rem;
+  .h-sm-6-t {
+    height: 5.75rem;
   }
-  .s-sm-6-h {
-    left: 5.5rem;
+  .maxw-sm-6-t {
+    max-width: 5.75rem;
   }
-  .e-sm-6-h {
-    right: 5.5rem;
+  .maxh-sm-6-t {
+    max-height: 5.75rem;
   }
-  .t-sm-n6-h {
-    top: -5.5rem;
+  .minw-sm-6-t {
+    min-width: 5.75rem;
   }
-  .b-sm-n6-h {
-    bottom: -5.5rem;
-  }
-  .s-sm-n6-h {
-    left: -5.5rem;
-  }
-  .e-sm-n6-h {
-    right: -5.5rem;
+  .minh-sm-6-t {
+    min-height: 5.75rem;
   }
   .w-sm-6-f {
     width: 6rem;
@@ -22731,29 +22399,23 @@ textarea.form-control-lg {
   .minh-sm-7-h {
     min-height: 6.5rem;
   }
-  .t-sm-7-h {
-    top: 6.5rem;
+  .w-sm-7-t {
+    width: 6.75rem;
   }
-  .b-sm-7-h {
-    bottom: 6.5rem;
+  .h-sm-7-t {
+    height: 6.75rem;
   }
-  .s-sm-7-h {
-    left: 6.5rem;
+  .maxw-sm-7-t {
+    max-width: 6.75rem;
   }
-  .e-sm-7-h {
-    right: 6.5rem;
+  .maxh-sm-7-t {
+    max-height: 6.75rem;
   }
-  .t-sm-n7-h {
-    top: -6.5rem;
+  .minw-sm-7-t {
+    min-width: 6.75rem;
   }
-  .b-sm-n7-h {
-    bottom: -6.5rem;
-  }
-  .s-sm-n7-h {
-    left: -6.5rem;
-  }
-  .e-sm-n7-h {
-    right: -6.5rem;
+  .minh-sm-7-t {
+    min-height: 6.75rem;
   }
   .w-sm-7-f {
     width: 7rem;
@@ -22815,29 +22477,23 @@ textarea.form-control-lg {
   .minh-sm-8-h {
     min-height: 7.5rem;
   }
-  .t-sm-8-h {
-    top: 7.5rem;
+  .w-sm-8-t {
+    width: 7.75rem;
   }
-  .b-sm-8-h {
-    bottom: 7.5rem;
+  .h-sm-8-t {
+    height: 7.75rem;
   }
-  .s-sm-8-h {
-    left: 7.5rem;
+  .maxw-sm-8-t {
+    max-width: 7.75rem;
   }
-  .e-sm-8-h {
-    right: 7.5rem;
+  .maxh-sm-8-t {
+    max-height: 7.75rem;
   }
-  .t-sm-n8-h {
-    top: -7.5rem;
+  .minw-sm-8-t {
+    min-width: 7.75rem;
   }
-  .b-sm-n8-h {
-    bottom: -7.5rem;
-  }
-  .s-sm-n8-h {
-    left: -7.5rem;
-  }
-  .e-sm-n8-h {
-    right: -7.5rem;
+  .minh-sm-8-t {
+    min-height: 7.75rem;
   }
   .w-sm-8-f {
     width: 8rem;
@@ -22899,29 +22555,23 @@ textarea.form-control-lg {
   .minh-sm-9-h {
     min-height: 8.5rem;
   }
-  .t-sm-9-h {
-    top: 8.5rem;
+  .w-sm-9-t {
+    width: 8.75rem;
   }
-  .b-sm-9-h {
-    bottom: 8.5rem;
+  .h-sm-9-t {
+    height: 8.75rem;
   }
-  .s-sm-9-h {
-    left: 8.5rem;
+  .maxw-sm-9-t {
+    max-width: 8.75rem;
   }
-  .e-sm-9-h {
-    right: 8.5rem;
+  .maxh-sm-9-t {
+    max-height: 8.75rem;
   }
-  .t-sm-n9-h {
-    top: -8.5rem;
+  .minw-sm-9-t {
+    min-width: 8.75rem;
   }
-  .b-sm-n9-h {
-    bottom: -8.5rem;
-  }
-  .s-sm-n9-h {
-    left: -8.5rem;
-  }
-  .e-sm-n9-h {
-    right: -8.5rem;
+  .minh-sm-9-t {
+    min-height: 8.75rem;
   }
   .w-sm-9-f {
     width: 9rem;
@@ -22983,29 +22633,23 @@ textarea.form-control-lg {
   .minh-sm-10-h {
     min-height: 9.5rem;
   }
-  .t-sm-10-h {
-    top: 9.5rem;
+  .w-sm-10-t {
+    width: 9.75rem;
   }
-  .b-sm-10-h {
-    bottom: 9.5rem;
+  .h-sm-10-t {
+    height: 9.75rem;
   }
-  .s-sm-10-h {
-    left: 9.5rem;
+  .maxw-sm-10-t {
+    max-width: 9.75rem;
   }
-  .e-sm-10-h {
-    right: 9.5rem;
+  .maxh-sm-10-t {
+    max-height: 9.75rem;
   }
-  .t-sm-n10-h {
-    top: -9.5rem;
+  .minw-sm-10-t {
+    min-width: 9.75rem;
   }
-  .b-sm-n10-h {
-    bottom: -9.5rem;
-  }
-  .s-sm-n10-h {
-    left: -9.5rem;
-  }
-  .e-sm-n10-h {
-    right: -9.5rem;
+  .minh-sm-10-t {
+    min-height: 9.75rem;
   }
   .w-sm-10-f {
     width: 10rem;
@@ -23067,29 +22711,23 @@ textarea.form-control-lg {
   .minh-sm-11-h {
     min-height: 10.5rem;
   }
-  .t-sm-11-h {
-    top: 10.5rem;
+  .w-sm-11-t {
+    width: 10.75rem;
   }
-  .b-sm-11-h {
-    bottom: 10.5rem;
+  .h-sm-11-t {
+    height: 10.75rem;
   }
-  .s-sm-11-h {
-    left: 10.5rem;
+  .maxw-sm-11-t {
+    max-width: 10.75rem;
   }
-  .e-sm-11-h {
-    right: 10.5rem;
+  .maxh-sm-11-t {
+    max-height: 10.75rem;
   }
-  .t-sm-n11-h {
-    top: -10.5rem;
+  .minw-sm-11-t {
+    min-width: 10.75rem;
   }
-  .b-sm-n11-h {
-    bottom: -10.5rem;
-  }
-  .s-sm-n11-h {
-    left: -10.5rem;
-  }
-  .e-sm-n11-h {
-    right: -10.5rem;
+  .minh-sm-11-t {
+    min-height: 10.75rem;
   }
   .w-sm-11-f {
     width: 11rem;
@@ -23151,29 +22789,23 @@ textarea.form-control-lg {
   .minh-sm-12-h {
     min-height: 11.5rem;
   }
-  .t-sm-12-h {
-    top: 11.5rem;
+  .w-sm-12-t {
+    width: 11.75rem;
   }
-  .b-sm-12-h {
-    bottom: 11.5rem;
+  .h-sm-12-t {
+    height: 11.75rem;
   }
-  .s-sm-12-h {
-    left: 11.5rem;
+  .maxw-sm-12-t {
+    max-width: 11.75rem;
   }
-  .e-sm-12-h {
-    right: 11.5rem;
+  .maxh-sm-12-t {
+    max-height: 11.75rem;
   }
-  .t-sm-n12-h {
-    top: -11.5rem;
+  .minw-sm-12-t {
+    min-width: 11.75rem;
   }
-  .b-sm-n12-h {
-    bottom: -11.5rem;
-  }
-  .s-sm-n12-h {
-    left: -11.5rem;
-  }
-  .e-sm-n12-h {
-    right: -11.5rem;
+  .minh-sm-12-t {
+    min-height: 11.75rem;
   }
   .w-sm-12-f {
     width: 12rem;
@@ -23235,29 +22867,23 @@ textarea.form-control-lg {
   .minh-sm-13-h {
     min-height: 12.5rem;
   }
-  .t-sm-13-h {
-    top: 12.5rem;
+  .w-sm-13-t {
+    width: 12.75rem;
   }
-  .b-sm-13-h {
-    bottom: 12.5rem;
+  .h-sm-13-t {
+    height: 12.75rem;
   }
-  .s-sm-13-h {
-    left: 12.5rem;
+  .maxw-sm-13-t {
+    max-width: 12.75rem;
   }
-  .e-sm-13-h {
-    right: 12.5rem;
+  .maxh-sm-13-t {
+    max-height: 12.75rem;
   }
-  .t-sm-n13-h {
-    top: -12.5rem;
+  .minw-sm-13-t {
+    min-width: 12.75rem;
   }
-  .b-sm-n13-h {
-    bottom: -12.5rem;
-  }
-  .s-sm-n13-h {
-    left: -12.5rem;
-  }
-  .e-sm-n13-h {
-    right: -12.5rem;
+  .minh-sm-13-t {
+    min-height: 12.75rem;
   }
   .w-sm-13-f {
     width: 13rem;
@@ -23319,29 +22945,23 @@ textarea.form-control-lg {
   .minh-sm-14-h {
     min-height: 13.5rem;
   }
-  .t-sm-14-h {
-    top: 13.5rem;
+  .w-sm-14-t {
+    width: 13.75rem;
   }
-  .b-sm-14-h {
-    bottom: 13.5rem;
+  .h-sm-14-t {
+    height: 13.75rem;
   }
-  .s-sm-14-h {
-    left: 13.5rem;
+  .maxw-sm-14-t {
+    max-width: 13.75rem;
   }
-  .e-sm-14-h {
-    right: 13.5rem;
+  .maxh-sm-14-t {
+    max-height: 13.75rem;
   }
-  .t-sm-n14-h {
-    top: -13.5rem;
+  .minw-sm-14-t {
+    min-width: 13.75rem;
   }
-  .b-sm-n14-h {
-    bottom: -13.5rem;
-  }
-  .s-sm-n14-h {
-    left: -13.5rem;
-  }
-  .e-sm-n14-h {
-    right: -13.5rem;
+  .minh-sm-14-t {
+    min-height: 13.75rem;
   }
   .w-sm-14-f {
     width: 14rem;
@@ -23403,29 +23023,23 @@ textarea.form-control-lg {
   .minh-sm-15-h {
     min-height: 14.5rem;
   }
-  .t-sm-15-h {
-    top: 14.5rem;
+  .w-sm-15-t {
+    width: 14.75rem;
   }
-  .b-sm-15-h {
-    bottom: 14.5rem;
+  .h-sm-15-t {
+    height: 14.75rem;
   }
-  .s-sm-15-h {
-    left: 14.5rem;
+  .maxw-sm-15-t {
+    max-width: 14.75rem;
   }
-  .e-sm-15-h {
-    right: 14.5rem;
+  .maxh-sm-15-t {
+    max-height: 14.75rem;
   }
-  .t-sm-n15-h {
-    top: -14.5rem;
+  .minw-sm-15-t {
+    min-width: 14.75rem;
   }
-  .b-sm-n15-h {
-    bottom: -14.5rem;
-  }
-  .s-sm-n15-h {
-    left: -14.5rem;
-  }
-  .e-sm-n15-h {
-    right: -14.5rem;
+  .minh-sm-15-t {
+    min-height: 14.75rem;
   }
   .w-sm-15-f {
     width: 15rem;
@@ -23487,29 +23101,23 @@ textarea.form-control-lg {
   .minh-sm-16-h {
     min-height: 15.5rem;
   }
-  .t-sm-16-h {
-    top: 15.5rem;
+  .w-sm-16-t {
+    width: 15.75rem;
   }
-  .b-sm-16-h {
-    bottom: 15.5rem;
+  .h-sm-16-t {
+    height: 15.75rem;
   }
-  .s-sm-16-h {
-    left: 15.5rem;
+  .maxw-sm-16-t {
+    max-width: 15.75rem;
   }
-  .e-sm-16-h {
-    right: 15.5rem;
+  .maxh-sm-16-t {
+    max-height: 15.75rem;
   }
-  .t-sm-n16-h {
-    top: -15.5rem;
+  .minw-sm-16-t {
+    min-width: 15.75rem;
   }
-  .b-sm-n16-h {
-    bottom: -15.5rem;
-  }
-  .s-sm-n16-h {
-    left: -15.5rem;
-  }
-  .e-sm-n16-h {
-    right: -15.5rem;
+  .minh-sm-16-t {
+    min-height: 15.75rem;
   }
   .w-sm-16-f {
     width: 16rem;
@@ -23571,29 +23179,23 @@ textarea.form-control-lg {
   .minh-sm-17-h {
     min-height: 16.5rem;
   }
-  .t-sm-17-h {
-    top: 16.5rem;
+  .w-sm-17-t {
+    width: 16.75rem;
   }
-  .b-sm-17-h {
-    bottom: 16.5rem;
+  .h-sm-17-t {
+    height: 16.75rem;
   }
-  .s-sm-17-h {
-    left: 16.5rem;
+  .maxw-sm-17-t {
+    max-width: 16.75rem;
   }
-  .e-sm-17-h {
-    right: 16.5rem;
+  .maxh-sm-17-t {
+    max-height: 16.75rem;
   }
-  .t-sm-n17-h {
-    top: -16.5rem;
+  .minw-sm-17-t {
+    min-width: 16.75rem;
   }
-  .b-sm-n17-h {
-    bottom: -16.5rem;
-  }
-  .s-sm-n17-h {
-    left: -16.5rem;
-  }
-  .e-sm-n17-h {
-    right: -16.5rem;
+  .minh-sm-17-t {
+    min-height: 16.75rem;
   }
   .w-sm-17-f {
     width: 17rem;
@@ -23655,29 +23257,23 @@ textarea.form-control-lg {
   .minh-sm-18-h {
     min-height: 17.5rem;
   }
-  .t-sm-18-h {
-    top: 17.5rem;
+  .w-sm-18-t {
+    width: 17.75rem;
   }
-  .b-sm-18-h {
-    bottom: 17.5rem;
+  .h-sm-18-t {
+    height: 17.75rem;
   }
-  .s-sm-18-h {
-    left: 17.5rem;
+  .maxw-sm-18-t {
+    max-width: 17.75rem;
   }
-  .e-sm-18-h {
-    right: 17.5rem;
+  .maxh-sm-18-t {
+    max-height: 17.75rem;
   }
-  .t-sm-n18-h {
-    top: -17.5rem;
+  .minw-sm-18-t {
+    min-width: 17.75rem;
   }
-  .b-sm-n18-h {
-    bottom: -17.5rem;
-  }
-  .s-sm-n18-h {
-    left: -17.5rem;
-  }
-  .e-sm-n18-h {
-    right: -17.5rem;
+  .minh-sm-18-t {
+    min-height: 17.75rem;
   }
   .w-sm-18-f {
     width: 18rem;
@@ -23739,29 +23335,23 @@ textarea.form-control-lg {
   .minh-sm-19-h {
     min-height: 18.5rem;
   }
-  .t-sm-19-h {
-    top: 18.5rem;
+  .w-sm-19-t {
+    width: 18.75rem;
   }
-  .b-sm-19-h {
-    bottom: 18.5rem;
+  .h-sm-19-t {
+    height: 18.75rem;
   }
-  .s-sm-19-h {
-    left: 18.5rem;
+  .maxw-sm-19-t {
+    max-width: 18.75rem;
   }
-  .e-sm-19-h {
-    right: 18.5rem;
+  .maxh-sm-19-t {
+    max-height: 18.75rem;
   }
-  .t-sm-n19-h {
-    top: -18.5rem;
+  .minw-sm-19-t {
+    min-width: 18.75rem;
   }
-  .b-sm-n19-h {
-    bottom: -18.5rem;
-  }
-  .s-sm-n19-h {
-    left: -18.5rem;
-  }
-  .e-sm-n19-h {
-    right: -18.5rem;
+  .minh-sm-19-t {
+    min-height: 18.75rem;
   }
   .w-sm-19-f {
     width: 19rem;
@@ -23823,29 +23413,23 @@ textarea.form-control-lg {
   .minh-sm-20-h {
     min-height: 19.5rem;
   }
-  .t-sm-20-h {
-    top: 19.5rem;
+  .w-sm-20-t {
+    width: 19.75rem;
   }
-  .b-sm-20-h {
-    bottom: 19.5rem;
+  .h-sm-20-t {
+    height: 19.75rem;
   }
-  .s-sm-20-h {
-    left: 19.5rem;
+  .maxw-sm-20-t {
+    max-width: 19.75rem;
   }
-  .e-sm-20-h {
-    right: 19.5rem;
+  .maxh-sm-20-t {
+    max-height: 19.75rem;
   }
-  .t-sm-n20-h {
-    top: -19.5rem;
+  .minw-sm-20-t {
+    min-width: 19.75rem;
   }
-  .b-sm-n20-h {
-    bottom: -19.5rem;
-  }
-  .s-sm-n20-h {
-    left: -19.5rem;
-  }
-  .e-sm-n20-h {
-    right: -19.5rem;
+  .minh-sm-20-t {
+    min-height: 19.75rem;
   }
   .w-sm-20-f {
     width: 20rem;
@@ -23907,29 +23491,23 @@ textarea.form-control-lg {
   .minh-sm-21-h {
     min-height: 20.5rem;
   }
-  .t-sm-21-h {
-    top: 20.5rem;
+  .w-sm-21-t {
+    width: 20.75rem;
   }
-  .b-sm-21-h {
-    bottom: 20.5rem;
+  .h-sm-21-t {
+    height: 20.75rem;
   }
-  .s-sm-21-h {
-    left: 20.5rem;
+  .maxw-sm-21-t {
+    max-width: 20.75rem;
   }
-  .e-sm-21-h {
-    right: 20.5rem;
+  .maxh-sm-21-t {
+    max-height: 20.75rem;
   }
-  .t-sm-n21-h {
-    top: -20.5rem;
+  .minw-sm-21-t {
+    min-width: 20.75rem;
   }
-  .b-sm-n21-h {
-    bottom: -20.5rem;
-  }
-  .s-sm-n21-h {
-    left: -20.5rem;
-  }
-  .e-sm-n21-h {
-    right: -20.5rem;
+  .minh-sm-21-t {
+    min-height: 20.75rem;
   }
   .w-sm-21-f {
     width: 21rem;
@@ -23991,29 +23569,23 @@ textarea.form-control-lg {
   .minh-sm-22-h {
     min-height: 21.5rem;
   }
-  .t-sm-22-h {
-    top: 21.5rem;
+  .w-sm-22-t {
+    width: 21.75rem;
   }
-  .b-sm-22-h {
-    bottom: 21.5rem;
+  .h-sm-22-t {
+    height: 21.75rem;
   }
-  .s-sm-22-h {
-    left: 21.5rem;
+  .maxw-sm-22-t {
+    max-width: 21.75rem;
   }
-  .e-sm-22-h {
-    right: 21.5rem;
+  .maxh-sm-22-t {
+    max-height: 21.75rem;
   }
-  .t-sm-n22-h {
-    top: -21.5rem;
+  .minw-sm-22-t {
+    min-width: 21.75rem;
   }
-  .b-sm-n22-h {
-    bottom: -21.5rem;
-  }
-  .s-sm-n22-h {
-    left: -21.5rem;
-  }
-  .e-sm-n22-h {
-    right: -21.5rem;
+  .minh-sm-22-t {
+    min-height: 21.75rem;
   }
   .w-sm-22-f {
     width: 22rem;
@@ -24075,29 +23647,23 @@ textarea.form-control-lg {
   .minh-sm-23-h {
     min-height: 22.5rem;
   }
-  .t-sm-23-h {
-    top: 22.5rem;
+  .w-sm-23-t {
+    width: 22.75rem;
   }
-  .b-sm-23-h {
-    bottom: 22.5rem;
+  .h-sm-23-t {
+    height: 22.75rem;
   }
-  .s-sm-23-h {
-    left: 22.5rem;
+  .maxw-sm-23-t {
+    max-width: 22.75rem;
   }
-  .e-sm-23-h {
-    right: 22.5rem;
+  .maxh-sm-23-t {
+    max-height: 22.75rem;
   }
-  .t-sm-n23-h {
-    top: -22.5rem;
+  .minw-sm-23-t {
+    min-width: 22.75rem;
   }
-  .b-sm-n23-h {
-    bottom: -22.5rem;
-  }
-  .s-sm-n23-h {
-    left: -22.5rem;
-  }
-  .e-sm-n23-h {
-    right: -22.5rem;
+  .minh-sm-23-t {
+    min-height: 22.75rem;
   }
   .w-sm-23-f {
     width: 23rem;
@@ -24159,29 +23725,23 @@ textarea.form-control-lg {
   .minh-sm-24-h {
     min-height: 23.5rem;
   }
-  .t-sm-24-h {
-    top: 23.5rem;
+  .w-sm-24-t {
+    width: 23.75rem;
   }
-  .b-sm-24-h {
-    bottom: 23.5rem;
+  .h-sm-24-t {
+    height: 23.75rem;
   }
-  .s-sm-24-h {
-    left: 23.5rem;
+  .maxw-sm-24-t {
+    max-width: 23.75rem;
   }
-  .e-sm-24-h {
-    right: 23.5rem;
+  .maxh-sm-24-t {
+    max-height: 23.75rem;
   }
-  .t-sm-n24-h {
-    top: -23.5rem;
+  .minw-sm-24-t {
+    min-width: 23.75rem;
   }
-  .b-sm-n24-h {
-    bottom: -23.5rem;
-  }
-  .s-sm-n24-h {
-    left: -23.5rem;
-  }
-  .e-sm-n24-h {
-    right: -23.5rem;
+  .minh-sm-24-t {
+    min-height: 23.75rem;
   }
   .w-sm-24-f {
     width: 24rem;
@@ -24243,29 +23803,23 @@ textarea.form-control-lg {
   .minh-sm-25-h {
     min-height: 24.5rem;
   }
-  .t-sm-25-h {
-    top: 24.5rem;
+  .w-sm-25-t {
+    width: 24.75rem;
   }
-  .b-sm-25-h {
-    bottom: 24.5rem;
+  .h-sm-25-t {
+    height: 24.75rem;
   }
-  .s-sm-25-h {
-    left: 24.5rem;
+  .maxw-sm-25-t {
+    max-width: 24.75rem;
   }
-  .e-sm-25-h {
-    right: 24.5rem;
+  .maxh-sm-25-t {
+    max-height: 24.75rem;
   }
-  .t-sm-n25-h {
-    top: -24.5rem;
+  .minw-sm-25-t {
+    min-width: 24.75rem;
   }
-  .b-sm-n25-h {
-    bottom: -24.5rem;
-  }
-  .s-sm-n25-h {
-    left: -24.5rem;
-  }
-  .e-sm-n25-h {
-    right: -24.5rem;
+  .minh-sm-25-t {
+    min-height: 24.75rem;
   }
   .w-sm-25-f {
     width: 25rem;
@@ -24327,29 +23881,23 @@ textarea.form-control-lg {
   .minh-sm-26-h {
     min-height: 25.5rem;
   }
-  .t-sm-26-h {
-    top: 25.5rem;
+  .w-sm-26-t {
+    width: 25.75rem;
   }
-  .b-sm-26-h {
-    bottom: 25.5rem;
+  .h-sm-26-t {
+    height: 25.75rem;
   }
-  .s-sm-26-h {
-    left: 25.5rem;
+  .maxw-sm-26-t {
+    max-width: 25.75rem;
   }
-  .e-sm-26-h {
-    right: 25.5rem;
+  .maxh-sm-26-t {
+    max-height: 25.75rem;
   }
-  .t-sm-n26-h {
-    top: -25.5rem;
+  .minw-sm-26-t {
+    min-width: 25.75rem;
   }
-  .b-sm-n26-h {
-    bottom: -25.5rem;
-  }
-  .s-sm-n26-h {
-    left: -25.5rem;
-  }
-  .e-sm-n26-h {
-    right: -25.5rem;
+  .minh-sm-26-t {
+    min-height: 25.75rem;
   }
   .w-sm-26-f {
     width: 26rem;
@@ -24411,29 +23959,23 @@ textarea.form-control-lg {
   .minh-sm-27-h {
     min-height: 26.5rem;
   }
-  .t-sm-27-h {
-    top: 26.5rem;
+  .w-sm-27-t {
+    width: 26.75rem;
   }
-  .b-sm-27-h {
-    bottom: 26.5rem;
+  .h-sm-27-t {
+    height: 26.75rem;
   }
-  .s-sm-27-h {
-    left: 26.5rem;
+  .maxw-sm-27-t {
+    max-width: 26.75rem;
   }
-  .e-sm-27-h {
-    right: 26.5rem;
+  .maxh-sm-27-t {
+    max-height: 26.75rem;
   }
-  .t-sm-n27-h {
-    top: -26.5rem;
+  .minw-sm-27-t {
+    min-width: 26.75rem;
   }
-  .b-sm-n27-h {
-    bottom: -26.5rem;
-  }
-  .s-sm-n27-h {
-    left: -26.5rem;
-  }
-  .e-sm-n27-h {
-    right: -26.5rem;
+  .minh-sm-27-t {
+    min-height: 26.75rem;
   }
   .w-sm-27-f {
     width: 27rem;
@@ -24495,29 +24037,23 @@ textarea.form-control-lg {
   .minh-sm-28-h {
     min-height: 27.5rem;
   }
-  .t-sm-28-h {
-    top: 27.5rem;
+  .w-sm-28-t {
+    width: 27.75rem;
   }
-  .b-sm-28-h {
-    bottom: 27.5rem;
+  .h-sm-28-t {
+    height: 27.75rem;
   }
-  .s-sm-28-h {
-    left: 27.5rem;
+  .maxw-sm-28-t {
+    max-width: 27.75rem;
   }
-  .e-sm-28-h {
-    right: 27.5rem;
+  .maxh-sm-28-t {
+    max-height: 27.75rem;
   }
-  .t-sm-n28-h {
-    top: -27.5rem;
+  .minw-sm-28-t {
+    min-width: 27.75rem;
   }
-  .b-sm-n28-h {
-    bottom: -27.5rem;
-  }
-  .s-sm-n28-h {
-    left: -27.5rem;
-  }
-  .e-sm-n28-h {
-    right: -27.5rem;
+  .minh-sm-28-t {
+    min-height: 27.75rem;
   }
   .w-sm-28-f {
     width: 28rem;
@@ -24579,29 +24115,23 @@ textarea.form-control-lg {
   .minh-sm-29-h {
     min-height: 28.5rem;
   }
-  .t-sm-29-h {
-    top: 28.5rem;
+  .w-sm-29-t {
+    width: 28.75rem;
   }
-  .b-sm-29-h {
-    bottom: 28.5rem;
+  .h-sm-29-t {
+    height: 28.75rem;
   }
-  .s-sm-29-h {
-    left: 28.5rem;
+  .maxw-sm-29-t {
+    max-width: 28.75rem;
   }
-  .e-sm-29-h {
-    right: 28.5rem;
+  .maxh-sm-29-t {
+    max-height: 28.75rem;
   }
-  .t-sm-n29-h {
-    top: -28.5rem;
+  .minw-sm-29-t {
+    min-width: 28.75rem;
   }
-  .b-sm-n29-h {
-    bottom: -28.5rem;
-  }
-  .s-sm-n29-h {
-    left: -28.5rem;
-  }
-  .e-sm-n29-h {
-    right: -28.5rem;
+  .minh-sm-29-t {
+    min-height: 28.75rem;
   }
   .w-sm-29-f {
     width: 29rem;
@@ -24663,29 +24193,23 @@ textarea.form-control-lg {
   .minh-sm-30-h {
     min-height: 29.5rem;
   }
-  .t-sm-30-h {
-    top: 29.5rem;
+  .w-sm-30-t {
+    width: 29.75rem;
   }
-  .b-sm-30-h {
-    bottom: 29.5rem;
+  .h-sm-30-t {
+    height: 29.75rem;
   }
-  .s-sm-30-h {
-    left: 29.5rem;
+  .maxw-sm-30-t {
+    max-width: 29.75rem;
   }
-  .e-sm-30-h {
-    right: 29.5rem;
+  .maxh-sm-30-t {
+    max-height: 29.75rem;
   }
-  .t-sm-n30-h {
-    top: -29.5rem;
+  .minw-sm-30-t {
+    min-width: 29.75rem;
   }
-  .b-sm-n30-h {
-    bottom: -29.5rem;
-  }
-  .s-sm-n30-h {
-    left: -29.5rem;
-  }
-  .e-sm-n30-h {
-    right: -29.5rem;
+  .minh-sm-30-t {
+    min-height: 29.75rem;
   }
   .w-sm-30-f {
     width: 30rem;
@@ -24747,29 +24271,23 @@ textarea.form-control-lg {
   .minh-sm-31-h {
     min-height: 30.5rem;
   }
-  .t-sm-31-h {
-    top: 30.5rem;
+  .w-sm-31-t {
+    width: 30.75rem;
   }
-  .b-sm-31-h {
-    bottom: 30.5rem;
+  .h-sm-31-t {
+    height: 30.75rem;
   }
-  .s-sm-31-h {
-    left: 30.5rem;
+  .maxw-sm-31-t {
+    max-width: 30.75rem;
   }
-  .e-sm-31-h {
-    right: 30.5rem;
+  .maxh-sm-31-t {
+    max-height: 30.75rem;
   }
-  .t-sm-n31-h {
-    top: -30.5rem;
+  .minw-sm-31-t {
+    min-width: 30.75rem;
   }
-  .b-sm-n31-h {
-    bottom: -30.5rem;
-  }
-  .s-sm-n31-h {
-    left: -30.5rem;
-  }
-  .e-sm-n31-h {
-    right: -30.5rem;
+  .minh-sm-31-t {
+    min-height: 30.75rem;
   }
   .w-sm-31-f {
     width: 31rem;
@@ -24831,29 +24349,23 @@ textarea.form-control-lg {
   .minh-sm-32-h {
     min-height: 31.5rem;
   }
-  .t-sm-32-h {
-    top: 31.5rem;
+  .w-sm-32-t {
+    width: 31.75rem;
   }
-  .b-sm-32-h {
-    bottom: 31.5rem;
+  .h-sm-32-t {
+    height: 31.75rem;
   }
-  .s-sm-32-h {
-    left: 31.5rem;
+  .maxw-sm-32-t {
+    max-width: 31.75rem;
   }
-  .e-sm-32-h {
-    right: 31.5rem;
+  .maxh-sm-32-t {
+    max-height: 31.75rem;
   }
-  .t-sm-n32-h {
-    top: -31.5rem;
+  .minw-sm-32-t {
+    min-width: 31.75rem;
   }
-  .b-sm-n32-h {
-    bottom: -31.5rem;
-  }
-  .s-sm-n32-h {
-    left: -31.5rem;
-  }
-  .e-sm-n32-h {
-    right: -31.5rem;
+  .minh-sm-32-t {
+    min-height: 31.75rem;
   }
   .w-sm-32-f {
     width: 32rem;
@@ -24915,29 +24427,23 @@ textarea.form-control-lg {
   .minh-sm-33-h {
     min-height: 32.5rem;
   }
-  .t-sm-33-h {
-    top: 32.5rem;
+  .w-sm-33-t {
+    width: 32.75rem;
   }
-  .b-sm-33-h {
-    bottom: 32.5rem;
+  .h-sm-33-t {
+    height: 32.75rem;
   }
-  .s-sm-33-h {
-    left: 32.5rem;
+  .maxw-sm-33-t {
+    max-width: 32.75rem;
   }
-  .e-sm-33-h {
-    right: 32.5rem;
+  .maxh-sm-33-t {
+    max-height: 32.75rem;
   }
-  .t-sm-n33-h {
-    top: -32.5rem;
+  .minw-sm-33-t {
+    min-width: 32.75rem;
   }
-  .b-sm-n33-h {
-    bottom: -32.5rem;
-  }
-  .s-sm-n33-h {
-    left: -32.5rem;
-  }
-  .e-sm-n33-h {
-    right: -32.5rem;
+  .minh-sm-33-t {
+    min-height: 32.75rem;
   }
   .w-sm-33-f {
     width: 33rem;
@@ -24999,29 +24505,23 @@ textarea.form-control-lg {
   .minh-sm-34-h {
     min-height: 33.5rem;
   }
-  .t-sm-34-h {
-    top: 33.5rem;
+  .w-sm-34-t {
+    width: 33.75rem;
   }
-  .b-sm-34-h {
-    bottom: 33.5rem;
+  .h-sm-34-t {
+    height: 33.75rem;
   }
-  .s-sm-34-h {
-    left: 33.5rem;
+  .maxw-sm-34-t {
+    max-width: 33.75rem;
   }
-  .e-sm-34-h {
-    right: 33.5rem;
+  .maxh-sm-34-t {
+    max-height: 33.75rem;
   }
-  .t-sm-n34-h {
-    top: -33.5rem;
+  .minw-sm-34-t {
+    min-width: 33.75rem;
   }
-  .b-sm-n34-h {
-    bottom: -33.5rem;
-  }
-  .s-sm-n34-h {
-    left: -33.5rem;
-  }
-  .e-sm-n34-h {
-    right: -33.5rem;
+  .minh-sm-34-t {
+    min-height: 33.75rem;
   }
   .w-sm-34-f {
     width: 34rem;
@@ -25083,29 +24583,23 @@ textarea.form-control-lg {
   .minh-sm-35-h {
     min-height: 34.5rem;
   }
-  .t-sm-35-h {
-    top: 34.5rem;
+  .w-sm-35-t {
+    width: 34.75rem;
   }
-  .b-sm-35-h {
-    bottom: 34.5rem;
+  .h-sm-35-t {
+    height: 34.75rem;
   }
-  .s-sm-35-h {
-    left: 34.5rem;
+  .maxw-sm-35-t {
+    max-width: 34.75rem;
   }
-  .e-sm-35-h {
-    right: 34.5rem;
+  .maxh-sm-35-t {
+    max-height: 34.75rem;
   }
-  .t-sm-n35-h {
-    top: -34.5rem;
+  .minw-sm-35-t {
+    min-width: 34.75rem;
   }
-  .b-sm-n35-h {
-    bottom: -34.5rem;
-  }
-  .s-sm-n35-h {
-    left: -34.5rem;
-  }
-  .e-sm-n35-h {
-    right: -34.5rem;
+  .minh-sm-35-t {
+    min-height: 34.75rem;
   }
   .w-sm-35-f {
     width: 35rem;
@@ -25167,29 +24661,23 @@ textarea.form-control-lg {
   .minh-sm-36-h {
     min-height: 35.5rem;
   }
-  .t-sm-36-h {
-    top: 35.5rem;
+  .w-sm-36-t {
+    width: 35.75rem;
   }
-  .b-sm-36-h {
-    bottom: 35.5rem;
+  .h-sm-36-t {
+    height: 35.75rem;
   }
-  .s-sm-36-h {
-    left: 35.5rem;
+  .maxw-sm-36-t {
+    max-width: 35.75rem;
   }
-  .e-sm-36-h {
-    right: 35.5rem;
+  .maxh-sm-36-t {
+    max-height: 35.75rem;
   }
-  .t-sm-n36-h {
-    top: -35.5rem;
+  .minw-sm-36-t {
+    min-width: 35.75rem;
   }
-  .b-sm-n36-h {
-    bottom: -35.5rem;
-  }
-  .s-sm-n36-h {
-    left: -35.5rem;
-  }
-  .e-sm-n36-h {
-    right: -35.5rem;
+  .minh-sm-36-t {
+    min-height: 35.75rem;
   }
   .w-sm-36-f {
     width: 36rem;
@@ -25251,29 +24739,23 @@ textarea.form-control-lg {
   .minh-sm-37-h {
     min-height: 36.5rem;
   }
-  .t-sm-37-h {
-    top: 36.5rem;
+  .w-sm-37-t {
+    width: 36.75rem;
   }
-  .b-sm-37-h {
-    bottom: 36.5rem;
+  .h-sm-37-t {
+    height: 36.75rem;
   }
-  .s-sm-37-h {
-    left: 36.5rem;
+  .maxw-sm-37-t {
+    max-width: 36.75rem;
   }
-  .e-sm-37-h {
-    right: 36.5rem;
+  .maxh-sm-37-t {
+    max-height: 36.75rem;
   }
-  .t-sm-n37-h {
-    top: -36.5rem;
+  .minw-sm-37-t {
+    min-width: 36.75rem;
   }
-  .b-sm-n37-h {
-    bottom: -36.5rem;
-  }
-  .s-sm-n37-h {
-    left: -36.5rem;
-  }
-  .e-sm-n37-h {
-    right: -36.5rem;
+  .minh-sm-37-t {
+    min-height: 36.75rem;
   }
   .w-sm-37-f {
     width: 37rem;
@@ -25335,29 +24817,23 @@ textarea.form-control-lg {
   .minh-sm-38-h {
     min-height: 37.5rem;
   }
-  .t-sm-38-h {
-    top: 37.5rem;
+  .w-sm-38-t {
+    width: 37.75rem;
   }
-  .b-sm-38-h {
-    bottom: 37.5rem;
+  .h-sm-38-t {
+    height: 37.75rem;
   }
-  .s-sm-38-h {
-    left: 37.5rem;
+  .maxw-sm-38-t {
+    max-width: 37.75rem;
   }
-  .e-sm-38-h {
-    right: 37.5rem;
+  .maxh-sm-38-t {
+    max-height: 37.75rem;
   }
-  .t-sm-n38-h {
-    top: -37.5rem;
+  .minw-sm-38-t {
+    min-width: 37.75rem;
   }
-  .b-sm-n38-h {
-    bottom: -37.5rem;
-  }
-  .s-sm-n38-h {
-    left: -37.5rem;
-  }
-  .e-sm-n38-h {
-    right: -37.5rem;
+  .minh-sm-38-t {
+    min-height: 37.75rem;
   }
   .w-sm-38-f {
     width: 38rem;
@@ -25419,29 +24895,23 @@ textarea.form-control-lg {
   .minh-sm-39-h {
     min-height: 38.5rem;
   }
-  .t-sm-39-h {
-    top: 38.5rem;
+  .w-sm-39-t {
+    width: 38.75rem;
   }
-  .b-sm-39-h {
-    bottom: 38.5rem;
+  .h-sm-39-t {
+    height: 38.75rem;
   }
-  .s-sm-39-h {
-    left: 38.5rem;
+  .maxw-sm-39-t {
+    max-width: 38.75rem;
   }
-  .e-sm-39-h {
-    right: 38.5rem;
+  .maxh-sm-39-t {
+    max-height: 38.75rem;
   }
-  .t-sm-n39-h {
-    top: -38.5rem;
+  .minw-sm-39-t {
+    min-width: 38.75rem;
   }
-  .b-sm-n39-h {
-    bottom: -38.5rem;
-  }
-  .s-sm-n39-h {
-    left: -38.5rem;
-  }
-  .e-sm-n39-h {
-    right: -38.5rem;
+  .minh-sm-39-t {
+    min-height: 38.75rem;
   }
   .w-sm-39-f {
     width: 39rem;
@@ -25503,29 +24973,23 @@ textarea.form-control-lg {
   .minh-sm-40-h {
     min-height: 39.5rem;
   }
-  .t-sm-40-h {
-    top: 39.5rem;
+  .w-sm-40-t {
+    width: 39.75rem;
   }
-  .b-sm-40-h {
-    bottom: 39.5rem;
+  .h-sm-40-t {
+    height: 39.75rem;
   }
-  .s-sm-40-h {
-    left: 39.5rem;
+  .maxw-sm-40-t {
+    max-width: 39.75rem;
   }
-  .e-sm-40-h {
-    right: 39.5rem;
+  .maxh-sm-40-t {
+    max-height: 39.75rem;
   }
-  .t-sm-n40-h {
-    top: -39.5rem;
+  .minw-sm-40-t {
+    min-width: 39.75rem;
   }
-  .b-sm-n40-h {
-    bottom: -39.5rem;
-  }
-  .s-sm-n40-h {
-    left: -39.5rem;
-  }
-  .e-sm-n40-h {
-    right: -39.5rem;
+  .minh-sm-40-t {
+    min-height: 39.75rem;
   }
   .w-sm-40-f {
     width: 40rem;
@@ -25598,6 +25062,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 3rem;
+    word-break: break-word;
   }
   .text-truncate-md-3 {
     display: block;
@@ -25612,6 +25079,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 4.5rem;
+    word-break: break-word;
   }
   .text-truncate-md-4 {
     display: block;
@@ -25626,6 +25096,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 6rem;
+    word-break: break-word;
   }
   .text-truncate-md-5 {
     display: block;
@@ -25640,6 +25113,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 7.5rem;
+    word-break: break-word;
   }
   .mdi-md-n2 {
     font-size: 0.25rem;
@@ -25776,29 +25252,23 @@ textarea.form-control-lg {
   .minh-md-1-h {
     min-height: 0.5rem;
   }
-  .t-md-1-h {
-    top: 0.5rem;
+  .w-md-1-t {
+    width: 0.75rem;
   }
-  .b-md-1-h {
-    bottom: 0.5rem;
+  .h-md-1-t {
+    height: 0.75rem;
   }
-  .s-md-1-h {
-    left: 0.5rem;
+  .maxw-md-1-t {
+    max-width: 0.75rem;
   }
-  .e-md-1-h {
-    right: 0.5rem;
+  .maxh-md-1-t {
+    max-height: 0.75rem;
   }
-  .t-md-n1-h {
-    top: -0.5rem;
+  .minw-md-1-t {
+    min-width: 0.75rem;
   }
-  .b-md-n1-h {
-    bottom: -0.5rem;
-  }
-  .s-md-n1-h {
-    left: -0.5rem;
-  }
-  .e-md-n1-h {
-    right: -0.5rem;
+  .minh-md-1-t {
+    min-height: 0.75rem;
   }
   .w-md-1-f {
     width: 1rem;
@@ -25860,29 +25330,23 @@ textarea.form-control-lg {
   .minh-md-2-h {
     min-height: 1.5rem;
   }
-  .t-md-2-h {
-    top: 1.5rem;
+  .w-md-2-t {
+    width: 1.75rem;
   }
-  .b-md-2-h {
-    bottom: 1.5rem;
+  .h-md-2-t {
+    height: 1.75rem;
   }
-  .s-md-2-h {
-    left: 1.5rem;
+  .maxw-md-2-t {
+    max-width: 1.75rem;
   }
-  .e-md-2-h {
-    right: 1.5rem;
+  .maxh-md-2-t {
+    max-height: 1.75rem;
   }
-  .t-md-n2-h {
-    top: -1.5rem;
+  .minw-md-2-t {
+    min-width: 1.75rem;
   }
-  .b-md-n2-h {
-    bottom: -1.5rem;
-  }
-  .s-md-n2-h {
-    left: -1.5rem;
-  }
-  .e-md-n2-h {
-    right: -1.5rem;
+  .minh-md-2-t {
+    min-height: 1.75rem;
   }
   .w-md-2-f {
     width: 2rem;
@@ -25944,29 +25408,23 @@ textarea.form-control-lg {
   .minh-md-3-h {
     min-height: 2.5rem;
   }
-  .t-md-3-h {
-    top: 2.5rem;
+  .w-md-3-t {
+    width: 2.75rem;
   }
-  .b-md-3-h {
-    bottom: 2.5rem;
+  .h-md-3-t {
+    height: 2.75rem;
   }
-  .s-md-3-h {
-    left: 2.5rem;
+  .maxw-md-3-t {
+    max-width: 2.75rem;
   }
-  .e-md-3-h {
-    right: 2.5rem;
+  .maxh-md-3-t {
+    max-height: 2.75rem;
   }
-  .t-md-n3-h {
-    top: -2.5rem;
+  .minw-md-3-t {
+    min-width: 2.75rem;
   }
-  .b-md-n3-h {
-    bottom: -2.5rem;
-  }
-  .s-md-n3-h {
-    left: -2.5rem;
-  }
-  .e-md-n3-h {
-    right: -2.5rem;
+  .minh-md-3-t {
+    min-height: 2.75rem;
   }
   .w-md-3-f {
     width: 3rem;
@@ -26028,29 +25486,23 @@ textarea.form-control-lg {
   .minh-md-4-h {
     min-height: 3.5rem;
   }
-  .t-md-4-h {
-    top: 3.5rem;
+  .w-md-4-t {
+    width: 3.75rem;
   }
-  .b-md-4-h {
-    bottom: 3.5rem;
+  .h-md-4-t {
+    height: 3.75rem;
   }
-  .s-md-4-h {
-    left: 3.5rem;
+  .maxw-md-4-t {
+    max-width: 3.75rem;
   }
-  .e-md-4-h {
-    right: 3.5rem;
+  .maxh-md-4-t {
+    max-height: 3.75rem;
   }
-  .t-md-n4-h {
-    top: -3.5rem;
+  .minw-md-4-t {
+    min-width: 3.75rem;
   }
-  .b-md-n4-h {
-    bottom: -3.5rem;
-  }
-  .s-md-n4-h {
-    left: -3.5rem;
-  }
-  .e-md-n4-h {
-    right: -3.5rem;
+  .minh-md-4-t {
+    min-height: 3.75rem;
   }
   .w-md-4-f {
     width: 4rem;
@@ -26112,29 +25564,23 @@ textarea.form-control-lg {
   .minh-md-5-h {
     min-height: 4.5rem;
   }
-  .t-md-5-h {
-    top: 4.5rem;
+  .w-md-5-t {
+    width: 4.75rem;
   }
-  .b-md-5-h {
-    bottom: 4.5rem;
+  .h-md-5-t {
+    height: 4.75rem;
   }
-  .s-md-5-h {
-    left: 4.5rem;
+  .maxw-md-5-t {
+    max-width: 4.75rem;
   }
-  .e-md-5-h {
-    right: 4.5rem;
+  .maxh-md-5-t {
+    max-height: 4.75rem;
   }
-  .t-md-n5-h {
-    top: -4.5rem;
+  .minw-md-5-t {
+    min-width: 4.75rem;
   }
-  .b-md-n5-h {
-    bottom: -4.5rem;
-  }
-  .s-md-n5-h {
-    left: -4.5rem;
-  }
-  .e-md-n5-h {
-    right: -4.5rem;
+  .minh-md-5-t {
+    min-height: 4.75rem;
   }
   .w-md-5-f {
     width: 5rem;
@@ -26196,29 +25642,23 @@ textarea.form-control-lg {
   .minh-md-6-h {
     min-height: 5.5rem;
   }
-  .t-md-6-h {
-    top: 5.5rem;
+  .w-md-6-t {
+    width: 5.75rem;
   }
-  .b-md-6-h {
-    bottom: 5.5rem;
+  .h-md-6-t {
+    height: 5.75rem;
   }
-  .s-md-6-h {
-    left: 5.5rem;
+  .maxw-md-6-t {
+    max-width: 5.75rem;
   }
-  .e-md-6-h {
-    right: 5.5rem;
+  .maxh-md-6-t {
+    max-height: 5.75rem;
   }
-  .t-md-n6-h {
-    top: -5.5rem;
+  .minw-md-6-t {
+    min-width: 5.75rem;
   }
-  .b-md-n6-h {
-    bottom: -5.5rem;
-  }
-  .s-md-n6-h {
-    left: -5.5rem;
-  }
-  .e-md-n6-h {
-    right: -5.5rem;
+  .minh-md-6-t {
+    min-height: 5.75rem;
   }
   .w-md-6-f {
     width: 6rem;
@@ -26280,29 +25720,23 @@ textarea.form-control-lg {
   .minh-md-7-h {
     min-height: 6.5rem;
   }
-  .t-md-7-h {
-    top: 6.5rem;
+  .w-md-7-t {
+    width: 6.75rem;
   }
-  .b-md-7-h {
-    bottom: 6.5rem;
+  .h-md-7-t {
+    height: 6.75rem;
   }
-  .s-md-7-h {
-    left: 6.5rem;
+  .maxw-md-7-t {
+    max-width: 6.75rem;
   }
-  .e-md-7-h {
-    right: 6.5rem;
+  .maxh-md-7-t {
+    max-height: 6.75rem;
   }
-  .t-md-n7-h {
-    top: -6.5rem;
+  .minw-md-7-t {
+    min-width: 6.75rem;
   }
-  .b-md-n7-h {
-    bottom: -6.5rem;
-  }
-  .s-md-n7-h {
-    left: -6.5rem;
-  }
-  .e-md-n7-h {
-    right: -6.5rem;
+  .minh-md-7-t {
+    min-height: 6.75rem;
   }
   .w-md-7-f {
     width: 7rem;
@@ -26364,29 +25798,23 @@ textarea.form-control-lg {
   .minh-md-8-h {
     min-height: 7.5rem;
   }
-  .t-md-8-h {
-    top: 7.5rem;
+  .w-md-8-t {
+    width: 7.75rem;
   }
-  .b-md-8-h {
-    bottom: 7.5rem;
+  .h-md-8-t {
+    height: 7.75rem;
   }
-  .s-md-8-h {
-    left: 7.5rem;
+  .maxw-md-8-t {
+    max-width: 7.75rem;
   }
-  .e-md-8-h {
-    right: 7.5rem;
+  .maxh-md-8-t {
+    max-height: 7.75rem;
   }
-  .t-md-n8-h {
-    top: -7.5rem;
+  .minw-md-8-t {
+    min-width: 7.75rem;
   }
-  .b-md-n8-h {
-    bottom: -7.5rem;
-  }
-  .s-md-n8-h {
-    left: -7.5rem;
-  }
-  .e-md-n8-h {
-    right: -7.5rem;
+  .minh-md-8-t {
+    min-height: 7.75rem;
   }
   .w-md-8-f {
     width: 8rem;
@@ -26448,29 +25876,23 @@ textarea.form-control-lg {
   .minh-md-9-h {
     min-height: 8.5rem;
   }
-  .t-md-9-h {
-    top: 8.5rem;
+  .w-md-9-t {
+    width: 8.75rem;
   }
-  .b-md-9-h {
-    bottom: 8.5rem;
+  .h-md-9-t {
+    height: 8.75rem;
   }
-  .s-md-9-h {
-    left: 8.5rem;
+  .maxw-md-9-t {
+    max-width: 8.75rem;
   }
-  .e-md-9-h {
-    right: 8.5rem;
+  .maxh-md-9-t {
+    max-height: 8.75rem;
   }
-  .t-md-n9-h {
-    top: -8.5rem;
+  .minw-md-9-t {
+    min-width: 8.75rem;
   }
-  .b-md-n9-h {
-    bottom: -8.5rem;
-  }
-  .s-md-n9-h {
-    left: -8.5rem;
-  }
-  .e-md-n9-h {
-    right: -8.5rem;
+  .minh-md-9-t {
+    min-height: 8.75rem;
   }
   .w-md-9-f {
     width: 9rem;
@@ -26532,29 +25954,23 @@ textarea.form-control-lg {
   .minh-md-10-h {
     min-height: 9.5rem;
   }
-  .t-md-10-h {
-    top: 9.5rem;
+  .w-md-10-t {
+    width: 9.75rem;
   }
-  .b-md-10-h {
-    bottom: 9.5rem;
+  .h-md-10-t {
+    height: 9.75rem;
   }
-  .s-md-10-h {
-    left: 9.5rem;
+  .maxw-md-10-t {
+    max-width: 9.75rem;
   }
-  .e-md-10-h {
-    right: 9.5rem;
+  .maxh-md-10-t {
+    max-height: 9.75rem;
   }
-  .t-md-n10-h {
-    top: -9.5rem;
+  .minw-md-10-t {
+    min-width: 9.75rem;
   }
-  .b-md-n10-h {
-    bottom: -9.5rem;
-  }
-  .s-md-n10-h {
-    left: -9.5rem;
-  }
-  .e-md-n10-h {
-    right: -9.5rem;
+  .minh-md-10-t {
+    min-height: 9.75rem;
   }
   .w-md-10-f {
     width: 10rem;
@@ -26616,29 +26032,23 @@ textarea.form-control-lg {
   .minh-md-11-h {
     min-height: 10.5rem;
   }
-  .t-md-11-h {
-    top: 10.5rem;
+  .w-md-11-t {
+    width: 10.75rem;
   }
-  .b-md-11-h {
-    bottom: 10.5rem;
+  .h-md-11-t {
+    height: 10.75rem;
   }
-  .s-md-11-h {
-    left: 10.5rem;
+  .maxw-md-11-t {
+    max-width: 10.75rem;
   }
-  .e-md-11-h {
-    right: 10.5rem;
+  .maxh-md-11-t {
+    max-height: 10.75rem;
   }
-  .t-md-n11-h {
-    top: -10.5rem;
+  .minw-md-11-t {
+    min-width: 10.75rem;
   }
-  .b-md-n11-h {
-    bottom: -10.5rem;
-  }
-  .s-md-n11-h {
-    left: -10.5rem;
-  }
-  .e-md-n11-h {
-    right: -10.5rem;
+  .minh-md-11-t {
+    min-height: 10.75rem;
   }
   .w-md-11-f {
     width: 11rem;
@@ -26700,29 +26110,23 @@ textarea.form-control-lg {
   .minh-md-12-h {
     min-height: 11.5rem;
   }
-  .t-md-12-h {
-    top: 11.5rem;
+  .w-md-12-t {
+    width: 11.75rem;
   }
-  .b-md-12-h {
-    bottom: 11.5rem;
+  .h-md-12-t {
+    height: 11.75rem;
   }
-  .s-md-12-h {
-    left: 11.5rem;
+  .maxw-md-12-t {
+    max-width: 11.75rem;
   }
-  .e-md-12-h {
-    right: 11.5rem;
+  .maxh-md-12-t {
+    max-height: 11.75rem;
   }
-  .t-md-n12-h {
-    top: -11.5rem;
+  .minw-md-12-t {
+    min-width: 11.75rem;
   }
-  .b-md-n12-h {
-    bottom: -11.5rem;
-  }
-  .s-md-n12-h {
-    left: -11.5rem;
-  }
-  .e-md-n12-h {
-    right: -11.5rem;
+  .minh-md-12-t {
+    min-height: 11.75rem;
   }
   .w-md-12-f {
     width: 12rem;
@@ -26784,29 +26188,23 @@ textarea.form-control-lg {
   .minh-md-13-h {
     min-height: 12.5rem;
   }
-  .t-md-13-h {
-    top: 12.5rem;
+  .w-md-13-t {
+    width: 12.75rem;
   }
-  .b-md-13-h {
-    bottom: 12.5rem;
+  .h-md-13-t {
+    height: 12.75rem;
   }
-  .s-md-13-h {
-    left: 12.5rem;
+  .maxw-md-13-t {
+    max-width: 12.75rem;
   }
-  .e-md-13-h {
-    right: 12.5rem;
+  .maxh-md-13-t {
+    max-height: 12.75rem;
   }
-  .t-md-n13-h {
-    top: -12.5rem;
+  .minw-md-13-t {
+    min-width: 12.75rem;
   }
-  .b-md-n13-h {
-    bottom: -12.5rem;
-  }
-  .s-md-n13-h {
-    left: -12.5rem;
-  }
-  .e-md-n13-h {
-    right: -12.5rem;
+  .minh-md-13-t {
+    min-height: 12.75rem;
   }
   .w-md-13-f {
     width: 13rem;
@@ -26868,29 +26266,23 @@ textarea.form-control-lg {
   .minh-md-14-h {
     min-height: 13.5rem;
   }
-  .t-md-14-h {
-    top: 13.5rem;
+  .w-md-14-t {
+    width: 13.75rem;
   }
-  .b-md-14-h {
-    bottom: 13.5rem;
+  .h-md-14-t {
+    height: 13.75rem;
   }
-  .s-md-14-h {
-    left: 13.5rem;
+  .maxw-md-14-t {
+    max-width: 13.75rem;
   }
-  .e-md-14-h {
-    right: 13.5rem;
+  .maxh-md-14-t {
+    max-height: 13.75rem;
   }
-  .t-md-n14-h {
-    top: -13.5rem;
+  .minw-md-14-t {
+    min-width: 13.75rem;
   }
-  .b-md-n14-h {
-    bottom: -13.5rem;
-  }
-  .s-md-n14-h {
-    left: -13.5rem;
-  }
-  .e-md-n14-h {
-    right: -13.5rem;
+  .minh-md-14-t {
+    min-height: 13.75rem;
   }
   .w-md-14-f {
     width: 14rem;
@@ -26952,29 +26344,23 @@ textarea.form-control-lg {
   .minh-md-15-h {
     min-height: 14.5rem;
   }
-  .t-md-15-h {
-    top: 14.5rem;
+  .w-md-15-t {
+    width: 14.75rem;
   }
-  .b-md-15-h {
-    bottom: 14.5rem;
+  .h-md-15-t {
+    height: 14.75rem;
   }
-  .s-md-15-h {
-    left: 14.5rem;
+  .maxw-md-15-t {
+    max-width: 14.75rem;
   }
-  .e-md-15-h {
-    right: 14.5rem;
+  .maxh-md-15-t {
+    max-height: 14.75rem;
   }
-  .t-md-n15-h {
-    top: -14.5rem;
+  .minw-md-15-t {
+    min-width: 14.75rem;
   }
-  .b-md-n15-h {
-    bottom: -14.5rem;
-  }
-  .s-md-n15-h {
-    left: -14.5rem;
-  }
-  .e-md-n15-h {
-    right: -14.5rem;
+  .minh-md-15-t {
+    min-height: 14.75rem;
   }
   .w-md-15-f {
     width: 15rem;
@@ -27036,29 +26422,23 @@ textarea.form-control-lg {
   .minh-md-16-h {
     min-height: 15.5rem;
   }
-  .t-md-16-h {
-    top: 15.5rem;
+  .w-md-16-t {
+    width: 15.75rem;
   }
-  .b-md-16-h {
-    bottom: 15.5rem;
+  .h-md-16-t {
+    height: 15.75rem;
   }
-  .s-md-16-h {
-    left: 15.5rem;
+  .maxw-md-16-t {
+    max-width: 15.75rem;
   }
-  .e-md-16-h {
-    right: 15.5rem;
+  .maxh-md-16-t {
+    max-height: 15.75rem;
   }
-  .t-md-n16-h {
-    top: -15.5rem;
+  .minw-md-16-t {
+    min-width: 15.75rem;
   }
-  .b-md-n16-h {
-    bottom: -15.5rem;
-  }
-  .s-md-n16-h {
-    left: -15.5rem;
-  }
-  .e-md-n16-h {
-    right: -15.5rem;
+  .minh-md-16-t {
+    min-height: 15.75rem;
   }
   .w-md-16-f {
     width: 16rem;
@@ -27120,29 +26500,23 @@ textarea.form-control-lg {
   .minh-md-17-h {
     min-height: 16.5rem;
   }
-  .t-md-17-h {
-    top: 16.5rem;
+  .w-md-17-t {
+    width: 16.75rem;
   }
-  .b-md-17-h {
-    bottom: 16.5rem;
+  .h-md-17-t {
+    height: 16.75rem;
   }
-  .s-md-17-h {
-    left: 16.5rem;
+  .maxw-md-17-t {
+    max-width: 16.75rem;
   }
-  .e-md-17-h {
-    right: 16.5rem;
+  .maxh-md-17-t {
+    max-height: 16.75rem;
   }
-  .t-md-n17-h {
-    top: -16.5rem;
+  .minw-md-17-t {
+    min-width: 16.75rem;
   }
-  .b-md-n17-h {
-    bottom: -16.5rem;
-  }
-  .s-md-n17-h {
-    left: -16.5rem;
-  }
-  .e-md-n17-h {
-    right: -16.5rem;
+  .minh-md-17-t {
+    min-height: 16.75rem;
   }
   .w-md-17-f {
     width: 17rem;
@@ -27204,29 +26578,23 @@ textarea.form-control-lg {
   .minh-md-18-h {
     min-height: 17.5rem;
   }
-  .t-md-18-h {
-    top: 17.5rem;
+  .w-md-18-t {
+    width: 17.75rem;
   }
-  .b-md-18-h {
-    bottom: 17.5rem;
+  .h-md-18-t {
+    height: 17.75rem;
   }
-  .s-md-18-h {
-    left: 17.5rem;
+  .maxw-md-18-t {
+    max-width: 17.75rem;
   }
-  .e-md-18-h {
-    right: 17.5rem;
+  .maxh-md-18-t {
+    max-height: 17.75rem;
   }
-  .t-md-n18-h {
-    top: -17.5rem;
+  .minw-md-18-t {
+    min-width: 17.75rem;
   }
-  .b-md-n18-h {
-    bottom: -17.5rem;
-  }
-  .s-md-n18-h {
-    left: -17.5rem;
-  }
-  .e-md-n18-h {
-    right: -17.5rem;
+  .minh-md-18-t {
+    min-height: 17.75rem;
   }
   .w-md-18-f {
     width: 18rem;
@@ -27288,29 +26656,23 @@ textarea.form-control-lg {
   .minh-md-19-h {
     min-height: 18.5rem;
   }
-  .t-md-19-h {
-    top: 18.5rem;
+  .w-md-19-t {
+    width: 18.75rem;
   }
-  .b-md-19-h {
-    bottom: 18.5rem;
+  .h-md-19-t {
+    height: 18.75rem;
   }
-  .s-md-19-h {
-    left: 18.5rem;
+  .maxw-md-19-t {
+    max-width: 18.75rem;
   }
-  .e-md-19-h {
-    right: 18.5rem;
+  .maxh-md-19-t {
+    max-height: 18.75rem;
   }
-  .t-md-n19-h {
-    top: -18.5rem;
+  .minw-md-19-t {
+    min-width: 18.75rem;
   }
-  .b-md-n19-h {
-    bottom: -18.5rem;
-  }
-  .s-md-n19-h {
-    left: -18.5rem;
-  }
-  .e-md-n19-h {
-    right: -18.5rem;
+  .minh-md-19-t {
+    min-height: 18.75rem;
   }
   .w-md-19-f {
     width: 19rem;
@@ -27372,29 +26734,23 @@ textarea.form-control-lg {
   .minh-md-20-h {
     min-height: 19.5rem;
   }
-  .t-md-20-h {
-    top: 19.5rem;
+  .w-md-20-t {
+    width: 19.75rem;
   }
-  .b-md-20-h {
-    bottom: 19.5rem;
+  .h-md-20-t {
+    height: 19.75rem;
   }
-  .s-md-20-h {
-    left: 19.5rem;
+  .maxw-md-20-t {
+    max-width: 19.75rem;
   }
-  .e-md-20-h {
-    right: 19.5rem;
+  .maxh-md-20-t {
+    max-height: 19.75rem;
   }
-  .t-md-n20-h {
-    top: -19.5rem;
+  .minw-md-20-t {
+    min-width: 19.75rem;
   }
-  .b-md-n20-h {
-    bottom: -19.5rem;
-  }
-  .s-md-n20-h {
-    left: -19.5rem;
-  }
-  .e-md-n20-h {
-    right: -19.5rem;
+  .minh-md-20-t {
+    min-height: 19.75rem;
   }
   .w-md-20-f {
     width: 20rem;
@@ -27456,29 +26812,23 @@ textarea.form-control-lg {
   .minh-md-21-h {
     min-height: 20.5rem;
   }
-  .t-md-21-h {
-    top: 20.5rem;
+  .w-md-21-t {
+    width: 20.75rem;
   }
-  .b-md-21-h {
-    bottom: 20.5rem;
+  .h-md-21-t {
+    height: 20.75rem;
   }
-  .s-md-21-h {
-    left: 20.5rem;
+  .maxw-md-21-t {
+    max-width: 20.75rem;
   }
-  .e-md-21-h {
-    right: 20.5rem;
+  .maxh-md-21-t {
+    max-height: 20.75rem;
   }
-  .t-md-n21-h {
-    top: -20.5rem;
+  .minw-md-21-t {
+    min-width: 20.75rem;
   }
-  .b-md-n21-h {
-    bottom: -20.5rem;
-  }
-  .s-md-n21-h {
-    left: -20.5rem;
-  }
-  .e-md-n21-h {
-    right: -20.5rem;
+  .minh-md-21-t {
+    min-height: 20.75rem;
   }
   .w-md-21-f {
     width: 21rem;
@@ -27540,29 +26890,23 @@ textarea.form-control-lg {
   .minh-md-22-h {
     min-height: 21.5rem;
   }
-  .t-md-22-h {
-    top: 21.5rem;
+  .w-md-22-t {
+    width: 21.75rem;
   }
-  .b-md-22-h {
-    bottom: 21.5rem;
+  .h-md-22-t {
+    height: 21.75rem;
   }
-  .s-md-22-h {
-    left: 21.5rem;
+  .maxw-md-22-t {
+    max-width: 21.75rem;
   }
-  .e-md-22-h {
-    right: 21.5rem;
+  .maxh-md-22-t {
+    max-height: 21.75rem;
   }
-  .t-md-n22-h {
-    top: -21.5rem;
+  .minw-md-22-t {
+    min-width: 21.75rem;
   }
-  .b-md-n22-h {
-    bottom: -21.5rem;
-  }
-  .s-md-n22-h {
-    left: -21.5rem;
-  }
-  .e-md-n22-h {
-    right: -21.5rem;
+  .minh-md-22-t {
+    min-height: 21.75rem;
   }
   .w-md-22-f {
     width: 22rem;
@@ -27624,29 +26968,23 @@ textarea.form-control-lg {
   .minh-md-23-h {
     min-height: 22.5rem;
   }
-  .t-md-23-h {
-    top: 22.5rem;
+  .w-md-23-t {
+    width: 22.75rem;
   }
-  .b-md-23-h {
-    bottom: 22.5rem;
+  .h-md-23-t {
+    height: 22.75rem;
   }
-  .s-md-23-h {
-    left: 22.5rem;
+  .maxw-md-23-t {
+    max-width: 22.75rem;
   }
-  .e-md-23-h {
-    right: 22.5rem;
+  .maxh-md-23-t {
+    max-height: 22.75rem;
   }
-  .t-md-n23-h {
-    top: -22.5rem;
+  .minw-md-23-t {
+    min-width: 22.75rem;
   }
-  .b-md-n23-h {
-    bottom: -22.5rem;
-  }
-  .s-md-n23-h {
-    left: -22.5rem;
-  }
-  .e-md-n23-h {
-    right: -22.5rem;
+  .minh-md-23-t {
+    min-height: 22.75rem;
   }
   .w-md-23-f {
     width: 23rem;
@@ -27708,29 +27046,23 @@ textarea.form-control-lg {
   .minh-md-24-h {
     min-height: 23.5rem;
   }
-  .t-md-24-h {
-    top: 23.5rem;
+  .w-md-24-t {
+    width: 23.75rem;
   }
-  .b-md-24-h {
-    bottom: 23.5rem;
+  .h-md-24-t {
+    height: 23.75rem;
   }
-  .s-md-24-h {
-    left: 23.5rem;
+  .maxw-md-24-t {
+    max-width: 23.75rem;
   }
-  .e-md-24-h {
-    right: 23.5rem;
+  .maxh-md-24-t {
+    max-height: 23.75rem;
   }
-  .t-md-n24-h {
-    top: -23.5rem;
+  .minw-md-24-t {
+    min-width: 23.75rem;
   }
-  .b-md-n24-h {
-    bottom: -23.5rem;
-  }
-  .s-md-n24-h {
-    left: -23.5rem;
-  }
-  .e-md-n24-h {
-    right: -23.5rem;
+  .minh-md-24-t {
+    min-height: 23.75rem;
   }
   .w-md-24-f {
     width: 24rem;
@@ -27792,29 +27124,23 @@ textarea.form-control-lg {
   .minh-md-25-h {
     min-height: 24.5rem;
   }
-  .t-md-25-h {
-    top: 24.5rem;
+  .w-md-25-t {
+    width: 24.75rem;
   }
-  .b-md-25-h {
-    bottom: 24.5rem;
+  .h-md-25-t {
+    height: 24.75rem;
   }
-  .s-md-25-h {
-    left: 24.5rem;
+  .maxw-md-25-t {
+    max-width: 24.75rem;
   }
-  .e-md-25-h {
-    right: 24.5rem;
+  .maxh-md-25-t {
+    max-height: 24.75rem;
   }
-  .t-md-n25-h {
-    top: -24.5rem;
+  .minw-md-25-t {
+    min-width: 24.75rem;
   }
-  .b-md-n25-h {
-    bottom: -24.5rem;
-  }
-  .s-md-n25-h {
-    left: -24.5rem;
-  }
-  .e-md-n25-h {
-    right: -24.5rem;
+  .minh-md-25-t {
+    min-height: 24.75rem;
   }
   .w-md-25-f {
     width: 25rem;
@@ -27876,29 +27202,23 @@ textarea.form-control-lg {
   .minh-md-26-h {
     min-height: 25.5rem;
   }
-  .t-md-26-h {
-    top: 25.5rem;
+  .w-md-26-t {
+    width: 25.75rem;
   }
-  .b-md-26-h {
-    bottom: 25.5rem;
+  .h-md-26-t {
+    height: 25.75rem;
   }
-  .s-md-26-h {
-    left: 25.5rem;
+  .maxw-md-26-t {
+    max-width: 25.75rem;
   }
-  .e-md-26-h {
-    right: 25.5rem;
+  .maxh-md-26-t {
+    max-height: 25.75rem;
   }
-  .t-md-n26-h {
-    top: -25.5rem;
+  .minw-md-26-t {
+    min-width: 25.75rem;
   }
-  .b-md-n26-h {
-    bottom: -25.5rem;
-  }
-  .s-md-n26-h {
-    left: -25.5rem;
-  }
-  .e-md-n26-h {
-    right: -25.5rem;
+  .minh-md-26-t {
+    min-height: 25.75rem;
   }
   .w-md-26-f {
     width: 26rem;
@@ -27960,29 +27280,23 @@ textarea.form-control-lg {
   .minh-md-27-h {
     min-height: 26.5rem;
   }
-  .t-md-27-h {
-    top: 26.5rem;
+  .w-md-27-t {
+    width: 26.75rem;
   }
-  .b-md-27-h {
-    bottom: 26.5rem;
+  .h-md-27-t {
+    height: 26.75rem;
   }
-  .s-md-27-h {
-    left: 26.5rem;
+  .maxw-md-27-t {
+    max-width: 26.75rem;
   }
-  .e-md-27-h {
-    right: 26.5rem;
+  .maxh-md-27-t {
+    max-height: 26.75rem;
   }
-  .t-md-n27-h {
-    top: -26.5rem;
+  .minw-md-27-t {
+    min-width: 26.75rem;
   }
-  .b-md-n27-h {
-    bottom: -26.5rem;
-  }
-  .s-md-n27-h {
-    left: -26.5rem;
-  }
-  .e-md-n27-h {
-    right: -26.5rem;
+  .minh-md-27-t {
+    min-height: 26.75rem;
   }
   .w-md-27-f {
     width: 27rem;
@@ -28044,29 +27358,23 @@ textarea.form-control-lg {
   .minh-md-28-h {
     min-height: 27.5rem;
   }
-  .t-md-28-h {
-    top: 27.5rem;
+  .w-md-28-t {
+    width: 27.75rem;
   }
-  .b-md-28-h {
-    bottom: 27.5rem;
+  .h-md-28-t {
+    height: 27.75rem;
   }
-  .s-md-28-h {
-    left: 27.5rem;
+  .maxw-md-28-t {
+    max-width: 27.75rem;
   }
-  .e-md-28-h {
-    right: 27.5rem;
+  .maxh-md-28-t {
+    max-height: 27.75rem;
   }
-  .t-md-n28-h {
-    top: -27.5rem;
+  .minw-md-28-t {
+    min-width: 27.75rem;
   }
-  .b-md-n28-h {
-    bottom: -27.5rem;
-  }
-  .s-md-n28-h {
-    left: -27.5rem;
-  }
-  .e-md-n28-h {
-    right: -27.5rem;
+  .minh-md-28-t {
+    min-height: 27.75rem;
   }
   .w-md-28-f {
     width: 28rem;
@@ -28128,29 +27436,23 @@ textarea.form-control-lg {
   .minh-md-29-h {
     min-height: 28.5rem;
   }
-  .t-md-29-h {
-    top: 28.5rem;
+  .w-md-29-t {
+    width: 28.75rem;
   }
-  .b-md-29-h {
-    bottom: 28.5rem;
+  .h-md-29-t {
+    height: 28.75rem;
   }
-  .s-md-29-h {
-    left: 28.5rem;
+  .maxw-md-29-t {
+    max-width: 28.75rem;
   }
-  .e-md-29-h {
-    right: 28.5rem;
+  .maxh-md-29-t {
+    max-height: 28.75rem;
   }
-  .t-md-n29-h {
-    top: -28.5rem;
+  .minw-md-29-t {
+    min-width: 28.75rem;
   }
-  .b-md-n29-h {
-    bottom: -28.5rem;
-  }
-  .s-md-n29-h {
-    left: -28.5rem;
-  }
-  .e-md-n29-h {
-    right: -28.5rem;
+  .minh-md-29-t {
+    min-height: 28.75rem;
   }
   .w-md-29-f {
     width: 29rem;
@@ -28212,29 +27514,23 @@ textarea.form-control-lg {
   .minh-md-30-h {
     min-height: 29.5rem;
   }
-  .t-md-30-h {
-    top: 29.5rem;
+  .w-md-30-t {
+    width: 29.75rem;
   }
-  .b-md-30-h {
-    bottom: 29.5rem;
+  .h-md-30-t {
+    height: 29.75rem;
   }
-  .s-md-30-h {
-    left: 29.5rem;
+  .maxw-md-30-t {
+    max-width: 29.75rem;
   }
-  .e-md-30-h {
-    right: 29.5rem;
+  .maxh-md-30-t {
+    max-height: 29.75rem;
   }
-  .t-md-n30-h {
-    top: -29.5rem;
+  .minw-md-30-t {
+    min-width: 29.75rem;
   }
-  .b-md-n30-h {
-    bottom: -29.5rem;
-  }
-  .s-md-n30-h {
-    left: -29.5rem;
-  }
-  .e-md-n30-h {
-    right: -29.5rem;
+  .minh-md-30-t {
+    min-height: 29.75rem;
   }
   .w-md-30-f {
     width: 30rem;
@@ -28296,29 +27592,23 @@ textarea.form-control-lg {
   .minh-md-31-h {
     min-height: 30.5rem;
   }
-  .t-md-31-h {
-    top: 30.5rem;
+  .w-md-31-t {
+    width: 30.75rem;
   }
-  .b-md-31-h {
-    bottom: 30.5rem;
+  .h-md-31-t {
+    height: 30.75rem;
   }
-  .s-md-31-h {
-    left: 30.5rem;
+  .maxw-md-31-t {
+    max-width: 30.75rem;
   }
-  .e-md-31-h {
-    right: 30.5rem;
+  .maxh-md-31-t {
+    max-height: 30.75rem;
   }
-  .t-md-n31-h {
-    top: -30.5rem;
+  .minw-md-31-t {
+    min-width: 30.75rem;
   }
-  .b-md-n31-h {
-    bottom: -30.5rem;
-  }
-  .s-md-n31-h {
-    left: -30.5rem;
-  }
-  .e-md-n31-h {
-    right: -30.5rem;
+  .minh-md-31-t {
+    min-height: 30.75rem;
   }
   .w-md-31-f {
     width: 31rem;
@@ -28380,29 +27670,23 @@ textarea.form-control-lg {
   .minh-md-32-h {
     min-height: 31.5rem;
   }
-  .t-md-32-h {
-    top: 31.5rem;
+  .w-md-32-t {
+    width: 31.75rem;
   }
-  .b-md-32-h {
-    bottom: 31.5rem;
+  .h-md-32-t {
+    height: 31.75rem;
   }
-  .s-md-32-h {
-    left: 31.5rem;
+  .maxw-md-32-t {
+    max-width: 31.75rem;
   }
-  .e-md-32-h {
-    right: 31.5rem;
+  .maxh-md-32-t {
+    max-height: 31.75rem;
   }
-  .t-md-n32-h {
-    top: -31.5rem;
+  .minw-md-32-t {
+    min-width: 31.75rem;
   }
-  .b-md-n32-h {
-    bottom: -31.5rem;
-  }
-  .s-md-n32-h {
-    left: -31.5rem;
-  }
-  .e-md-n32-h {
-    right: -31.5rem;
+  .minh-md-32-t {
+    min-height: 31.75rem;
   }
   .w-md-32-f {
     width: 32rem;
@@ -28464,29 +27748,23 @@ textarea.form-control-lg {
   .minh-md-33-h {
     min-height: 32.5rem;
   }
-  .t-md-33-h {
-    top: 32.5rem;
+  .w-md-33-t {
+    width: 32.75rem;
   }
-  .b-md-33-h {
-    bottom: 32.5rem;
+  .h-md-33-t {
+    height: 32.75rem;
   }
-  .s-md-33-h {
-    left: 32.5rem;
+  .maxw-md-33-t {
+    max-width: 32.75rem;
   }
-  .e-md-33-h {
-    right: 32.5rem;
+  .maxh-md-33-t {
+    max-height: 32.75rem;
   }
-  .t-md-n33-h {
-    top: -32.5rem;
+  .minw-md-33-t {
+    min-width: 32.75rem;
   }
-  .b-md-n33-h {
-    bottom: -32.5rem;
-  }
-  .s-md-n33-h {
-    left: -32.5rem;
-  }
-  .e-md-n33-h {
-    right: -32.5rem;
+  .minh-md-33-t {
+    min-height: 32.75rem;
   }
   .w-md-33-f {
     width: 33rem;
@@ -28548,29 +27826,23 @@ textarea.form-control-lg {
   .minh-md-34-h {
     min-height: 33.5rem;
   }
-  .t-md-34-h {
-    top: 33.5rem;
+  .w-md-34-t {
+    width: 33.75rem;
   }
-  .b-md-34-h {
-    bottom: 33.5rem;
+  .h-md-34-t {
+    height: 33.75rem;
   }
-  .s-md-34-h {
-    left: 33.5rem;
+  .maxw-md-34-t {
+    max-width: 33.75rem;
   }
-  .e-md-34-h {
-    right: 33.5rem;
+  .maxh-md-34-t {
+    max-height: 33.75rem;
   }
-  .t-md-n34-h {
-    top: -33.5rem;
+  .minw-md-34-t {
+    min-width: 33.75rem;
   }
-  .b-md-n34-h {
-    bottom: -33.5rem;
-  }
-  .s-md-n34-h {
-    left: -33.5rem;
-  }
-  .e-md-n34-h {
-    right: -33.5rem;
+  .minh-md-34-t {
+    min-height: 33.75rem;
   }
   .w-md-34-f {
     width: 34rem;
@@ -28632,29 +27904,23 @@ textarea.form-control-lg {
   .minh-md-35-h {
     min-height: 34.5rem;
   }
-  .t-md-35-h {
-    top: 34.5rem;
+  .w-md-35-t {
+    width: 34.75rem;
   }
-  .b-md-35-h {
-    bottom: 34.5rem;
+  .h-md-35-t {
+    height: 34.75rem;
   }
-  .s-md-35-h {
-    left: 34.5rem;
+  .maxw-md-35-t {
+    max-width: 34.75rem;
   }
-  .e-md-35-h {
-    right: 34.5rem;
+  .maxh-md-35-t {
+    max-height: 34.75rem;
   }
-  .t-md-n35-h {
-    top: -34.5rem;
+  .minw-md-35-t {
+    min-width: 34.75rem;
   }
-  .b-md-n35-h {
-    bottom: -34.5rem;
-  }
-  .s-md-n35-h {
-    left: -34.5rem;
-  }
-  .e-md-n35-h {
-    right: -34.5rem;
+  .minh-md-35-t {
+    min-height: 34.75rem;
   }
   .w-md-35-f {
     width: 35rem;
@@ -28716,29 +27982,23 @@ textarea.form-control-lg {
   .minh-md-36-h {
     min-height: 35.5rem;
   }
-  .t-md-36-h {
-    top: 35.5rem;
+  .w-md-36-t {
+    width: 35.75rem;
   }
-  .b-md-36-h {
-    bottom: 35.5rem;
+  .h-md-36-t {
+    height: 35.75rem;
   }
-  .s-md-36-h {
-    left: 35.5rem;
+  .maxw-md-36-t {
+    max-width: 35.75rem;
   }
-  .e-md-36-h {
-    right: 35.5rem;
+  .maxh-md-36-t {
+    max-height: 35.75rem;
   }
-  .t-md-n36-h {
-    top: -35.5rem;
+  .minw-md-36-t {
+    min-width: 35.75rem;
   }
-  .b-md-n36-h {
-    bottom: -35.5rem;
-  }
-  .s-md-n36-h {
-    left: -35.5rem;
-  }
-  .e-md-n36-h {
-    right: -35.5rem;
+  .minh-md-36-t {
+    min-height: 35.75rem;
   }
   .w-md-36-f {
     width: 36rem;
@@ -28800,29 +28060,23 @@ textarea.form-control-lg {
   .minh-md-37-h {
     min-height: 36.5rem;
   }
-  .t-md-37-h {
-    top: 36.5rem;
+  .w-md-37-t {
+    width: 36.75rem;
   }
-  .b-md-37-h {
-    bottom: 36.5rem;
+  .h-md-37-t {
+    height: 36.75rem;
   }
-  .s-md-37-h {
-    left: 36.5rem;
+  .maxw-md-37-t {
+    max-width: 36.75rem;
   }
-  .e-md-37-h {
-    right: 36.5rem;
+  .maxh-md-37-t {
+    max-height: 36.75rem;
   }
-  .t-md-n37-h {
-    top: -36.5rem;
+  .minw-md-37-t {
+    min-width: 36.75rem;
   }
-  .b-md-n37-h {
-    bottom: -36.5rem;
-  }
-  .s-md-n37-h {
-    left: -36.5rem;
-  }
-  .e-md-n37-h {
-    right: -36.5rem;
+  .minh-md-37-t {
+    min-height: 36.75rem;
   }
   .w-md-37-f {
     width: 37rem;
@@ -28884,29 +28138,23 @@ textarea.form-control-lg {
   .minh-md-38-h {
     min-height: 37.5rem;
   }
-  .t-md-38-h {
-    top: 37.5rem;
+  .w-md-38-t {
+    width: 37.75rem;
   }
-  .b-md-38-h {
-    bottom: 37.5rem;
+  .h-md-38-t {
+    height: 37.75rem;
   }
-  .s-md-38-h {
-    left: 37.5rem;
+  .maxw-md-38-t {
+    max-width: 37.75rem;
   }
-  .e-md-38-h {
-    right: 37.5rem;
+  .maxh-md-38-t {
+    max-height: 37.75rem;
   }
-  .t-md-n38-h {
-    top: -37.5rem;
+  .minw-md-38-t {
+    min-width: 37.75rem;
   }
-  .b-md-n38-h {
-    bottom: -37.5rem;
-  }
-  .s-md-n38-h {
-    left: -37.5rem;
-  }
-  .e-md-n38-h {
-    right: -37.5rem;
+  .minh-md-38-t {
+    min-height: 37.75rem;
   }
   .w-md-38-f {
     width: 38rem;
@@ -28968,29 +28216,23 @@ textarea.form-control-lg {
   .minh-md-39-h {
     min-height: 38.5rem;
   }
-  .t-md-39-h {
-    top: 38.5rem;
+  .w-md-39-t {
+    width: 38.75rem;
   }
-  .b-md-39-h {
-    bottom: 38.5rem;
+  .h-md-39-t {
+    height: 38.75rem;
   }
-  .s-md-39-h {
-    left: 38.5rem;
+  .maxw-md-39-t {
+    max-width: 38.75rem;
   }
-  .e-md-39-h {
-    right: 38.5rem;
+  .maxh-md-39-t {
+    max-height: 38.75rem;
   }
-  .t-md-n39-h {
-    top: -38.5rem;
+  .minw-md-39-t {
+    min-width: 38.75rem;
   }
-  .b-md-n39-h {
-    bottom: -38.5rem;
-  }
-  .s-md-n39-h {
-    left: -38.5rem;
-  }
-  .e-md-n39-h {
-    right: -38.5rem;
+  .minh-md-39-t {
+    min-height: 38.75rem;
   }
   .w-md-39-f {
     width: 39rem;
@@ -29052,29 +28294,23 @@ textarea.form-control-lg {
   .minh-md-40-h {
     min-height: 39.5rem;
   }
-  .t-md-40-h {
-    top: 39.5rem;
+  .w-md-40-t {
+    width: 39.75rem;
   }
-  .b-md-40-h {
-    bottom: 39.5rem;
+  .h-md-40-t {
+    height: 39.75rem;
   }
-  .s-md-40-h {
-    left: 39.5rem;
+  .maxw-md-40-t {
+    max-width: 39.75rem;
   }
-  .e-md-40-h {
-    right: 39.5rem;
+  .maxh-md-40-t {
+    max-height: 39.75rem;
   }
-  .t-md-n40-h {
-    top: -39.5rem;
+  .minw-md-40-t {
+    min-width: 39.75rem;
   }
-  .b-md-n40-h {
-    bottom: -39.5rem;
-  }
-  .s-md-n40-h {
-    left: -39.5rem;
-  }
-  .e-md-n40-h {
-    right: -39.5rem;
+  .minh-md-40-t {
+    min-height: 39.75rem;
   }
   .w-md-40-f {
     width: 40rem;
@@ -29147,6 +28383,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 3rem;
+    word-break: break-word;
   }
   .text-truncate-lg-3 {
     display: block;
@@ -29161,6 +28400,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 4.5rem;
+    word-break: break-word;
   }
   .text-truncate-lg-4 {
     display: block;
@@ -29175,6 +28417,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 6rem;
+    word-break: break-word;
   }
   .text-truncate-lg-5 {
     display: block;
@@ -29189,6 +28434,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 7.5rem;
+    word-break: break-word;
   }
   .mdi-lg-n2 {
     font-size: 0.25rem;
@@ -29325,29 +28573,23 @@ textarea.form-control-lg {
   .minh-lg-1-h {
     min-height: 0.5rem;
   }
-  .t-lg-1-h {
-    top: 0.5rem;
+  .w-lg-1-t {
+    width: 0.75rem;
   }
-  .b-lg-1-h {
-    bottom: 0.5rem;
+  .h-lg-1-t {
+    height: 0.75rem;
   }
-  .s-lg-1-h {
-    left: 0.5rem;
+  .maxw-lg-1-t {
+    max-width: 0.75rem;
   }
-  .e-lg-1-h {
-    right: 0.5rem;
+  .maxh-lg-1-t {
+    max-height: 0.75rem;
   }
-  .t-lg-n1-h {
-    top: -0.5rem;
+  .minw-lg-1-t {
+    min-width: 0.75rem;
   }
-  .b-lg-n1-h {
-    bottom: -0.5rem;
-  }
-  .s-lg-n1-h {
-    left: -0.5rem;
-  }
-  .e-lg-n1-h {
-    right: -0.5rem;
+  .minh-lg-1-t {
+    min-height: 0.75rem;
   }
   .w-lg-1-f {
     width: 1rem;
@@ -29409,29 +28651,23 @@ textarea.form-control-lg {
   .minh-lg-2-h {
     min-height: 1.5rem;
   }
-  .t-lg-2-h {
-    top: 1.5rem;
+  .w-lg-2-t {
+    width: 1.75rem;
   }
-  .b-lg-2-h {
-    bottom: 1.5rem;
+  .h-lg-2-t {
+    height: 1.75rem;
   }
-  .s-lg-2-h {
-    left: 1.5rem;
+  .maxw-lg-2-t {
+    max-width: 1.75rem;
   }
-  .e-lg-2-h {
-    right: 1.5rem;
+  .maxh-lg-2-t {
+    max-height: 1.75rem;
   }
-  .t-lg-n2-h {
-    top: -1.5rem;
+  .minw-lg-2-t {
+    min-width: 1.75rem;
   }
-  .b-lg-n2-h {
-    bottom: -1.5rem;
-  }
-  .s-lg-n2-h {
-    left: -1.5rem;
-  }
-  .e-lg-n2-h {
-    right: -1.5rem;
+  .minh-lg-2-t {
+    min-height: 1.75rem;
   }
   .w-lg-2-f {
     width: 2rem;
@@ -29493,29 +28729,23 @@ textarea.form-control-lg {
   .minh-lg-3-h {
     min-height: 2.5rem;
   }
-  .t-lg-3-h {
-    top: 2.5rem;
+  .w-lg-3-t {
+    width: 2.75rem;
   }
-  .b-lg-3-h {
-    bottom: 2.5rem;
+  .h-lg-3-t {
+    height: 2.75rem;
   }
-  .s-lg-3-h {
-    left: 2.5rem;
+  .maxw-lg-3-t {
+    max-width: 2.75rem;
   }
-  .e-lg-3-h {
-    right: 2.5rem;
+  .maxh-lg-3-t {
+    max-height: 2.75rem;
   }
-  .t-lg-n3-h {
-    top: -2.5rem;
+  .minw-lg-3-t {
+    min-width: 2.75rem;
   }
-  .b-lg-n3-h {
-    bottom: -2.5rem;
-  }
-  .s-lg-n3-h {
-    left: -2.5rem;
-  }
-  .e-lg-n3-h {
-    right: -2.5rem;
+  .minh-lg-3-t {
+    min-height: 2.75rem;
   }
   .w-lg-3-f {
     width: 3rem;
@@ -29577,29 +28807,23 @@ textarea.form-control-lg {
   .minh-lg-4-h {
     min-height: 3.5rem;
   }
-  .t-lg-4-h {
-    top: 3.5rem;
+  .w-lg-4-t {
+    width: 3.75rem;
   }
-  .b-lg-4-h {
-    bottom: 3.5rem;
+  .h-lg-4-t {
+    height: 3.75rem;
   }
-  .s-lg-4-h {
-    left: 3.5rem;
+  .maxw-lg-4-t {
+    max-width: 3.75rem;
   }
-  .e-lg-4-h {
-    right: 3.5rem;
+  .maxh-lg-4-t {
+    max-height: 3.75rem;
   }
-  .t-lg-n4-h {
-    top: -3.5rem;
+  .minw-lg-4-t {
+    min-width: 3.75rem;
   }
-  .b-lg-n4-h {
-    bottom: -3.5rem;
-  }
-  .s-lg-n4-h {
-    left: -3.5rem;
-  }
-  .e-lg-n4-h {
-    right: -3.5rem;
+  .minh-lg-4-t {
+    min-height: 3.75rem;
   }
   .w-lg-4-f {
     width: 4rem;
@@ -29661,29 +28885,23 @@ textarea.form-control-lg {
   .minh-lg-5-h {
     min-height: 4.5rem;
   }
-  .t-lg-5-h {
-    top: 4.5rem;
+  .w-lg-5-t {
+    width: 4.75rem;
   }
-  .b-lg-5-h {
-    bottom: 4.5rem;
+  .h-lg-5-t {
+    height: 4.75rem;
   }
-  .s-lg-5-h {
-    left: 4.5rem;
+  .maxw-lg-5-t {
+    max-width: 4.75rem;
   }
-  .e-lg-5-h {
-    right: 4.5rem;
+  .maxh-lg-5-t {
+    max-height: 4.75rem;
   }
-  .t-lg-n5-h {
-    top: -4.5rem;
+  .minw-lg-5-t {
+    min-width: 4.75rem;
   }
-  .b-lg-n5-h {
-    bottom: -4.5rem;
-  }
-  .s-lg-n5-h {
-    left: -4.5rem;
-  }
-  .e-lg-n5-h {
-    right: -4.5rem;
+  .minh-lg-5-t {
+    min-height: 4.75rem;
   }
   .w-lg-5-f {
     width: 5rem;
@@ -29745,29 +28963,23 @@ textarea.form-control-lg {
   .minh-lg-6-h {
     min-height: 5.5rem;
   }
-  .t-lg-6-h {
-    top: 5.5rem;
+  .w-lg-6-t {
+    width: 5.75rem;
   }
-  .b-lg-6-h {
-    bottom: 5.5rem;
+  .h-lg-6-t {
+    height: 5.75rem;
   }
-  .s-lg-6-h {
-    left: 5.5rem;
+  .maxw-lg-6-t {
+    max-width: 5.75rem;
   }
-  .e-lg-6-h {
-    right: 5.5rem;
+  .maxh-lg-6-t {
+    max-height: 5.75rem;
   }
-  .t-lg-n6-h {
-    top: -5.5rem;
+  .minw-lg-6-t {
+    min-width: 5.75rem;
   }
-  .b-lg-n6-h {
-    bottom: -5.5rem;
-  }
-  .s-lg-n6-h {
-    left: -5.5rem;
-  }
-  .e-lg-n6-h {
-    right: -5.5rem;
+  .minh-lg-6-t {
+    min-height: 5.75rem;
   }
   .w-lg-6-f {
     width: 6rem;
@@ -29829,29 +29041,23 @@ textarea.form-control-lg {
   .minh-lg-7-h {
     min-height: 6.5rem;
   }
-  .t-lg-7-h {
-    top: 6.5rem;
+  .w-lg-7-t {
+    width: 6.75rem;
   }
-  .b-lg-7-h {
-    bottom: 6.5rem;
+  .h-lg-7-t {
+    height: 6.75rem;
   }
-  .s-lg-7-h {
-    left: 6.5rem;
+  .maxw-lg-7-t {
+    max-width: 6.75rem;
   }
-  .e-lg-7-h {
-    right: 6.5rem;
+  .maxh-lg-7-t {
+    max-height: 6.75rem;
   }
-  .t-lg-n7-h {
-    top: -6.5rem;
+  .minw-lg-7-t {
+    min-width: 6.75rem;
   }
-  .b-lg-n7-h {
-    bottom: -6.5rem;
-  }
-  .s-lg-n7-h {
-    left: -6.5rem;
-  }
-  .e-lg-n7-h {
-    right: -6.5rem;
+  .minh-lg-7-t {
+    min-height: 6.75rem;
   }
   .w-lg-7-f {
     width: 7rem;
@@ -29913,29 +29119,23 @@ textarea.form-control-lg {
   .minh-lg-8-h {
     min-height: 7.5rem;
   }
-  .t-lg-8-h {
-    top: 7.5rem;
+  .w-lg-8-t {
+    width: 7.75rem;
   }
-  .b-lg-8-h {
-    bottom: 7.5rem;
+  .h-lg-8-t {
+    height: 7.75rem;
   }
-  .s-lg-8-h {
-    left: 7.5rem;
+  .maxw-lg-8-t {
+    max-width: 7.75rem;
   }
-  .e-lg-8-h {
-    right: 7.5rem;
+  .maxh-lg-8-t {
+    max-height: 7.75rem;
   }
-  .t-lg-n8-h {
-    top: -7.5rem;
+  .minw-lg-8-t {
+    min-width: 7.75rem;
   }
-  .b-lg-n8-h {
-    bottom: -7.5rem;
-  }
-  .s-lg-n8-h {
-    left: -7.5rem;
-  }
-  .e-lg-n8-h {
-    right: -7.5rem;
+  .minh-lg-8-t {
+    min-height: 7.75rem;
   }
   .w-lg-8-f {
     width: 8rem;
@@ -29997,29 +29197,23 @@ textarea.form-control-lg {
   .minh-lg-9-h {
     min-height: 8.5rem;
   }
-  .t-lg-9-h {
-    top: 8.5rem;
+  .w-lg-9-t {
+    width: 8.75rem;
   }
-  .b-lg-9-h {
-    bottom: 8.5rem;
+  .h-lg-9-t {
+    height: 8.75rem;
   }
-  .s-lg-9-h {
-    left: 8.5rem;
+  .maxw-lg-9-t {
+    max-width: 8.75rem;
   }
-  .e-lg-9-h {
-    right: 8.5rem;
+  .maxh-lg-9-t {
+    max-height: 8.75rem;
   }
-  .t-lg-n9-h {
-    top: -8.5rem;
+  .minw-lg-9-t {
+    min-width: 8.75rem;
   }
-  .b-lg-n9-h {
-    bottom: -8.5rem;
-  }
-  .s-lg-n9-h {
-    left: -8.5rem;
-  }
-  .e-lg-n9-h {
-    right: -8.5rem;
+  .minh-lg-9-t {
+    min-height: 8.75rem;
   }
   .w-lg-9-f {
     width: 9rem;
@@ -30081,29 +29275,23 @@ textarea.form-control-lg {
   .minh-lg-10-h {
     min-height: 9.5rem;
   }
-  .t-lg-10-h {
-    top: 9.5rem;
+  .w-lg-10-t {
+    width: 9.75rem;
   }
-  .b-lg-10-h {
-    bottom: 9.5rem;
+  .h-lg-10-t {
+    height: 9.75rem;
   }
-  .s-lg-10-h {
-    left: 9.5rem;
+  .maxw-lg-10-t {
+    max-width: 9.75rem;
   }
-  .e-lg-10-h {
-    right: 9.5rem;
+  .maxh-lg-10-t {
+    max-height: 9.75rem;
   }
-  .t-lg-n10-h {
-    top: -9.5rem;
+  .minw-lg-10-t {
+    min-width: 9.75rem;
   }
-  .b-lg-n10-h {
-    bottom: -9.5rem;
-  }
-  .s-lg-n10-h {
-    left: -9.5rem;
-  }
-  .e-lg-n10-h {
-    right: -9.5rem;
+  .minh-lg-10-t {
+    min-height: 9.75rem;
   }
   .w-lg-10-f {
     width: 10rem;
@@ -30165,29 +29353,23 @@ textarea.form-control-lg {
   .minh-lg-11-h {
     min-height: 10.5rem;
   }
-  .t-lg-11-h {
-    top: 10.5rem;
+  .w-lg-11-t {
+    width: 10.75rem;
   }
-  .b-lg-11-h {
-    bottom: 10.5rem;
+  .h-lg-11-t {
+    height: 10.75rem;
   }
-  .s-lg-11-h {
-    left: 10.5rem;
+  .maxw-lg-11-t {
+    max-width: 10.75rem;
   }
-  .e-lg-11-h {
-    right: 10.5rem;
+  .maxh-lg-11-t {
+    max-height: 10.75rem;
   }
-  .t-lg-n11-h {
-    top: -10.5rem;
+  .minw-lg-11-t {
+    min-width: 10.75rem;
   }
-  .b-lg-n11-h {
-    bottom: -10.5rem;
-  }
-  .s-lg-n11-h {
-    left: -10.5rem;
-  }
-  .e-lg-n11-h {
-    right: -10.5rem;
+  .minh-lg-11-t {
+    min-height: 10.75rem;
   }
   .w-lg-11-f {
     width: 11rem;
@@ -30249,29 +29431,23 @@ textarea.form-control-lg {
   .minh-lg-12-h {
     min-height: 11.5rem;
   }
-  .t-lg-12-h {
-    top: 11.5rem;
+  .w-lg-12-t {
+    width: 11.75rem;
   }
-  .b-lg-12-h {
-    bottom: 11.5rem;
+  .h-lg-12-t {
+    height: 11.75rem;
   }
-  .s-lg-12-h {
-    left: 11.5rem;
+  .maxw-lg-12-t {
+    max-width: 11.75rem;
   }
-  .e-lg-12-h {
-    right: 11.5rem;
+  .maxh-lg-12-t {
+    max-height: 11.75rem;
   }
-  .t-lg-n12-h {
-    top: -11.5rem;
+  .minw-lg-12-t {
+    min-width: 11.75rem;
   }
-  .b-lg-n12-h {
-    bottom: -11.5rem;
-  }
-  .s-lg-n12-h {
-    left: -11.5rem;
-  }
-  .e-lg-n12-h {
-    right: -11.5rem;
+  .minh-lg-12-t {
+    min-height: 11.75rem;
   }
   .w-lg-12-f {
     width: 12rem;
@@ -30333,29 +29509,23 @@ textarea.form-control-lg {
   .minh-lg-13-h {
     min-height: 12.5rem;
   }
-  .t-lg-13-h {
-    top: 12.5rem;
+  .w-lg-13-t {
+    width: 12.75rem;
   }
-  .b-lg-13-h {
-    bottom: 12.5rem;
+  .h-lg-13-t {
+    height: 12.75rem;
   }
-  .s-lg-13-h {
-    left: 12.5rem;
+  .maxw-lg-13-t {
+    max-width: 12.75rem;
   }
-  .e-lg-13-h {
-    right: 12.5rem;
+  .maxh-lg-13-t {
+    max-height: 12.75rem;
   }
-  .t-lg-n13-h {
-    top: -12.5rem;
+  .minw-lg-13-t {
+    min-width: 12.75rem;
   }
-  .b-lg-n13-h {
-    bottom: -12.5rem;
-  }
-  .s-lg-n13-h {
-    left: -12.5rem;
-  }
-  .e-lg-n13-h {
-    right: -12.5rem;
+  .minh-lg-13-t {
+    min-height: 12.75rem;
   }
   .w-lg-13-f {
     width: 13rem;
@@ -30417,29 +29587,23 @@ textarea.form-control-lg {
   .minh-lg-14-h {
     min-height: 13.5rem;
   }
-  .t-lg-14-h {
-    top: 13.5rem;
+  .w-lg-14-t {
+    width: 13.75rem;
   }
-  .b-lg-14-h {
-    bottom: 13.5rem;
+  .h-lg-14-t {
+    height: 13.75rem;
   }
-  .s-lg-14-h {
-    left: 13.5rem;
+  .maxw-lg-14-t {
+    max-width: 13.75rem;
   }
-  .e-lg-14-h {
-    right: 13.5rem;
+  .maxh-lg-14-t {
+    max-height: 13.75rem;
   }
-  .t-lg-n14-h {
-    top: -13.5rem;
+  .minw-lg-14-t {
+    min-width: 13.75rem;
   }
-  .b-lg-n14-h {
-    bottom: -13.5rem;
-  }
-  .s-lg-n14-h {
-    left: -13.5rem;
-  }
-  .e-lg-n14-h {
-    right: -13.5rem;
+  .minh-lg-14-t {
+    min-height: 13.75rem;
   }
   .w-lg-14-f {
     width: 14rem;
@@ -30501,29 +29665,23 @@ textarea.form-control-lg {
   .minh-lg-15-h {
     min-height: 14.5rem;
   }
-  .t-lg-15-h {
-    top: 14.5rem;
+  .w-lg-15-t {
+    width: 14.75rem;
   }
-  .b-lg-15-h {
-    bottom: 14.5rem;
+  .h-lg-15-t {
+    height: 14.75rem;
   }
-  .s-lg-15-h {
-    left: 14.5rem;
+  .maxw-lg-15-t {
+    max-width: 14.75rem;
   }
-  .e-lg-15-h {
-    right: 14.5rem;
+  .maxh-lg-15-t {
+    max-height: 14.75rem;
   }
-  .t-lg-n15-h {
-    top: -14.5rem;
+  .minw-lg-15-t {
+    min-width: 14.75rem;
   }
-  .b-lg-n15-h {
-    bottom: -14.5rem;
-  }
-  .s-lg-n15-h {
-    left: -14.5rem;
-  }
-  .e-lg-n15-h {
-    right: -14.5rem;
+  .minh-lg-15-t {
+    min-height: 14.75rem;
   }
   .w-lg-15-f {
     width: 15rem;
@@ -30585,29 +29743,23 @@ textarea.form-control-lg {
   .minh-lg-16-h {
     min-height: 15.5rem;
   }
-  .t-lg-16-h {
-    top: 15.5rem;
+  .w-lg-16-t {
+    width: 15.75rem;
   }
-  .b-lg-16-h {
-    bottom: 15.5rem;
+  .h-lg-16-t {
+    height: 15.75rem;
   }
-  .s-lg-16-h {
-    left: 15.5rem;
+  .maxw-lg-16-t {
+    max-width: 15.75rem;
   }
-  .e-lg-16-h {
-    right: 15.5rem;
+  .maxh-lg-16-t {
+    max-height: 15.75rem;
   }
-  .t-lg-n16-h {
-    top: -15.5rem;
+  .minw-lg-16-t {
+    min-width: 15.75rem;
   }
-  .b-lg-n16-h {
-    bottom: -15.5rem;
-  }
-  .s-lg-n16-h {
-    left: -15.5rem;
-  }
-  .e-lg-n16-h {
-    right: -15.5rem;
+  .minh-lg-16-t {
+    min-height: 15.75rem;
   }
   .w-lg-16-f {
     width: 16rem;
@@ -30669,29 +29821,23 @@ textarea.form-control-lg {
   .minh-lg-17-h {
     min-height: 16.5rem;
   }
-  .t-lg-17-h {
-    top: 16.5rem;
+  .w-lg-17-t {
+    width: 16.75rem;
   }
-  .b-lg-17-h {
-    bottom: 16.5rem;
+  .h-lg-17-t {
+    height: 16.75rem;
   }
-  .s-lg-17-h {
-    left: 16.5rem;
+  .maxw-lg-17-t {
+    max-width: 16.75rem;
   }
-  .e-lg-17-h {
-    right: 16.5rem;
+  .maxh-lg-17-t {
+    max-height: 16.75rem;
   }
-  .t-lg-n17-h {
-    top: -16.5rem;
+  .minw-lg-17-t {
+    min-width: 16.75rem;
   }
-  .b-lg-n17-h {
-    bottom: -16.5rem;
-  }
-  .s-lg-n17-h {
-    left: -16.5rem;
-  }
-  .e-lg-n17-h {
-    right: -16.5rem;
+  .minh-lg-17-t {
+    min-height: 16.75rem;
   }
   .w-lg-17-f {
     width: 17rem;
@@ -30753,29 +29899,23 @@ textarea.form-control-lg {
   .minh-lg-18-h {
     min-height: 17.5rem;
   }
-  .t-lg-18-h {
-    top: 17.5rem;
+  .w-lg-18-t {
+    width: 17.75rem;
   }
-  .b-lg-18-h {
-    bottom: 17.5rem;
+  .h-lg-18-t {
+    height: 17.75rem;
   }
-  .s-lg-18-h {
-    left: 17.5rem;
+  .maxw-lg-18-t {
+    max-width: 17.75rem;
   }
-  .e-lg-18-h {
-    right: 17.5rem;
+  .maxh-lg-18-t {
+    max-height: 17.75rem;
   }
-  .t-lg-n18-h {
-    top: -17.5rem;
+  .minw-lg-18-t {
+    min-width: 17.75rem;
   }
-  .b-lg-n18-h {
-    bottom: -17.5rem;
-  }
-  .s-lg-n18-h {
-    left: -17.5rem;
-  }
-  .e-lg-n18-h {
-    right: -17.5rem;
+  .minh-lg-18-t {
+    min-height: 17.75rem;
   }
   .w-lg-18-f {
     width: 18rem;
@@ -30837,29 +29977,23 @@ textarea.form-control-lg {
   .minh-lg-19-h {
     min-height: 18.5rem;
   }
-  .t-lg-19-h {
-    top: 18.5rem;
+  .w-lg-19-t {
+    width: 18.75rem;
   }
-  .b-lg-19-h {
-    bottom: 18.5rem;
+  .h-lg-19-t {
+    height: 18.75rem;
   }
-  .s-lg-19-h {
-    left: 18.5rem;
+  .maxw-lg-19-t {
+    max-width: 18.75rem;
   }
-  .e-lg-19-h {
-    right: 18.5rem;
+  .maxh-lg-19-t {
+    max-height: 18.75rem;
   }
-  .t-lg-n19-h {
-    top: -18.5rem;
+  .minw-lg-19-t {
+    min-width: 18.75rem;
   }
-  .b-lg-n19-h {
-    bottom: -18.5rem;
-  }
-  .s-lg-n19-h {
-    left: -18.5rem;
-  }
-  .e-lg-n19-h {
-    right: -18.5rem;
+  .minh-lg-19-t {
+    min-height: 18.75rem;
   }
   .w-lg-19-f {
     width: 19rem;
@@ -30921,29 +30055,23 @@ textarea.form-control-lg {
   .minh-lg-20-h {
     min-height: 19.5rem;
   }
-  .t-lg-20-h {
-    top: 19.5rem;
+  .w-lg-20-t {
+    width: 19.75rem;
   }
-  .b-lg-20-h {
-    bottom: 19.5rem;
+  .h-lg-20-t {
+    height: 19.75rem;
   }
-  .s-lg-20-h {
-    left: 19.5rem;
+  .maxw-lg-20-t {
+    max-width: 19.75rem;
   }
-  .e-lg-20-h {
-    right: 19.5rem;
+  .maxh-lg-20-t {
+    max-height: 19.75rem;
   }
-  .t-lg-n20-h {
-    top: -19.5rem;
+  .minw-lg-20-t {
+    min-width: 19.75rem;
   }
-  .b-lg-n20-h {
-    bottom: -19.5rem;
-  }
-  .s-lg-n20-h {
-    left: -19.5rem;
-  }
-  .e-lg-n20-h {
-    right: -19.5rem;
+  .minh-lg-20-t {
+    min-height: 19.75rem;
   }
   .w-lg-20-f {
     width: 20rem;
@@ -31005,29 +30133,23 @@ textarea.form-control-lg {
   .minh-lg-21-h {
     min-height: 20.5rem;
   }
-  .t-lg-21-h {
-    top: 20.5rem;
+  .w-lg-21-t {
+    width: 20.75rem;
   }
-  .b-lg-21-h {
-    bottom: 20.5rem;
+  .h-lg-21-t {
+    height: 20.75rem;
   }
-  .s-lg-21-h {
-    left: 20.5rem;
+  .maxw-lg-21-t {
+    max-width: 20.75rem;
   }
-  .e-lg-21-h {
-    right: 20.5rem;
+  .maxh-lg-21-t {
+    max-height: 20.75rem;
   }
-  .t-lg-n21-h {
-    top: -20.5rem;
+  .minw-lg-21-t {
+    min-width: 20.75rem;
   }
-  .b-lg-n21-h {
-    bottom: -20.5rem;
-  }
-  .s-lg-n21-h {
-    left: -20.5rem;
-  }
-  .e-lg-n21-h {
-    right: -20.5rem;
+  .minh-lg-21-t {
+    min-height: 20.75rem;
   }
   .w-lg-21-f {
     width: 21rem;
@@ -31089,29 +30211,23 @@ textarea.form-control-lg {
   .minh-lg-22-h {
     min-height: 21.5rem;
   }
-  .t-lg-22-h {
-    top: 21.5rem;
+  .w-lg-22-t {
+    width: 21.75rem;
   }
-  .b-lg-22-h {
-    bottom: 21.5rem;
+  .h-lg-22-t {
+    height: 21.75rem;
   }
-  .s-lg-22-h {
-    left: 21.5rem;
+  .maxw-lg-22-t {
+    max-width: 21.75rem;
   }
-  .e-lg-22-h {
-    right: 21.5rem;
+  .maxh-lg-22-t {
+    max-height: 21.75rem;
   }
-  .t-lg-n22-h {
-    top: -21.5rem;
+  .minw-lg-22-t {
+    min-width: 21.75rem;
   }
-  .b-lg-n22-h {
-    bottom: -21.5rem;
-  }
-  .s-lg-n22-h {
-    left: -21.5rem;
-  }
-  .e-lg-n22-h {
-    right: -21.5rem;
+  .minh-lg-22-t {
+    min-height: 21.75rem;
   }
   .w-lg-22-f {
     width: 22rem;
@@ -31173,29 +30289,23 @@ textarea.form-control-lg {
   .minh-lg-23-h {
     min-height: 22.5rem;
   }
-  .t-lg-23-h {
-    top: 22.5rem;
+  .w-lg-23-t {
+    width: 22.75rem;
   }
-  .b-lg-23-h {
-    bottom: 22.5rem;
+  .h-lg-23-t {
+    height: 22.75rem;
   }
-  .s-lg-23-h {
-    left: 22.5rem;
+  .maxw-lg-23-t {
+    max-width: 22.75rem;
   }
-  .e-lg-23-h {
-    right: 22.5rem;
+  .maxh-lg-23-t {
+    max-height: 22.75rem;
   }
-  .t-lg-n23-h {
-    top: -22.5rem;
+  .minw-lg-23-t {
+    min-width: 22.75rem;
   }
-  .b-lg-n23-h {
-    bottom: -22.5rem;
-  }
-  .s-lg-n23-h {
-    left: -22.5rem;
-  }
-  .e-lg-n23-h {
-    right: -22.5rem;
+  .minh-lg-23-t {
+    min-height: 22.75rem;
   }
   .w-lg-23-f {
     width: 23rem;
@@ -31257,29 +30367,23 @@ textarea.form-control-lg {
   .minh-lg-24-h {
     min-height: 23.5rem;
   }
-  .t-lg-24-h {
-    top: 23.5rem;
+  .w-lg-24-t {
+    width: 23.75rem;
   }
-  .b-lg-24-h {
-    bottom: 23.5rem;
+  .h-lg-24-t {
+    height: 23.75rem;
   }
-  .s-lg-24-h {
-    left: 23.5rem;
+  .maxw-lg-24-t {
+    max-width: 23.75rem;
   }
-  .e-lg-24-h {
-    right: 23.5rem;
+  .maxh-lg-24-t {
+    max-height: 23.75rem;
   }
-  .t-lg-n24-h {
-    top: -23.5rem;
+  .minw-lg-24-t {
+    min-width: 23.75rem;
   }
-  .b-lg-n24-h {
-    bottom: -23.5rem;
-  }
-  .s-lg-n24-h {
-    left: -23.5rem;
-  }
-  .e-lg-n24-h {
-    right: -23.5rem;
+  .minh-lg-24-t {
+    min-height: 23.75rem;
   }
   .w-lg-24-f {
     width: 24rem;
@@ -31341,29 +30445,23 @@ textarea.form-control-lg {
   .minh-lg-25-h {
     min-height: 24.5rem;
   }
-  .t-lg-25-h {
-    top: 24.5rem;
+  .w-lg-25-t {
+    width: 24.75rem;
   }
-  .b-lg-25-h {
-    bottom: 24.5rem;
+  .h-lg-25-t {
+    height: 24.75rem;
   }
-  .s-lg-25-h {
-    left: 24.5rem;
+  .maxw-lg-25-t {
+    max-width: 24.75rem;
   }
-  .e-lg-25-h {
-    right: 24.5rem;
+  .maxh-lg-25-t {
+    max-height: 24.75rem;
   }
-  .t-lg-n25-h {
-    top: -24.5rem;
+  .minw-lg-25-t {
+    min-width: 24.75rem;
   }
-  .b-lg-n25-h {
-    bottom: -24.5rem;
-  }
-  .s-lg-n25-h {
-    left: -24.5rem;
-  }
-  .e-lg-n25-h {
-    right: -24.5rem;
+  .minh-lg-25-t {
+    min-height: 24.75rem;
   }
   .w-lg-25-f {
     width: 25rem;
@@ -31425,29 +30523,23 @@ textarea.form-control-lg {
   .minh-lg-26-h {
     min-height: 25.5rem;
   }
-  .t-lg-26-h {
-    top: 25.5rem;
+  .w-lg-26-t {
+    width: 25.75rem;
   }
-  .b-lg-26-h {
-    bottom: 25.5rem;
+  .h-lg-26-t {
+    height: 25.75rem;
   }
-  .s-lg-26-h {
-    left: 25.5rem;
+  .maxw-lg-26-t {
+    max-width: 25.75rem;
   }
-  .e-lg-26-h {
-    right: 25.5rem;
+  .maxh-lg-26-t {
+    max-height: 25.75rem;
   }
-  .t-lg-n26-h {
-    top: -25.5rem;
+  .minw-lg-26-t {
+    min-width: 25.75rem;
   }
-  .b-lg-n26-h {
-    bottom: -25.5rem;
-  }
-  .s-lg-n26-h {
-    left: -25.5rem;
-  }
-  .e-lg-n26-h {
-    right: -25.5rem;
+  .minh-lg-26-t {
+    min-height: 25.75rem;
   }
   .w-lg-26-f {
     width: 26rem;
@@ -31509,29 +30601,23 @@ textarea.form-control-lg {
   .minh-lg-27-h {
     min-height: 26.5rem;
   }
-  .t-lg-27-h {
-    top: 26.5rem;
+  .w-lg-27-t {
+    width: 26.75rem;
   }
-  .b-lg-27-h {
-    bottom: 26.5rem;
+  .h-lg-27-t {
+    height: 26.75rem;
   }
-  .s-lg-27-h {
-    left: 26.5rem;
+  .maxw-lg-27-t {
+    max-width: 26.75rem;
   }
-  .e-lg-27-h {
-    right: 26.5rem;
+  .maxh-lg-27-t {
+    max-height: 26.75rem;
   }
-  .t-lg-n27-h {
-    top: -26.5rem;
+  .minw-lg-27-t {
+    min-width: 26.75rem;
   }
-  .b-lg-n27-h {
-    bottom: -26.5rem;
-  }
-  .s-lg-n27-h {
-    left: -26.5rem;
-  }
-  .e-lg-n27-h {
-    right: -26.5rem;
+  .minh-lg-27-t {
+    min-height: 26.75rem;
   }
   .w-lg-27-f {
     width: 27rem;
@@ -31593,29 +30679,23 @@ textarea.form-control-lg {
   .minh-lg-28-h {
     min-height: 27.5rem;
   }
-  .t-lg-28-h {
-    top: 27.5rem;
+  .w-lg-28-t {
+    width: 27.75rem;
   }
-  .b-lg-28-h {
-    bottom: 27.5rem;
+  .h-lg-28-t {
+    height: 27.75rem;
   }
-  .s-lg-28-h {
-    left: 27.5rem;
+  .maxw-lg-28-t {
+    max-width: 27.75rem;
   }
-  .e-lg-28-h {
-    right: 27.5rem;
+  .maxh-lg-28-t {
+    max-height: 27.75rem;
   }
-  .t-lg-n28-h {
-    top: -27.5rem;
+  .minw-lg-28-t {
+    min-width: 27.75rem;
   }
-  .b-lg-n28-h {
-    bottom: -27.5rem;
-  }
-  .s-lg-n28-h {
-    left: -27.5rem;
-  }
-  .e-lg-n28-h {
-    right: -27.5rem;
+  .minh-lg-28-t {
+    min-height: 27.75rem;
   }
   .w-lg-28-f {
     width: 28rem;
@@ -31677,29 +30757,23 @@ textarea.form-control-lg {
   .minh-lg-29-h {
     min-height: 28.5rem;
   }
-  .t-lg-29-h {
-    top: 28.5rem;
+  .w-lg-29-t {
+    width: 28.75rem;
   }
-  .b-lg-29-h {
-    bottom: 28.5rem;
+  .h-lg-29-t {
+    height: 28.75rem;
   }
-  .s-lg-29-h {
-    left: 28.5rem;
+  .maxw-lg-29-t {
+    max-width: 28.75rem;
   }
-  .e-lg-29-h {
-    right: 28.5rem;
+  .maxh-lg-29-t {
+    max-height: 28.75rem;
   }
-  .t-lg-n29-h {
-    top: -28.5rem;
+  .minw-lg-29-t {
+    min-width: 28.75rem;
   }
-  .b-lg-n29-h {
-    bottom: -28.5rem;
-  }
-  .s-lg-n29-h {
-    left: -28.5rem;
-  }
-  .e-lg-n29-h {
-    right: -28.5rem;
+  .minh-lg-29-t {
+    min-height: 28.75rem;
   }
   .w-lg-29-f {
     width: 29rem;
@@ -31761,29 +30835,23 @@ textarea.form-control-lg {
   .minh-lg-30-h {
     min-height: 29.5rem;
   }
-  .t-lg-30-h {
-    top: 29.5rem;
+  .w-lg-30-t {
+    width: 29.75rem;
   }
-  .b-lg-30-h {
-    bottom: 29.5rem;
+  .h-lg-30-t {
+    height: 29.75rem;
   }
-  .s-lg-30-h {
-    left: 29.5rem;
+  .maxw-lg-30-t {
+    max-width: 29.75rem;
   }
-  .e-lg-30-h {
-    right: 29.5rem;
+  .maxh-lg-30-t {
+    max-height: 29.75rem;
   }
-  .t-lg-n30-h {
-    top: -29.5rem;
+  .minw-lg-30-t {
+    min-width: 29.75rem;
   }
-  .b-lg-n30-h {
-    bottom: -29.5rem;
-  }
-  .s-lg-n30-h {
-    left: -29.5rem;
-  }
-  .e-lg-n30-h {
-    right: -29.5rem;
+  .minh-lg-30-t {
+    min-height: 29.75rem;
   }
   .w-lg-30-f {
     width: 30rem;
@@ -31845,29 +30913,23 @@ textarea.form-control-lg {
   .minh-lg-31-h {
     min-height: 30.5rem;
   }
-  .t-lg-31-h {
-    top: 30.5rem;
+  .w-lg-31-t {
+    width: 30.75rem;
   }
-  .b-lg-31-h {
-    bottom: 30.5rem;
+  .h-lg-31-t {
+    height: 30.75rem;
   }
-  .s-lg-31-h {
-    left: 30.5rem;
+  .maxw-lg-31-t {
+    max-width: 30.75rem;
   }
-  .e-lg-31-h {
-    right: 30.5rem;
+  .maxh-lg-31-t {
+    max-height: 30.75rem;
   }
-  .t-lg-n31-h {
-    top: -30.5rem;
+  .minw-lg-31-t {
+    min-width: 30.75rem;
   }
-  .b-lg-n31-h {
-    bottom: -30.5rem;
-  }
-  .s-lg-n31-h {
-    left: -30.5rem;
-  }
-  .e-lg-n31-h {
-    right: -30.5rem;
+  .minh-lg-31-t {
+    min-height: 30.75rem;
   }
   .w-lg-31-f {
     width: 31rem;
@@ -31929,29 +30991,23 @@ textarea.form-control-lg {
   .minh-lg-32-h {
     min-height: 31.5rem;
   }
-  .t-lg-32-h {
-    top: 31.5rem;
+  .w-lg-32-t {
+    width: 31.75rem;
   }
-  .b-lg-32-h {
-    bottom: 31.5rem;
+  .h-lg-32-t {
+    height: 31.75rem;
   }
-  .s-lg-32-h {
-    left: 31.5rem;
+  .maxw-lg-32-t {
+    max-width: 31.75rem;
   }
-  .e-lg-32-h {
-    right: 31.5rem;
+  .maxh-lg-32-t {
+    max-height: 31.75rem;
   }
-  .t-lg-n32-h {
-    top: -31.5rem;
+  .minw-lg-32-t {
+    min-width: 31.75rem;
   }
-  .b-lg-n32-h {
-    bottom: -31.5rem;
-  }
-  .s-lg-n32-h {
-    left: -31.5rem;
-  }
-  .e-lg-n32-h {
-    right: -31.5rem;
+  .minh-lg-32-t {
+    min-height: 31.75rem;
   }
   .w-lg-32-f {
     width: 32rem;
@@ -32013,29 +31069,23 @@ textarea.form-control-lg {
   .minh-lg-33-h {
     min-height: 32.5rem;
   }
-  .t-lg-33-h {
-    top: 32.5rem;
+  .w-lg-33-t {
+    width: 32.75rem;
   }
-  .b-lg-33-h {
-    bottom: 32.5rem;
+  .h-lg-33-t {
+    height: 32.75rem;
   }
-  .s-lg-33-h {
-    left: 32.5rem;
+  .maxw-lg-33-t {
+    max-width: 32.75rem;
   }
-  .e-lg-33-h {
-    right: 32.5rem;
+  .maxh-lg-33-t {
+    max-height: 32.75rem;
   }
-  .t-lg-n33-h {
-    top: -32.5rem;
+  .minw-lg-33-t {
+    min-width: 32.75rem;
   }
-  .b-lg-n33-h {
-    bottom: -32.5rem;
-  }
-  .s-lg-n33-h {
-    left: -32.5rem;
-  }
-  .e-lg-n33-h {
-    right: -32.5rem;
+  .minh-lg-33-t {
+    min-height: 32.75rem;
   }
   .w-lg-33-f {
     width: 33rem;
@@ -32097,29 +31147,23 @@ textarea.form-control-lg {
   .minh-lg-34-h {
     min-height: 33.5rem;
   }
-  .t-lg-34-h {
-    top: 33.5rem;
+  .w-lg-34-t {
+    width: 33.75rem;
   }
-  .b-lg-34-h {
-    bottom: 33.5rem;
+  .h-lg-34-t {
+    height: 33.75rem;
   }
-  .s-lg-34-h {
-    left: 33.5rem;
+  .maxw-lg-34-t {
+    max-width: 33.75rem;
   }
-  .e-lg-34-h {
-    right: 33.5rem;
+  .maxh-lg-34-t {
+    max-height: 33.75rem;
   }
-  .t-lg-n34-h {
-    top: -33.5rem;
+  .minw-lg-34-t {
+    min-width: 33.75rem;
   }
-  .b-lg-n34-h {
-    bottom: -33.5rem;
-  }
-  .s-lg-n34-h {
-    left: -33.5rem;
-  }
-  .e-lg-n34-h {
-    right: -33.5rem;
+  .minh-lg-34-t {
+    min-height: 33.75rem;
   }
   .w-lg-34-f {
     width: 34rem;
@@ -32181,29 +31225,23 @@ textarea.form-control-lg {
   .minh-lg-35-h {
     min-height: 34.5rem;
   }
-  .t-lg-35-h {
-    top: 34.5rem;
+  .w-lg-35-t {
+    width: 34.75rem;
   }
-  .b-lg-35-h {
-    bottom: 34.5rem;
+  .h-lg-35-t {
+    height: 34.75rem;
   }
-  .s-lg-35-h {
-    left: 34.5rem;
+  .maxw-lg-35-t {
+    max-width: 34.75rem;
   }
-  .e-lg-35-h {
-    right: 34.5rem;
+  .maxh-lg-35-t {
+    max-height: 34.75rem;
   }
-  .t-lg-n35-h {
-    top: -34.5rem;
+  .minw-lg-35-t {
+    min-width: 34.75rem;
   }
-  .b-lg-n35-h {
-    bottom: -34.5rem;
-  }
-  .s-lg-n35-h {
-    left: -34.5rem;
-  }
-  .e-lg-n35-h {
-    right: -34.5rem;
+  .minh-lg-35-t {
+    min-height: 34.75rem;
   }
   .w-lg-35-f {
     width: 35rem;
@@ -32265,29 +31303,23 @@ textarea.form-control-lg {
   .minh-lg-36-h {
     min-height: 35.5rem;
   }
-  .t-lg-36-h {
-    top: 35.5rem;
+  .w-lg-36-t {
+    width: 35.75rem;
   }
-  .b-lg-36-h {
-    bottom: 35.5rem;
+  .h-lg-36-t {
+    height: 35.75rem;
   }
-  .s-lg-36-h {
-    left: 35.5rem;
+  .maxw-lg-36-t {
+    max-width: 35.75rem;
   }
-  .e-lg-36-h {
-    right: 35.5rem;
+  .maxh-lg-36-t {
+    max-height: 35.75rem;
   }
-  .t-lg-n36-h {
-    top: -35.5rem;
+  .minw-lg-36-t {
+    min-width: 35.75rem;
   }
-  .b-lg-n36-h {
-    bottom: -35.5rem;
-  }
-  .s-lg-n36-h {
-    left: -35.5rem;
-  }
-  .e-lg-n36-h {
-    right: -35.5rem;
+  .minh-lg-36-t {
+    min-height: 35.75rem;
   }
   .w-lg-36-f {
     width: 36rem;
@@ -32349,29 +31381,23 @@ textarea.form-control-lg {
   .minh-lg-37-h {
     min-height: 36.5rem;
   }
-  .t-lg-37-h {
-    top: 36.5rem;
+  .w-lg-37-t {
+    width: 36.75rem;
   }
-  .b-lg-37-h {
-    bottom: 36.5rem;
+  .h-lg-37-t {
+    height: 36.75rem;
   }
-  .s-lg-37-h {
-    left: 36.5rem;
+  .maxw-lg-37-t {
+    max-width: 36.75rem;
   }
-  .e-lg-37-h {
-    right: 36.5rem;
+  .maxh-lg-37-t {
+    max-height: 36.75rem;
   }
-  .t-lg-n37-h {
-    top: -36.5rem;
+  .minw-lg-37-t {
+    min-width: 36.75rem;
   }
-  .b-lg-n37-h {
-    bottom: -36.5rem;
-  }
-  .s-lg-n37-h {
-    left: -36.5rem;
-  }
-  .e-lg-n37-h {
-    right: -36.5rem;
+  .minh-lg-37-t {
+    min-height: 36.75rem;
   }
   .w-lg-37-f {
     width: 37rem;
@@ -32433,29 +31459,23 @@ textarea.form-control-lg {
   .minh-lg-38-h {
     min-height: 37.5rem;
   }
-  .t-lg-38-h {
-    top: 37.5rem;
+  .w-lg-38-t {
+    width: 37.75rem;
   }
-  .b-lg-38-h {
-    bottom: 37.5rem;
+  .h-lg-38-t {
+    height: 37.75rem;
   }
-  .s-lg-38-h {
-    left: 37.5rem;
+  .maxw-lg-38-t {
+    max-width: 37.75rem;
   }
-  .e-lg-38-h {
-    right: 37.5rem;
+  .maxh-lg-38-t {
+    max-height: 37.75rem;
   }
-  .t-lg-n38-h {
-    top: -37.5rem;
+  .minw-lg-38-t {
+    min-width: 37.75rem;
   }
-  .b-lg-n38-h {
-    bottom: -37.5rem;
-  }
-  .s-lg-n38-h {
-    left: -37.5rem;
-  }
-  .e-lg-n38-h {
-    right: -37.5rem;
+  .minh-lg-38-t {
+    min-height: 37.75rem;
   }
   .w-lg-38-f {
     width: 38rem;
@@ -32517,29 +31537,23 @@ textarea.form-control-lg {
   .minh-lg-39-h {
     min-height: 38.5rem;
   }
-  .t-lg-39-h {
-    top: 38.5rem;
+  .w-lg-39-t {
+    width: 38.75rem;
   }
-  .b-lg-39-h {
-    bottom: 38.5rem;
+  .h-lg-39-t {
+    height: 38.75rem;
   }
-  .s-lg-39-h {
-    left: 38.5rem;
+  .maxw-lg-39-t {
+    max-width: 38.75rem;
   }
-  .e-lg-39-h {
-    right: 38.5rem;
+  .maxh-lg-39-t {
+    max-height: 38.75rem;
   }
-  .t-lg-n39-h {
-    top: -38.5rem;
+  .minw-lg-39-t {
+    min-width: 38.75rem;
   }
-  .b-lg-n39-h {
-    bottom: -38.5rem;
-  }
-  .s-lg-n39-h {
-    left: -38.5rem;
-  }
-  .e-lg-n39-h {
-    right: -38.5rem;
+  .minh-lg-39-t {
+    min-height: 38.75rem;
   }
   .w-lg-39-f {
     width: 39rem;
@@ -32601,29 +31615,23 @@ textarea.form-control-lg {
   .minh-lg-40-h {
     min-height: 39.5rem;
   }
-  .t-lg-40-h {
-    top: 39.5rem;
+  .w-lg-40-t {
+    width: 39.75rem;
   }
-  .b-lg-40-h {
-    bottom: 39.5rem;
+  .h-lg-40-t {
+    height: 39.75rem;
   }
-  .s-lg-40-h {
-    left: 39.5rem;
+  .maxw-lg-40-t {
+    max-width: 39.75rem;
   }
-  .e-lg-40-h {
-    right: 39.5rem;
+  .maxh-lg-40-t {
+    max-height: 39.75rem;
   }
-  .t-lg-n40-h {
-    top: -39.5rem;
+  .minw-lg-40-t {
+    min-width: 39.75rem;
   }
-  .b-lg-n40-h {
-    bottom: -39.5rem;
-  }
-  .s-lg-n40-h {
-    left: -39.5rem;
-  }
-  .e-lg-n40-h {
-    right: -39.5rem;
+  .minh-lg-40-t {
+    min-height: 39.75rem;
   }
   .w-lg-40-f {
     width: 40rem;
@@ -32696,6 +31704,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 3rem;
+    word-break: break-word;
   }
   .text-truncate-xl-3 {
     display: block;
@@ -32710,6 +31721,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 4.5rem;
+    word-break: break-word;
   }
   .text-truncate-xl-4 {
     display: block;
@@ -32724,6 +31738,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 6rem;
+    word-break: break-word;
   }
   .text-truncate-xl-5 {
     display: block;
@@ -32738,6 +31755,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 7.5rem;
+    word-break: break-word;
   }
   .mdi-xl-n2 {
     font-size: 0.25rem;
@@ -32874,29 +31894,23 @@ textarea.form-control-lg {
   .minh-xl-1-h {
     min-height: 0.5rem;
   }
-  .t-xl-1-h {
-    top: 0.5rem;
+  .w-xl-1-t {
+    width: 0.75rem;
   }
-  .b-xl-1-h {
-    bottom: 0.5rem;
+  .h-xl-1-t {
+    height: 0.75rem;
   }
-  .s-xl-1-h {
-    left: 0.5rem;
+  .maxw-xl-1-t {
+    max-width: 0.75rem;
   }
-  .e-xl-1-h {
-    right: 0.5rem;
+  .maxh-xl-1-t {
+    max-height: 0.75rem;
   }
-  .t-xl-n1-h {
-    top: -0.5rem;
+  .minw-xl-1-t {
+    min-width: 0.75rem;
   }
-  .b-xl-n1-h {
-    bottom: -0.5rem;
-  }
-  .s-xl-n1-h {
-    left: -0.5rem;
-  }
-  .e-xl-n1-h {
-    right: -0.5rem;
+  .minh-xl-1-t {
+    min-height: 0.75rem;
   }
   .w-xl-1-f {
     width: 1rem;
@@ -32958,29 +31972,23 @@ textarea.form-control-lg {
   .minh-xl-2-h {
     min-height: 1.5rem;
   }
-  .t-xl-2-h {
-    top: 1.5rem;
+  .w-xl-2-t {
+    width: 1.75rem;
   }
-  .b-xl-2-h {
-    bottom: 1.5rem;
+  .h-xl-2-t {
+    height: 1.75rem;
   }
-  .s-xl-2-h {
-    left: 1.5rem;
+  .maxw-xl-2-t {
+    max-width: 1.75rem;
   }
-  .e-xl-2-h {
-    right: 1.5rem;
+  .maxh-xl-2-t {
+    max-height: 1.75rem;
   }
-  .t-xl-n2-h {
-    top: -1.5rem;
+  .minw-xl-2-t {
+    min-width: 1.75rem;
   }
-  .b-xl-n2-h {
-    bottom: -1.5rem;
-  }
-  .s-xl-n2-h {
-    left: -1.5rem;
-  }
-  .e-xl-n2-h {
-    right: -1.5rem;
+  .minh-xl-2-t {
+    min-height: 1.75rem;
   }
   .w-xl-2-f {
     width: 2rem;
@@ -33042,29 +32050,23 @@ textarea.form-control-lg {
   .minh-xl-3-h {
     min-height: 2.5rem;
   }
-  .t-xl-3-h {
-    top: 2.5rem;
+  .w-xl-3-t {
+    width: 2.75rem;
   }
-  .b-xl-3-h {
-    bottom: 2.5rem;
+  .h-xl-3-t {
+    height: 2.75rem;
   }
-  .s-xl-3-h {
-    left: 2.5rem;
+  .maxw-xl-3-t {
+    max-width: 2.75rem;
   }
-  .e-xl-3-h {
-    right: 2.5rem;
+  .maxh-xl-3-t {
+    max-height: 2.75rem;
   }
-  .t-xl-n3-h {
-    top: -2.5rem;
+  .minw-xl-3-t {
+    min-width: 2.75rem;
   }
-  .b-xl-n3-h {
-    bottom: -2.5rem;
-  }
-  .s-xl-n3-h {
-    left: -2.5rem;
-  }
-  .e-xl-n3-h {
-    right: -2.5rem;
+  .minh-xl-3-t {
+    min-height: 2.75rem;
   }
   .w-xl-3-f {
     width: 3rem;
@@ -33126,29 +32128,23 @@ textarea.form-control-lg {
   .minh-xl-4-h {
     min-height: 3.5rem;
   }
-  .t-xl-4-h {
-    top: 3.5rem;
+  .w-xl-4-t {
+    width: 3.75rem;
   }
-  .b-xl-4-h {
-    bottom: 3.5rem;
+  .h-xl-4-t {
+    height: 3.75rem;
   }
-  .s-xl-4-h {
-    left: 3.5rem;
+  .maxw-xl-4-t {
+    max-width: 3.75rem;
   }
-  .e-xl-4-h {
-    right: 3.5rem;
+  .maxh-xl-4-t {
+    max-height: 3.75rem;
   }
-  .t-xl-n4-h {
-    top: -3.5rem;
+  .minw-xl-4-t {
+    min-width: 3.75rem;
   }
-  .b-xl-n4-h {
-    bottom: -3.5rem;
-  }
-  .s-xl-n4-h {
-    left: -3.5rem;
-  }
-  .e-xl-n4-h {
-    right: -3.5rem;
+  .minh-xl-4-t {
+    min-height: 3.75rem;
   }
   .w-xl-4-f {
     width: 4rem;
@@ -33210,29 +32206,23 @@ textarea.form-control-lg {
   .minh-xl-5-h {
     min-height: 4.5rem;
   }
-  .t-xl-5-h {
-    top: 4.5rem;
+  .w-xl-5-t {
+    width: 4.75rem;
   }
-  .b-xl-5-h {
-    bottom: 4.5rem;
+  .h-xl-5-t {
+    height: 4.75rem;
   }
-  .s-xl-5-h {
-    left: 4.5rem;
+  .maxw-xl-5-t {
+    max-width: 4.75rem;
   }
-  .e-xl-5-h {
-    right: 4.5rem;
+  .maxh-xl-5-t {
+    max-height: 4.75rem;
   }
-  .t-xl-n5-h {
-    top: -4.5rem;
+  .minw-xl-5-t {
+    min-width: 4.75rem;
   }
-  .b-xl-n5-h {
-    bottom: -4.5rem;
-  }
-  .s-xl-n5-h {
-    left: -4.5rem;
-  }
-  .e-xl-n5-h {
-    right: -4.5rem;
+  .minh-xl-5-t {
+    min-height: 4.75rem;
   }
   .w-xl-5-f {
     width: 5rem;
@@ -33294,29 +32284,23 @@ textarea.form-control-lg {
   .minh-xl-6-h {
     min-height: 5.5rem;
   }
-  .t-xl-6-h {
-    top: 5.5rem;
+  .w-xl-6-t {
+    width: 5.75rem;
   }
-  .b-xl-6-h {
-    bottom: 5.5rem;
+  .h-xl-6-t {
+    height: 5.75rem;
   }
-  .s-xl-6-h {
-    left: 5.5rem;
+  .maxw-xl-6-t {
+    max-width: 5.75rem;
   }
-  .e-xl-6-h {
-    right: 5.5rem;
+  .maxh-xl-6-t {
+    max-height: 5.75rem;
   }
-  .t-xl-n6-h {
-    top: -5.5rem;
+  .minw-xl-6-t {
+    min-width: 5.75rem;
   }
-  .b-xl-n6-h {
-    bottom: -5.5rem;
-  }
-  .s-xl-n6-h {
-    left: -5.5rem;
-  }
-  .e-xl-n6-h {
-    right: -5.5rem;
+  .minh-xl-6-t {
+    min-height: 5.75rem;
   }
   .w-xl-6-f {
     width: 6rem;
@@ -33378,29 +32362,23 @@ textarea.form-control-lg {
   .minh-xl-7-h {
     min-height: 6.5rem;
   }
-  .t-xl-7-h {
-    top: 6.5rem;
+  .w-xl-7-t {
+    width: 6.75rem;
   }
-  .b-xl-7-h {
-    bottom: 6.5rem;
+  .h-xl-7-t {
+    height: 6.75rem;
   }
-  .s-xl-7-h {
-    left: 6.5rem;
+  .maxw-xl-7-t {
+    max-width: 6.75rem;
   }
-  .e-xl-7-h {
-    right: 6.5rem;
+  .maxh-xl-7-t {
+    max-height: 6.75rem;
   }
-  .t-xl-n7-h {
-    top: -6.5rem;
+  .minw-xl-7-t {
+    min-width: 6.75rem;
   }
-  .b-xl-n7-h {
-    bottom: -6.5rem;
-  }
-  .s-xl-n7-h {
-    left: -6.5rem;
-  }
-  .e-xl-n7-h {
-    right: -6.5rem;
+  .minh-xl-7-t {
+    min-height: 6.75rem;
   }
   .w-xl-7-f {
     width: 7rem;
@@ -33462,29 +32440,23 @@ textarea.form-control-lg {
   .minh-xl-8-h {
     min-height: 7.5rem;
   }
-  .t-xl-8-h {
-    top: 7.5rem;
+  .w-xl-8-t {
+    width: 7.75rem;
   }
-  .b-xl-8-h {
-    bottom: 7.5rem;
+  .h-xl-8-t {
+    height: 7.75rem;
   }
-  .s-xl-8-h {
-    left: 7.5rem;
+  .maxw-xl-8-t {
+    max-width: 7.75rem;
   }
-  .e-xl-8-h {
-    right: 7.5rem;
+  .maxh-xl-8-t {
+    max-height: 7.75rem;
   }
-  .t-xl-n8-h {
-    top: -7.5rem;
+  .minw-xl-8-t {
+    min-width: 7.75rem;
   }
-  .b-xl-n8-h {
-    bottom: -7.5rem;
-  }
-  .s-xl-n8-h {
-    left: -7.5rem;
-  }
-  .e-xl-n8-h {
-    right: -7.5rem;
+  .minh-xl-8-t {
+    min-height: 7.75rem;
   }
   .w-xl-8-f {
     width: 8rem;
@@ -33546,29 +32518,23 @@ textarea.form-control-lg {
   .minh-xl-9-h {
     min-height: 8.5rem;
   }
-  .t-xl-9-h {
-    top: 8.5rem;
+  .w-xl-9-t {
+    width: 8.75rem;
   }
-  .b-xl-9-h {
-    bottom: 8.5rem;
+  .h-xl-9-t {
+    height: 8.75rem;
   }
-  .s-xl-9-h {
-    left: 8.5rem;
+  .maxw-xl-9-t {
+    max-width: 8.75rem;
   }
-  .e-xl-9-h {
-    right: 8.5rem;
+  .maxh-xl-9-t {
+    max-height: 8.75rem;
   }
-  .t-xl-n9-h {
-    top: -8.5rem;
+  .minw-xl-9-t {
+    min-width: 8.75rem;
   }
-  .b-xl-n9-h {
-    bottom: -8.5rem;
-  }
-  .s-xl-n9-h {
-    left: -8.5rem;
-  }
-  .e-xl-n9-h {
-    right: -8.5rem;
+  .minh-xl-9-t {
+    min-height: 8.75rem;
   }
   .w-xl-9-f {
     width: 9rem;
@@ -33630,29 +32596,23 @@ textarea.form-control-lg {
   .minh-xl-10-h {
     min-height: 9.5rem;
   }
-  .t-xl-10-h {
-    top: 9.5rem;
+  .w-xl-10-t {
+    width: 9.75rem;
   }
-  .b-xl-10-h {
-    bottom: 9.5rem;
+  .h-xl-10-t {
+    height: 9.75rem;
   }
-  .s-xl-10-h {
-    left: 9.5rem;
+  .maxw-xl-10-t {
+    max-width: 9.75rem;
   }
-  .e-xl-10-h {
-    right: 9.5rem;
+  .maxh-xl-10-t {
+    max-height: 9.75rem;
   }
-  .t-xl-n10-h {
-    top: -9.5rem;
+  .minw-xl-10-t {
+    min-width: 9.75rem;
   }
-  .b-xl-n10-h {
-    bottom: -9.5rem;
-  }
-  .s-xl-n10-h {
-    left: -9.5rem;
-  }
-  .e-xl-n10-h {
-    right: -9.5rem;
+  .minh-xl-10-t {
+    min-height: 9.75rem;
   }
   .w-xl-10-f {
     width: 10rem;
@@ -33714,29 +32674,23 @@ textarea.form-control-lg {
   .minh-xl-11-h {
     min-height: 10.5rem;
   }
-  .t-xl-11-h {
-    top: 10.5rem;
+  .w-xl-11-t {
+    width: 10.75rem;
   }
-  .b-xl-11-h {
-    bottom: 10.5rem;
+  .h-xl-11-t {
+    height: 10.75rem;
   }
-  .s-xl-11-h {
-    left: 10.5rem;
+  .maxw-xl-11-t {
+    max-width: 10.75rem;
   }
-  .e-xl-11-h {
-    right: 10.5rem;
+  .maxh-xl-11-t {
+    max-height: 10.75rem;
   }
-  .t-xl-n11-h {
-    top: -10.5rem;
+  .minw-xl-11-t {
+    min-width: 10.75rem;
   }
-  .b-xl-n11-h {
-    bottom: -10.5rem;
-  }
-  .s-xl-n11-h {
-    left: -10.5rem;
-  }
-  .e-xl-n11-h {
-    right: -10.5rem;
+  .minh-xl-11-t {
+    min-height: 10.75rem;
   }
   .w-xl-11-f {
     width: 11rem;
@@ -33798,29 +32752,23 @@ textarea.form-control-lg {
   .minh-xl-12-h {
     min-height: 11.5rem;
   }
-  .t-xl-12-h {
-    top: 11.5rem;
+  .w-xl-12-t {
+    width: 11.75rem;
   }
-  .b-xl-12-h {
-    bottom: 11.5rem;
+  .h-xl-12-t {
+    height: 11.75rem;
   }
-  .s-xl-12-h {
-    left: 11.5rem;
+  .maxw-xl-12-t {
+    max-width: 11.75rem;
   }
-  .e-xl-12-h {
-    right: 11.5rem;
+  .maxh-xl-12-t {
+    max-height: 11.75rem;
   }
-  .t-xl-n12-h {
-    top: -11.5rem;
+  .minw-xl-12-t {
+    min-width: 11.75rem;
   }
-  .b-xl-n12-h {
-    bottom: -11.5rem;
-  }
-  .s-xl-n12-h {
-    left: -11.5rem;
-  }
-  .e-xl-n12-h {
-    right: -11.5rem;
+  .minh-xl-12-t {
+    min-height: 11.75rem;
   }
   .w-xl-12-f {
     width: 12rem;
@@ -33882,29 +32830,23 @@ textarea.form-control-lg {
   .minh-xl-13-h {
     min-height: 12.5rem;
   }
-  .t-xl-13-h {
-    top: 12.5rem;
+  .w-xl-13-t {
+    width: 12.75rem;
   }
-  .b-xl-13-h {
-    bottom: 12.5rem;
+  .h-xl-13-t {
+    height: 12.75rem;
   }
-  .s-xl-13-h {
-    left: 12.5rem;
+  .maxw-xl-13-t {
+    max-width: 12.75rem;
   }
-  .e-xl-13-h {
-    right: 12.5rem;
+  .maxh-xl-13-t {
+    max-height: 12.75rem;
   }
-  .t-xl-n13-h {
-    top: -12.5rem;
+  .minw-xl-13-t {
+    min-width: 12.75rem;
   }
-  .b-xl-n13-h {
-    bottom: -12.5rem;
-  }
-  .s-xl-n13-h {
-    left: -12.5rem;
-  }
-  .e-xl-n13-h {
-    right: -12.5rem;
+  .minh-xl-13-t {
+    min-height: 12.75rem;
   }
   .w-xl-13-f {
     width: 13rem;
@@ -33966,29 +32908,23 @@ textarea.form-control-lg {
   .minh-xl-14-h {
     min-height: 13.5rem;
   }
-  .t-xl-14-h {
-    top: 13.5rem;
+  .w-xl-14-t {
+    width: 13.75rem;
   }
-  .b-xl-14-h {
-    bottom: 13.5rem;
+  .h-xl-14-t {
+    height: 13.75rem;
   }
-  .s-xl-14-h {
-    left: 13.5rem;
+  .maxw-xl-14-t {
+    max-width: 13.75rem;
   }
-  .e-xl-14-h {
-    right: 13.5rem;
+  .maxh-xl-14-t {
+    max-height: 13.75rem;
   }
-  .t-xl-n14-h {
-    top: -13.5rem;
+  .minw-xl-14-t {
+    min-width: 13.75rem;
   }
-  .b-xl-n14-h {
-    bottom: -13.5rem;
-  }
-  .s-xl-n14-h {
-    left: -13.5rem;
-  }
-  .e-xl-n14-h {
-    right: -13.5rem;
+  .minh-xl-14-t {
+    min-height: 13.75rem;
   }
   .w-xl-14-f {
     width: 14rem;
@@ -34050,29 +32986,23 @@ textarea.form-control-lg {
   .minh-xl-15-h {
     min-height: 14.5rem;
   }
-  .t-xl-15-h {
-    top: 14.5rem;
+  .w-xl-15-t {
+    width: 14.75rem;
   }
-  .b-xl-15-h {
-    bottom: 14.5rem;
+  .h-xl-15-t {
+    height: 14.75rem;
   }
-  .s-xl-15-h {
-    left: 14.5rem;
+  .maxw-xl-15-t {
+    max-width: 14.75rem;
   }
-  .e-xl-15-h {
-    right: 14.5rem;
+  .maxh-xl-15-t {
+    max-height: 14.75rem;
   }
-  .t-xl-n15-h {
-    top: -14.5rem;
+  .minw-xl-15-t {
+    min-width: 14.75rem;
   }
-  .b-xl-n15-h {
-    bottom: -14.5rem;
-  }
-  .s-xl-n15-h {
-    left: -14.5rem;
-  }
-  .e-xl-n15-h {
-    right: -14.5rem;
+  .minh-xl-15-t {
+    min-height: 14.75rem;
   }
   .w-xl-15-f {
     width: 15rem;
@@ -34134,29 +33064,23 @@ textarea.form-control-lg {
   .minh-xl-16-h {
     min-height: 15.5rem;
   }
-  .t-xl-16-h {
-    top: 15.5rem;
+  .w-xl-16-t {
+    width: 15.75rem;
   }
-  .b-xl-16-h {
-    bottom: 15.5rem;
+  .h-xl-16-t {
+    height: 15.75rem;
   }
-  .s-xl-16-h {
-    left: 15.5rem;
+  .maxw-xl-16-t {
+    max-width: 15.75rem;
   }
-  .e-xl-16-h {
-    right: 15.5rem;
+  .maxh-xl-16-t {
+    max-height: 15.75rem;
   }
-  .t-xl-n16-h {
-    top: -15.5rem;
+  .minw-xl-16-t {
+    min-width: 15.75rem;
   }
-  .b-xl-n16-h {
-    bottom: -15.5rem;
-  }
-  .s-xl-n16-h {
-    left: -15.5rem;
-  }
-  .e-xl-n16-h {
-    right: -15.5rem;
+  .minh-xl-16-t {
+    min-height: 15.75rem;
   }
   .w-xl-16-f {
     width: 16rem;
@@ -34218,29 +33142,23 @@ textarea.form-control-lg {
   .minh-xl-17-h {
     min-height: 16.5rem;
   }
-  .t-xl-17-h {
-    top: 16.5rem;
+  .w-xl-17-t {
+    width: 16.75rem;
   }
-  .b-xl-17-h {
-    bottom: 16.5rem;
+  .h-xl-17-t {
+    height: 16.75rem;
   }
-  .s-xl-17-h {
-    left: 16.5rem;
+  .maxw-xl-17-t {
+    max-width: 16.75rem;
   }
-  .e-xl-17-h {
-    right: 16.5rem;
+  .maxh-xl-17-t {
+    max-height: 16.75rem;
   }
-  .t-xl-n17-h {
-    top: -16.5rem;
+  .minw-xl-17-t {
+    min-width: 16.75rem;
   }
-  .b-xl-n17-h {
-    bottom: -16.5rem;
-  }
-  .s-xl-n17-h {
-    left: -16.5rem;
-  }
-  .e-xl-n17-h {
-    right: -16.5rem;
+  .minh-xl-17-t {
+    min-height: 16.75rem;
   }
   .w-xl-17-f {
     width: 17rem;
@@ -34302,29 +33220,23 @@ textarea.form-control-lg {
   .minh-xl-18-h {
     min-height: 17.5rem;
   }
-  .t-xl-18-h {
-    top: 17.5rem;
+  .w-xl-18-t {
+    width: 17.75rem;
   }
-  .b-xl-18-h {
-    bottom: 17.5rem;
+  .h-xl-18-t {
+    height: 17.75rem;
   }
-  .s-xl-18-h {
-    left: 17.5rem;
+  .maxw-xl-18-t {
+    max-width: 17.75rem;
   }
-  .e-xl-18-h {
-    right: 17.5rem;
+  .maxh-xl-18-t {
+    max-height: 17.75rem;
   }
-  .t-xl-n18-h {
-    top: -17.5rem;
+  .minw-xl-18-t {
+    min-width: 17.75rem;
   }
-  .b-xl-n18-h {
-    bottom: -17.5rem;
-  }
-  .s-xl-n18-h {
-    left: -17.5rem;
-  }
-  .e-xl-n18-h {
-    right: -17.5rem;
+  .minh-xl-18-t {
+    min-height: 17.75rem;
   }
   .w-xl-18-f {
     width: 18rem;
@@ -34386,29 +33298,23 @@ textarea.form-control-lg {
   .minh-xl-19-h {
     min-height: 18.5rem;
   }
-  .t-xl-19-h {
-    top: 18.5rem;
+  .w-xl-19-t {
+    width: 18.75rem;
   }
-  .b-xl-19-h {
-    bottom: 18.5rem;
+  .h-xl-19-t {
+    height: 18.75rem;
   }
-  .s-xl-19-h {
-    left: 18.5rem;
+  .maxw-xl-19-t {
+    max-width: 18.75rem;
   }
-  .e-xl-19-h {
-    right: 18.5rem;
+  .maxh-xl-19-t {
+    max-height: 18.75rem;
   }
-  .t-xl-n19-h {
-    top: -18.5rem;
+  .minw-xl-19-t {
+    min-width: 18.75rem;
   }
-  .b-xl-n19-h {
-    bottom: -18.5rem;
-  }
-  .s-xl-n19-h {
-    left: -18.5rem;
-  }
-  .e-xl-n19-h {
-    right: -18.5rem;
+  .minh-xl-19-t {
+    min-height: 18.75rem;
   }
   .w-xl-19-f {
     width: 19rem;
@@ -34470,29 +33376,23 @@ textarea.form-control-lg {
   .minh-xl-20-h {
     min-height: 19.5rem;
   }
-  .t-xl-20-h {
-    top: 19.5rem;
+  .w-xl-20-t {
+    width: 19.75rem;
   }
-  .b-xl-20-h {
-    bottom: 19.5rem;
+  .h-xl-20-t {
+    height: 19.75rem;
   }
-  .s-xl-20-h {
-    left: 19.5rem;
+  .maxw-xl-20-t {
+    max-width: 19.75rem;
   }
-  .e-xl-20-h {
-    right: 19.5rem;
+  .maxh-xl-20-t {
+    max-height: 19.75rem;
   }
-  .t-xl-n20-h {
-    top: -19.5rem;
+  .minw-xl-20-t {
+    min-width: 19.75rem;
   }
-  .b-xl-n20-h {
-    bottom: -19.5rem;
-  }
-  .s-xl-n20-h {
-    left: -19.5rem;
-  }
-  .e-xl-n20-h {
-    right: -19.5rem;
+  .minh-xl-20-t {
+    min-height: 19.75rem;
   }
   .w-xl-20-f {
     width: 20rem;
@@ -34554,29 +33454,23 @@ textarea.form-control-lg {
   .minh-xl-21-h {
     min-height: 20.5rem;
   }
-  .t-xl-21-h {
-    top: 20.5rem;
+  .w-xl-21-t {
+    width: 20.75rem;
   }
-  .b-xl-21-h {
-    bottom: 20.5rem;
+  .h-xl-21-t {
+    height: 20.75rem;
   }
-  .s-xl-21-h {
-    left: 20.5rem;
+  .maxw-xl-21-t {
+    max-width: 20.75rem;
   }
-  .e-xl-21-h {
-    right: 20.5rem;
+  .maxh-xl-21-t {
+    max-height: 20.75rem;
   }
-  .t-xl-n21-h {
-    top: -20.5rem;
+  .minw-xl-21-t {
+    min-width: 20.75rem;
   }
-  .b-xl-n21-h {
-    bottom: -20.5rem;
-  }
-  .s-xl-n21-h {
-    left: -20.5rem;
-  }
-  .e-xl-n21-h {
-    right: -20.5rem;
+  .minh-xl-21-t {
+    min-height: 20.75rem;
   }
   .w-xl-21-f {
     width: 21rem;
@@ -34638,29 +33532,23 @@ textarea.form-control-lg {
   .minh-xl-22-h {
     min-height: 21.5rem;
   }
-  .t-xl-22-h {
-    top: 21.5rem;
+  .w-xl-22-t {
+    width: 21.75rem;
   }
-  .b-xl-22-h {
-    bottom: 21.5rem;
+  .h-xl-22-t {
+    height: 21.75rem;
   }
-  .s-xl-22-h {
-    left: 21.5rem;
+  .maxw-xl-22-t {
+    max-width: 21.75rem;
   }
-  .e-xl-22-h {
-    right: 21.5rem;
+  .maxh-xl-22-t {
+    max-height: 21.75rem;
   }
-  .t-xl-n22-h {
-    top: -21.5rem;
+  .minw-xl-22-t {
+    min-width: 21.75rem;
   }
-  .b-xl-n22-h {
-    bottom: -21.5rem;
-  }
-  .s-xl-n22-h {
-    left: -21.5rem;
-  }
-  .e-xl-n22-h {
-    right: -21.5rem;
+  .minh-xl-22-t {
+    min-height: 21.75rem;
   }
   .w-xl-22-f {
     width: 22rem;
@@ -34722,29 +33610,23 @@ textarea.form-control-lg {
   .minh-xl-23-h {
     min-height: 22.5rem;
   }
-  .t-xl-23-h {
-    top: 22.5rem;
+  .w-xl-23-t {
+    width: 22.75rem;
   }
-  .b-xl-23-h {
-    bottom: 22.5rem;
+  .h-xl-23-t {
+    height: 22.75rem;
   }
-  .s-xl-23-h {
-    left: 22.5rem;
+  .maxw-xl-23-t {
+    max-width: 22.75rem;
   }
-  .e-xl-23-h {
-    right: 22.5rem;
+  .maxh-xl-23-t {
+    max-height: 22.75rem;
   }
-  .t-xl-n23-h {
-    top: -22.5rem;
+  .minw-xl-23-t {
+    min-width: 22.75rem;
   }
-  .b-xl-n23-h {
-    bottom: -22.5rem;
-  }
-  .s-xl-n23-h {
-    left: -22.5rem;
-  }
-  .e-xl-n23-h {
-    right: -22.5rem;
+  .minh-xl-23-t {
+    min-height: 22.75rem;
   }
   .w-xl-23-f {
     width: 23rem;
@@ -34806,29 +33688,23 @@ textarea.form-control-lg {
   .minh-xl-24-h {
     min-height: 23.5rem;
   }
-  .t-xl-24-h {
-    top: 23.5rem;
+  .w-xl-24-t {
+    width: 23.75rem;
   }
-  .b-xl-24-h {
-    bottom: 23.5rem;
+  .h-xl-24-t {
+    height: 23.75rem;
   }
-  .s-xl-24-h {
-    left: 23.5rem;
+  .maxw-xl-24-t {
+    max-width: 23.75rem;
   }
-  .e-xl-24-h {
-    right: 23.5rem;
+  .maxh-xl-24-t {
+    max-height: 23.75rem;
   }
-  .t-xl-n24-h {
-    top: -23.5rem;
+  .minw-xl-24-t {
+    min-width: 23.75rem;
   }
-  .b-xl-n24-h {
-    bottom: -23.5rem;
-  }
-  .s-xl-n24-h {
-    left: -23.5rem;
-  }
-  .e-xl-n24-h {
-    right: -23.5rem;
+  .minh-xl-24-t {
+    min-height: 23.75rem;
   }
   .w-xl-24-f {
     width: 24rem;
@@ -34890,29 +33766,23 @@ textarea.form-control-lg {
   .minh-xl-25-h {
     min-height: 24.5rem;
   }
-  .t-xl-25-h {
-    top: 24.5rem;
+  .w-xl-25-t {
+    width: 24.75rem;
   }
-  .b-xl-25-h {
-    bottom: 24.5rem;
+  .h-xl-25-t {
+    height: 24.75rem;
   }
-  .s-xl-25-h {
-    left: 24.5rem;
+  .maxw-xl-25-t {
+    max-width: 24.75rem;
   }
-  .e-xl-25-h {
-    right: 24.5rem;
+  .maxh-xl-25-t {
+    max-height: 24.75rem;
   }
-  .t-xl-n25-h {
-    top: -24.5rem;
+  .minw-xl-25-t {
+    min-width: 24.75rem;
   }
-  .b-xl-n25-h {
-    bottom: -24.5rem;
-  }
-  .s-xl-n25-h {
-    left: -24.5rem;
-  }
-  .e-xl-n25-h {
-    right: -24.5rem;
+  .minh-xl-25-t {
+    min-height: 24.75rem;
   }
   .w-xl-25-f {
     width: 25rem;
@@ -34974,29 +33844,23 @@ textarea.form-control-lg {
   .minh-xl-26-h {
     min-height: 25.5rem;
   }
-  .t-xl-26-h {
-    top: 25.5rem;
+  .w-xl-26-t {
+    width: 25.75rem;
   }
-  .b-xl-26-h {
-    bottom: 25.5rem;
+  .h-xl-26-t {
+    height: 25.75rem;
   }
-  .s-xl-26-h {
-    left: 25.5rem;
+  .maxw-xl-26-t {
+    max-width: 25.75rem;
   }
-  .e-xl-26-h {
-    right: 25.5rem;
+  .maxh-xl-26-t {
+    max-height: 25.75rem;
   }
-  .t-xl-n26-h {
-    top: -25.5rem;
+  .minw-xl-26-t {
+    min-width: 25.75rem;
   }
-  .b-xl-n26-h {
-    bottom: -25.5rem;
-  }
-  .s-xl-n26-h {
-    left: -25.5rem;
-  }
-  .e-xl-n26-h {
-    right: -25.5rem;
+  .minh-xl-26-t {
+    min-height: 25.75rem;
   }
   .w-xl-26-f {
     width: 26rem;
@@ -35058,29 +33922,23 @@ textarea.form-control-lg {
   .minh-xl-27-h {
     min-height: 26.5rem;
   }
-  .t-xl-27-h {
-    top: 26.5rem;
+  .w-xl-27-t {
+    width: 26.75rem;
   }
-  .b-xl-27-h {
-    bottom: 26.5rem;
+  .h-xl-27-t {
+    height: 26.75rem;
   }
-  .s-xl-27-h {
-    left: 26.5rem;
+  .maxw-xl-27-t {
+    max-width: 26.75rem;
   }
-  .e-xl-27-h {
-    right: 26.5rem;
+  .maxh-xl-27-t {
+    max-height: 26.75rem;
   }
-  .t-xl-n27-h {
-    top: -26.5rem;
+  .minw-xl-27-t {
+    min-width: 26.75rem;
   }
-  .b-xl-n27-h {
-    bottom: -26.5rem;
-  }
-  .s-xl-n27-h {
-    left: -26.5rem;
-  }
-  .e-xl-n27-h {
-    right: -26.5rem;
+  .minh-xl-27-t {
+    min-height: 26.75rem;
   }
   .w-xl-27-f {
     width: 27rem;
@@ -35142,29 +34000,23 @@ textarea.form-control-lg {
   .minh-xl-28-h {
     min-height: 27.5rem;
   }
-  .t-xl-28-h {
-    top: 27.5rem;
+  .w-xl-28-t {
+    width: 27.75rem;
   }
-  .b-xl-28-h {
-    bottom: 27.5rem;
+  .h-xl-28-t {
+    height: 27.75rem;
   }
-  .s-xl-28-h {
-    left: 27.5rem;
+  .maxw-xl-28-t {
+    max-width: 27.75rem;
   }
-  .e-xl-28-h {
-    right: 27.5rem;
+  .maxh-xl-28-t {
+    max-height: 27.75rem;
   }
-  .t-xl-n28-h {
-    top: -27.5rem;
+  .minw-xl-28-t {
+    min-width: 27.75rem;
   }
-  .b-xl-n28-h {
-    bottom: -27.5rem;
-  }
-  .s-xl-n28-h {
-    left: -27.5rem;
-  }
-  .e-xl-n28-h {
-    right: -27.5rem;
+  .minh-xl-28-t {
+    min-height: 27.75rem;
   }
   .w-xl-28-f {
     width: 28rem;
@@ -35226,29 +34078,23 @@ textarea.form-control-lg {
   .minh-xl-29-h {
     min-height: 28.5rem;
   }
-  .t-xl-29-h {
-    top: 28.5rem;
+  .w-xl-29-t {
+    width: 28.75rem;
   }
-  .b-xl-29-h {
-    bottom: 28.5rem;
+  .h-xl-29-t {
+    height: 28.75rem;
   }
-  .s-xl-29-h {
-    left: 28.5rem;
+  .maxw-xl-29-t {
+    max-width: 28.75rem;
   }
-  .e-xl-29-h {
-    right: 28.5rem;
+  .maxh-xl-29-t {
+    max-height: 28.75rem;
   }
-  .t-xl-n29-h {
-    top: -28.5rem;
+  .minw-xl-29-t {
+    min-width: 28.75rem;
   }
-  .b-xl-n29-h {
-    bottom: -28.5rem;
-  }
-  .s-xl-n29-h {
-    left: -28.5rem;
-  }
-  .e-xl-n29-h {
-    right: -28.5rem;
+  .minh-xl-29-t {
+    min-height: 28.75rem;
   }
   .w-xl-29-f {
     width: 29rem;
@@ -35310,29 +34156,23 @@ textarea.form-control-lg {
   .minh-xl-30-h {
     min-height: 29.5rem;
   }
-  .t-xl-30-h {
-    top: 29.5rem;
+  .w-xl-30-t {
+    width: 29.75rem;
   }
-  .b-xl-30-h {
-    bottom: 29.5rem;
+  .h-xl-30-t {
+    height: 29.75rem;
   }
-  .s-xl-30-h {
-    left: 29.5rem;
+  .maxw-xl-30-t {
+    max-width: 29.75rem;
   }
-  .e-xl-30-h {
-    right: 29.5rem;
+  .maxh-xl-30-t {
+    max-height: 29.75rem;
   }
-  .t-xl-n30-h {
-    top: -29.5rem;
+  .minw-xl-30-t {
+    min-width: 29.75rem;
   }
-  .b-xl-n30-h {
-    bottom: -29.5rem;
-  }
-  .s-xl-n30-h {
-    left: -29.5rem;
-  }
-  .e-xl-n30-h {
-    right: -29.5rem;
+  .minh-xl-30-t {
+    min-height: 29.75rem;
   }
   .w-xl-30-f {
     width: 30rem;
@@ -35394,29 +34234,23 @@ textarea.form-control-lg {
   .minh-xl-31-h {
     min-height: 30.5rem;
   }
-  .t-xl-31-h {
-    top: 30.5rem;
+  .w-xl-31-t {
+    width: 30.75rem;
   }
-  .b-xl-31-h {
-    bottom: 30.5rem;
+  .h-xl-31-t {
+    height: 30.75rem;
   }
-  .s-xl-31-h {
-    left: 30.5rem;
+  .maxw-xl-31-t {
+    max-width: 30.75rem;
   }
-  .e-xl-31-h {
-    right: 30.5rem;
+  .maxh-xl-31-t {
+    max-height: 30.75rem;
   }
-  .t-xl-n31-h {
-    top: -30.5rem;
+  .minw-xl-31-t {
+    min-width: 30.75rem;
   }
-  .b-xl-n31-h {
-    bottom: -30.5rem;
-  }
-  .s-xl-n31-h {
-    left: -30.5rem;
-  }
-  .e-xl-n31-h {
-    right: -30.5rem;
+  .minh-xl-31-t {
+    min-height: 30.75rem;
   }
   .w-xl-31-f {
     width: 31rem;
@@ -35478,29 +34312,23 @@ textarea.form-control-lg {
   .minh-xl-32-h {
     min-height: 31.5rem;
   }
-  .t-xl-32-h {
-    top: 31.5rem;
+  .w-xl-32-t {
+    width: 31.75rem;
   }
-  .b-xl-32-h {
-    bottom: 31.5rem;
+  .h-xl-32-t {
+    height: 31.75rem;
   }
-  .s-xl-32-h {
-    left: 31.5rem;
+  .maxw-xl-32-t {
+    max-width: 31.75rem;
   }
-  .e-xl-32-h {
-    right: 31.5rem;
+  .maxh-xl-32-t {
+    max-height: 31.75rem;
   }
-  .t-xl-n32-h {
-    top: -31.5rem;
+  .minw-xl-32-t {
+    min-width: 31.75rem;
   }
-  .b-xl-n32-h {
-    bottom: -31.5rem;
-  }
-  .s-xl-n32-h {
-    left: -31.5rem;
-  }
-  .e-xl-n32-h {
-    right: -31.5rem;
+  .minh-xl-32-t {
+    min-height: 31.75rem;
   }
   .w-xl-32-f {
     width: 32rem;
@@ -35562,29 +34390,23 @@ textarea.form-control-lg {
   .minh-xl-33-h {
     min-height: 32.5rem;
   }
-  .t-xl-33-h {
-    top: 32.5rem;
+  .w-xl-33-t {
+    width: 32.75rem;
   }
-  .b-xl-33-h {
-    bottom: 32.5rem;
+  .h-xl-33-t {
+    height: 32.75rem;
   }
-  .s-xl-33-h {
-    left: 32.5rem;
+  .maxw-xl-33-t {
+    max-width: 32.75rem;
   }
-  .e-xl-33-h {
-    right: 32.5rem;
+  .maxh-xl-33-t {
+    max-height: 32.75rem;
   }
-  .t-xl-n33-h {
-    top: -32.5rem;
+  .minw-xl-33-t {
+    min-width: 32.75rem;
   }
-  .b-xl-n33-h {
-    bottom: -32.5rem;
-  }
-  .s-xl-n33-h {
-    left: -32.5rem;
-  }
-  .e-xl-n33-h {
-    right: -32.5rem;
+  .minh-xl-33-t {
+    min-height: 32.75rem;
   }
   .w-xl-33-f {
     width: 33rem;
@@ -35646,29 +34468,23 @@ textarea.form-control-lg {
   .minh-xl-34-h {
     min-height: 33.5rem;
   }
-  .t-xl-34-h {
-    top: 33.5rem;
+  .w-xl-34-t {
+    width: 33.75rem;
   }
-  .b-xl-34-h {
-    bottom: 33.5rem;
+  .h-xl-34-t {
+    height: 33.75rem;
   }
-  .s-xl-34-h {
-    left: 33.5rem;
+  .maxw-xl-34-t {
+    max-width: 33.75rem;
   }
-  .e-xl-34-h {
-    right: 33.5rem;
+  .maxh-xl-34-t {
+    max-height: 33.75rem;
   }
-  .t-xl-n34-h {
-    top: -33.5rem;
+  .minw-xl-34-t {
+    min-width: 33.75rem;
   }
-  .b-xl-n34-h {
-    bottom: -33.5rem;
-  }
-  .s-xl-n34-h {
-    left: -33.5rem;
-  }
-  .e-xl-n34-h {
-    right: -33.5rem;
+  .minh-xl-34-t {
+    min-height: 33.75rem;
   }
   .w-xl-34-f {
     width: 34rem;
@@ -35730,29 +34546,23 @@ textarea.form-control-lg {
   .minh-xl-35-h {
     min-height: 34.5rem;
   }
-  .t-xl-35-h {
-    top: 34.5rem;
+  .w-xl-35-t {
+    width: 34.75rem;
   }
-  .b-xl-35-h {
-    bottom: 34.5rem;
+  .h-xl-35-t {
+    height: 34.75rem;
   }
-  .s-xl-35-h {
-    left: 34.5rem;
+  .maxw-xl-35-t {
+    max-width: 34.75rem;
   }
-  .e-xl-35-h {
-    right: 34.5rem;
+  .maxh-xl-35-t {
+    max-height: 34.75rem;
   }
-  .t-xl-n35-h {
-    top: -34.5rem;
+  .minw-xl-35-t {
+    min-width: 34.75rem;
   }
-  .b-xl-n35-h {
-    bottom: -34.5rem;
-  }
-  .s-xl-n35-h {
-    left: -34.5rem;
-  }
-  .e-xl-n35-h {
-    right: -34.5rem;
+  .minh-xl-35-t {
+    min-height: 34.75rem;
   }
   .w-xl-35-f {
     width: 35rem;
@@ -35814,29 +34624,23 @@ textarea.form-control-lg {
   .minh-xl-36-h {
     min-height: 35.5rem;
   }
-  .t-xl-36-h {
-    top: 35.5rem;
+  .w-xl-36-t {
+    width: 35.75rem;
   }
-  .b-xl-36-h {
-    bottom: 35.5rem;
+  .h-xl-36-t {
+    height: 35.75rem;
   }
-  .s-xl-36-h {
-    left: 35.5rem;
+  .maxw-xl-36-t {
+    max-width: 35.75rem;
   }
-  .e-xl-36-h {
-    right: 35.5rem;
+  .maxh-xl-36-t {
+    max-height: 35.75rem;
   }
-  .t-xl-n36-h {
-    top: -35.5rem;
+  .minw-xl-36-t {
+    min-width: 35.75rem;
   }
-  .b-xl-n36-h {
-    bottom: -35.5rem;
-  }
-  .s-xl-n36-h {
-    left: -35.5rem;
-  }
-  .e-xl-n36-h {
-    right: -35.5rem;
+  .minh-xl-36-t {
+    min-height: 35.75rem;
   }
   .w-xl-36-f {
     width: 36rem;
@@ -35898,29 +34702,23 @@ textarea.form-control-lg {
   .minh-xl-37-h {
     min-height: 36.5rem;
   }
-  .t-xl-37-h {
-    top: 36.5rem;
+  .w-xl-37-t {
+    width: 36.75rem;
   }
-  .b-xl-37-h {
-    bottom: 36.5rem;
+  .h-xl-37-t {
+    height: 36.75rem;
   }
-  .s-xl-37-h {
-    left: 36.5rem;
+  .maxw-xl-37-t {
+    max-width: 36.75rem;
   }
-  .e-xl-37-h {
-    right: 36.5rem;
+  .maxh-xl-37-t {
+    max-height: 36.75rem;
   }
-  .t-xl-n37-h {
-    top: -36.5rem;
+  .minw-xl-37-t {
+    min-width: 36.75rem;
   }
-  .b-xl-n37-h {
-    bottom: -36.5rem;
-  }
-  .s-xl-n37-h {
-    left: -36.5rem;
-  }
-  .e-xl-n37-h {
-    right: -36.5rem;
+  .minh-xl-37-t {
+    min-height: 36.75rem;
   }
   .w-xl-37-f {
     width: 37rem;
@@ -35982,29 +34780,23 @@ textarea.form-control-lg {
   .minh-xl-38-h {
     min-height: 37.5rem;
   }
-  .t-xl-38-h {
-    top: 37.5rem;
+  .w-xl-38-t {
+    width: 37.75rem;
   }
-  .b-xl-38-h {
-    bottom: 37.5rem;
+  .h-xl-38-t {
+    height: 37.75rem;
   }
-  .s-xl-38-h {
-    left: 37.5rem;
+  .maxw-xl-38-t {
+    max-width: 37.75rem;
   }
-  .e-xl-38-h {
-    right: 37.5rem;
+  .maxh-xl-38-t {
+    max-height: 37.75rem;
   }
-  .t-xl-n38-h {
-    top: -37.5rem;
+  .minw-xl-38-t {
+    min-width: 37.75rem;
   }
-  .b-xl-n38-h {
-    bottom: -37.5rem;
-  }
-  .s-xl-n38-h {
-    left: -37.5rem;
-  }
-  .e-xl-n38-h {
-    right: -37.5rem;
+  .minh-xl-38-t {
+    min-height: 37.75rem;
   }
   .w-xl-38-f {
     width: 38rem;
@@ -36066,29 +34858,23 @@ textarea.form-control-lg {
   .minh-xl-39-h {
     min-height: 38.5rem;
   }
-  .t-xl-39-h {
-    top: 38.5rem;
+  .w-xl-39-t {
+    width: 38.75rem;
   }
-  .b-xl-39-h {
-    bottom: 38.5rem;
+  .h-xl-39-t {
+    height: 38.75rem;
   }
-  .s-xl-39-h {
-    left: 38.5rem;
+  .maxw-xl-39-t {
+    max-width: 38.75rem;
   }
-  .e-xl-39-h {
-    right: 38.5rem;
+  .maxh-xl-39-t {
+    max-height: 38.75rem;
   }
-  .t-xl-n39-h {
-    top: -38.5rem;
+  .minw-xl-39-t {
+    min-width: 38.75rem;
   }
-  .b-xl-n39-h {
-    bottom: -38.5rem;
-  }
-  .s-xl-n39-h {
-    left: -38.5rem;
-  }
-  .e-xl-n39-h {
-    right: -38.5rem;
+  .minh-xl-39-t {
+    min-height: 38.75rem;
   }
   .w-xl-39-f {
     width: 39rem;
@@ -36150,29 +34936,23 @@ textarea.form-control-lg {
   .minh-xl-40-h {
     min-height: 39.5rem;
   }
-  .t-xl-40-h {
-    top: 39.5rem;
+  .w-xl-40-t {
+    width: 39.75rem;
   }
-  .b-xl-40-h {
-    bottom: 39.5rem;
+  .h-xl-40-t {
+    height: 39.75rem;
   }
-  .s-xl-40-h {
-    left: 39.5rem;
+  .maxw-xl-40-t {
+    max-width: 39.75rem;
   }
-  .e-xl-40-h {
-    right: 39.5rem;
+  .maxh-xl-40-t {
+    max-height: 39.75rem;
   }
-  .t-xl-n40-h {
-    top: -39.5rem;
+  .minw-xl-40-t {
+    min-width: 39.75rem;
   }
-  .b-xl-n40-h {
-    bottom: -39.5rem;
-  }
-  .s-xl-n40-h {
-    left: -39.5rem;
-  }
-  .e-xl-n40-h {
-    right: -39.5rem;
+  .minh-xl-40-t {
+    min-height: 39.75rem;
   }
   .w-xl-40-f {
     width: 40rem;
@@ -36245,6 +35025,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 3rem;
+    word-break: break-word;
   }
   .text-truncate-xxl-3 {
     display: block;
@@ -36259,6 +35042,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 4.5rem;
+    word-break: break-word;
   }
   .text-truncate-xxl-4 {
     display: block;
@@ -36273,6 +35059,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 6rem;
+    word-break: break-word;
   }
   .text-truncate-xxl-5 {
     display: block;
@@ -36287,6 +35076,9 @@ textarea.form-control-lg {
     -webkit-box-orient: vertical;
     word-break: break-all;
     white-space: normal;
+    height: auto;
+    max-height: 7.5rem;
+    word-break: break-word;
   }
   .mdi-xxl-n2 {
     font-size: 0.25rem;
@@ -36423,29 +35215,23 @@ textarea.form-control-lg {
   .minh-xxl-1-h {
     min-height: 0.5rem;
   }
-  .t-xxl-1-h {
-    top: 0.5rem;
+  .w-xxl-1-t {
+    width: 0.75rem;
   }
-  .b-xxl-1-h {
-    bottom: 0.5rem;
+  .h-xxl-1-t {
+    height: 0.75rem;
   }
-  .s-xxl-1-h {
-    left: 0.5rem;
+  .maxw-xxl-1-t {
+    max-width: 0.75rem;
   }
-  .e-xxl-1-h {
-    right: 0.5rem;
+  .maxh-xxl-1-t {
+    max-height: 0.75rem;
   }
-  .t-xxl-n1-h {
-    top: -0.5rem;
+  .minw-xxl-1-t {
+    min-width: 0.75rem;
   }
-  .b-xxl-n1-h {
-    bottom: -0.5rem;
-  }
-  .s-xxl-n1-h {
-    left: -0.5rem;
-  }
-  .e-xxl-n1-h {
-    right: -0.5rem;
+  .minh-xxl-1-t {
+    min-height: 0.75rem;
   }
   .w-xxl-1-f {
     width: 1rem;
@@ -36507,29 +35293,23 @@ textarea.form-control-lg {
   .minh-xxl-2-h {
     min-height: 1.5rem;
   }
-  .t-xxl-2-h {
-    top: 1.5rem;
+  .w-xxl-2-t {
+    width: 1.75rem;
   }
-  .b-xxl-2-h {
-    bottom: 1.5rem;
+  .h-xxl-2-t {
+    height: 1.75rem;
   }
-  .s-xxl-2-h {
-    left: 1.5rem;
+  .maxw-xxl-2-t {
+    max-width: 1.75rem;
   }
-  .e-xxl-2-h {
-    right: 1.5rem;
+  .maxh-xxl-2-t {
+    max-height: 1.75rem;
   }
-  .t-xxl-n2-h {
-    top: -1.5rem;
+  .minw-xxl-2-t {
+    min-width: 1.75rem;
   }
-  .b-xxl-n2-h {
-    bottom: -1.5rem;
-  }
-  .s-xxl-n2-h {
-    left: -1.5rem;
-  }
-  .e-xxl-n2-h {
-    right: -1.5rem;
+  .minh-xxl-2-t {
+    min-height: 1.75rem;
   }
   .w-xxl-2-f {
     width: 2rem;
@@ -36591,29 +35371,23 @@ textarea.form-control-lg {
   .minh-xxl-3-h {
     min-height: 2.5rem;
   }
-  .t-xxl-3-h {
-    top: 2.5rem;
+  .w-xxl-3-t {
+    width: 2.75rem;
   }
-  .b-xxl-3-h {
-    bottom: 2.5rem;
+  .h-xxl-3-t {
+    height: 2.75rem;
   }
-  .s-xxl-3-h {
-    left: 2.5rem;
+  .maxw-xxl-3-t {
+    max-width: 2.75rem;
   }
-  .e-xxl-3-h {
-    right: 2.5rem;
+  .maxh-xxl-3-t {
+    max-height: 2.75rem;
   }
-  .t-xxl-n3-h {
-    top: -2.5rem;
+  .minw-xxl-3-t {
+    min-width: 2.75rem;
   }
-  .b-xxl-n3-h {
-    bottom: -2.5rem;
-  }
-  .s-xxl-n3-h {
-    left: -2.5rem;
-  }
-  .e-xxl-n3-h {
-    right: -2.5rem;
+  .minh-xxl-3-t {
+    min-height: 2.75rem;
   }
   .w-xxl-3-f {
     width: 3rem;
@@ -36675,29 +35449,23 @@ textarea.form-control-lg {
   .minh-xxl-4-h {
     min-height: 3.5rem;
   }
-  .t-xxl-4-h {
-    top: 3.5rem;
+  .w-xxl-4-t {
+    width: 3.75rem;
   }
-  .b-xxl-4-h {
-    bottom: 3.5rem;
+  .h-xxl-4-t {
+    height: 3.75rem;
   }
-  .s-xxl-4-h {
-    left: 3.5rem;
+  .maxw-xxl-4-t {
+    max-width: 3.75rem;
   }
-  .e-xxl-4-h {
-    right: 3.5rem;
+  .maxh-xxl-4-t {
+    max-height: 3.75rem;
   }
-  .t-xxl-n4-h {
-    top: -3.5rem;
+  .minw-xxl-4-t {
+    min-width: 3.75rem;
   }
-  .b-xxl-n4-h {
-    bottom: -3.5rem;
-  }
-  .s-xxl-n4-h {
-    left: -3.5rem;
-  }
-  .e-xxl-n4-h {
-    right: -3.5rem;
+  .minh-xxl-4-t {
+    min-height: 3.75rem;
   }
   .w-xxl-4-f {
     width: 4rem;
@@ -36759,29 +35527,23 @@ textarea.form-control-lg {
   .minh-xxl-5-h {
     min-height: 4.5rem;
   }
-  .t-xxl-5-h {
-    top: 4.5rem;
+  .w-xxl-5-t {
+    width: 4.75rem;
   }
-  .b-xxl-5-h {
-    bottom: 4.5rem;
+  .h-xxl-5-t {
+    height: 4.75rem;
   }
-  .s-xxl-5-h {
-    left: 4.5rem;
+  .maxw-xxl-5-t {
+    max-width: 4.75rem;
   }
-  .e-xxl-5-h {
-    right: 4.5rem;
+  .maxh-xxl-5-t {
+    max-height: 4.75rem;
   }
-  .t-xxl-n5-h {
-    top: -4.5rem;
+  .minw-xxl-5-t {
+    min-width: 4.75rem;
   }
-  .b-xxl-n5-h {
-    bottom: -4.5rem;
-  }
-  .s-xxl-n5-h {
-    left: -4.5rem;
-  }
-  .e-xxl-n5-h {
-    right: -4.5rem;
+  .minh-xxl-5-t {
+    min-height: 4.75rem;
   }
   .w-xxl-5-f {
     width: 5rem;
@@ -36843,29 +35605,23 @@ textarea.form-control-lg {
   .minh-xxl-6-h {
     min-height: 5.5rem;
   }
-  .t-xxl-6-h {
-    top: 5.5rem;
+  .w-xxl-6-t {
+    width: 5.75rem;
   }
-  .b-xxl-6-h {
-    bottom: 5.5rem;
+  .h-xxl-6-t {
+    height: 5.75rem;
   }
-  .s-xxl-6-h {
-    left: 5.5rem;
+  .maxw-xxl-6-t {
+    max-width: 5.75rem;
   }
-  .e-xxl-6-h {
-    right: 5.5rem;
+  .maxh-xxl-6-t {
+    max-height: 5.75rem;
   }
-  .t-xxl-n6-h {
-    top: -5.5rem;
+  .minw-xxl-6-t {
+    min-width: 5.75rem;
   }
-  .b-xxl-n6-h {
-    bottom: -5.5rem;
-  }
-  .s-xxl-n6-h {
-    left: -5.5rem;
-  }
-  .e-xxl-n6-h {
-    right: -5.5rem;
+  .minh-xxl-6-t {
+    min-height: 5.75rem;
   }
   .w-xxl-6-f {
     width: 6rem;
@@ -36927,29 +35683,23 @@ textarea.form-control-lg {
   .minh-xxl-7-h {
     min-height: 6.5rem;
   }
-  .t-xxl-7-h {
-    top: 6.5rem;
+  .w-xxl-7-t {
+    width: 6.75rem;
   }
-  .b-xxl-7-h {
-    bottom: 6.5rem;
+  .h-xxl-7-t {
+    height: 6.75rem;
   }
-  .s-xxl-7-h {
-    left: 6.5rem;
+  .maxw-xxl-7-t {
+    max-width: 6.75rem;
   }
-  .e-xxl-7-h {
-    right: 6.5rem;
+  .maxh-xxl-7-t {
+    max-height: 6.75rem;
   }
-  .t-xxl-n7-h {
-    top: -6.5rem;
+  .minw-xxl-7-t {
+    min-width: 6.75rem;
   }
-  .b-xxl-n7-h {
-    bottom: -6.5rem;
-  }
-  .s-xxl-n7-h {
-    left: -6.5rem;
-  }
-  .e-xxl-n7-h {
-    right: -6.5rem;
+  .minh-xxl-7-t {
+    min-height: 6.75rem;
   }
   .w-xxl-7-f {
     width: 7rem;
@@ -37011,29 +35761,23 @@ textarea.form-control-lg {
   .minh-xxl-8-h {
     min-height: 7.5rem;
   }
-  .t-xxl-8-h {
-    top: 7.5rem;
+  .w-xxl-8-t {
+    width: 7.75rem;
   }
-  .b-xxl-8-h {
-    bottom: 7.5rem;
+  .h-xxl-8-t {
+    height: 7.75rem;
   }
-  .s-xxl-8-h {
-    left: 7.5rem;
+  .maxw-xxl-8-t {
+    max-width: 7.75rem;
   }
-  .e-xxl-8-h {
-    right: 7.5rem;
+  .maxh-xxl-8-t {
+    max-height: 7.75rem;
   }
-  .t-xxl-n8-h {
-    top: -7.5rem;
+  .minw-xxl-8-t {
+    min-width: 7.75rem;
   }
-  .b-xxl-n8-h {
-    bottom: -7.5rem;
-  }
-  .s-xxl-n8-h {
-    left: -7.5rem;
-  }
-  .e-xxl-n8-h {
-    right: -7.5rem;
+  .minh-xxl-8-t {
+    min-height: 7.75rem;
   }
   .w-xxl-8-f {
     width: 8rem;
@@ -37095,29 +35839,23 @@ textarea.form-control-lg {
   .minh-xxl-9-h {
     min-height: 8.5rem;
   }
-  .t-xxl-9-h {
-    top: 8.5rem;
+  .w-xxl-9-t {
+    width: 8.75rem;
   }
-  .b-xxl-9-h {
-    bottom: 8.5rem;
+  .h-xxl-9-t {
+    height: 8.75rem;
   }
-  .s-xxl-9-h {
-    left: 8.5rem;
+  .maxw-xxl-9-t {
+    max-width: 8.75rem;
   }
-  .e-xxl-9-h {
-    right: 8.5rem;
+  .maxh-xxl-9-t {
+    max-height: 8.75rem;
   }
-  .t-xxl-n9-h {
-    top: -8.5rem;
+  .minw-xxl-9-t {
+    min-width: 8.75rem;
   }
-  .b-xxl-n9-h {
-    bottom: -8.5rem;
-  }
-  .s-xxl-n9-h {
-    left: -8.5rem;
-  }
-  .e-xxl-n9-h {
-    right: -8.5rem;
+  .minh-xxl-9-t {
+    min-height: 8.75rem;
   }
   .w-xxl-9-f {
     width: 9rem;
@@ -37179,29 +35917,23 @@ textarea.form-control-lg {
   .minh-xxl-10-h {
     min-height: 9.5rem;
   }
-  .t-xxl-10-h {
-    top: 9.5rem;
+  .w-xxl-10-t {
+    width: 9.75rem;
   }
-  .b-xxl-10-h {
-    bottom: 9.5rem;
+  .h-xxl-10-t {
+    height: 9.75rem;
   }
-  .s-xxl-10-h {
-    left: 9.5rem;
+  .maxw-xxl-10-t {
+    max-width: 9.75rem;
   }
-  .e-xxl-10-h {
-    right: 9.5rem;
+  .maxh-xxl-10-t {
+    max-height: 9.75rem;
   }
-  .t-xxl-n10-h {
-    top: -9.5rem;
+  .minw-xxl-10-t {
+    min-width: 9.75rem;
   }
-  .b-xxl-n10-h {
-    bottom: -9.5rem;
-  }
-  .s-xxl-n10-h {
-    left: -9.5rem;
-  }
-  .e-xxl-n10-h {
-    right: -9.5rem;
+  .minh-xxl-10-t {
+    min-height: 9.75rem;
   }
   .w-xxl-10-f {
     width: 10rem;
@@ -37263,29 +35995,23 @@ textarea.form-control-lg {
   .minh-xxl-11-h {
     min-height: 10.5rem;
   }
-  .t-xxl-11-h {
-    top: 10.5rem;
+  .w-xxl-11-t {
+    width: 10.75rem;
   }
-  .b-xxl-11-h {
-    bottom: 10.5rem;
+  .h-xxl-11-t {
+    height: 10.75rem;
   }
-  .s-xxl-11-h {
-    left: 10.5rem;
+  .maxw-xxl-11-t {
+    max-width: 10.75rem;
   }
-  .e-xxl-11-h {
-    right: 10.5rem;
+  .maxh-xxl-11-t {
+    max-height: 10.75rem;
   }
-  .t-xxl-n11-h {
-    top: -10.5rem;
+  .minw-xxl-11-t {
+    min-width: 10.75rem;
   }
-  .b-xxl-n11-h {
-    bottom: -10.5rem;
-  }
-  .s-xxl-n11-h {
-    left: -10.5rem;
-  }
-  .e-xxl-n11-h {
-    right: -10.5rem;
+  .minh-xxl-11-t {
+    min-height: 10.75rem;
   }
   .w-xxl-11-f {
     width: 11rem;
@@ -37347,29 +36073,23 @@ textarea.form-control-lg {
   .minh-xxl-12-h {
     min-height: 11.5rem;
   }
-  .t-xxl-12-h {
-    top: 11.5rem;
+  .w-xxl-12-t {
+    width: 11.75rem;
   }
-  .b-xxl-12-h {
-    bottom: 11.5rem;
+  .h-xxl-12-t {
+    height: 11.75rem;
   }
-  .s-xxl-12-h {
-    left: 11.5rem;
+  .maxw-xxl-12-t {
+    max-width: 11.75rem;
   }
-  .e-xxl-12-h {
-    right: 11.5rem;
+  .maxh-xxl-12-t {
+    max-height: 11.75rem;
   }
-  .t-xxl-n12-h {
-    top: -11.5rem;
+  .minw-xxl-12-t {
+    min-width: 11.75rem;
   }
-  .b-xxl-n12-h {
-    bottom: -11.5rem;
-  }
-  .s-xxl-n12-h {
-    left: -11.5rem;
-  }
-  .e-xxl-n12-h {
-    right: -11.5rem;
+  .minh-xxl-12-t {
+    min-height: 11.75rem;
   }
   .w-xxl-12-f {
     width: 12rem;
@@ -37431,29 +36151,23 @@ textarea.form-control-lg {
   .minh-xxl-13-h {
     min-height: 12.5rem;
   }
-  .t-xxl-13-h {
-    top: 12.5rem;
+  .w-xxl-13-t {
+    width: 12.75rem;
   }
-  .b-xxl-13-h {
-    bottom: 12.5rem;
+  .h-xxl-13-t {
+    height: 12.75rem;
   }
-  .s-xxl-13-h {
-    left: 12.5rem;
+  .maxw-xxl-13-t {
+    max-width: 12.75rem;
   }
-  .e-xxl-13-h {
-    right: 12.5rem;
+  .maxh-xxl-13-t {
+    max-height: 12.75rem;
   }
-  .t-xxl-n13-h {
-    top: -12.5rem;
+  .minw-xxl-13-t {
+    min-width: 12.75rem;
   }
-  .b-xxl-n13-h {
-    bottom: -12.5rem;
-  }
-  .s-xxl-n13-h {
-    left: -12.5rem;
-  }
-  .e-xxl-n13-h {
-    right: -12.5rem;
+  .minh-xxl-13-t {
+    min-height: 12.75rem;
   }
   .w-xxl-13-f {
     width: 13rem;
@@ -37515,29 +36229,23 @@ textarea.form-control-lg {
   .minh-xxl-14-h {
     min-height: 13.5rem;
   }
-  .t-xxl-14-h {
-    top: 13.5rem;
+  .w-xxl-14-t {
+    width: 13.75rem;
   }
-  .b-xxl-14-h {
-    bottom: 13.5rem;
+  .h-xxl-14-t {
+    height: 13.75rem;
   }
-  .s-xxl-14-h {
-    left: 13.5rem;
+  .maxw-xxl-14-t {
+    max-width: 13.75rem;
   }
-  .e-xxl-14-h {
-    right: 13.5rem;
+  .maxh-xxl-14-t {
+    max-height: 13.75rem;
   }
-  .t-xxl-n14-h {
-    top: -13.5rem;
+  .minw-xxl-14-t {
+    min-width: 13.75rem;
   }
-  .b-xxl-n14-h {
-    bottom: -13.5rem;
-  }
-  .s-xxl-n14-h {
-    left: -13.5rem;
-  }
-  .e-xxl-n14-h {
-    right: -13.5rem;
+  .minh-xxl-14-t {
+    min-height: 13.75rem;
   }
   .w-xxl-14-f {
     width: 14rem;
@@ -37599,29 +36307,23 @@ textarea.form-control-lg {
   .minh-xxl-15-h {
     min-height: 14.5rem;
   }
-  .t-xxl-15-h {
-    top: 14.5rem;
+  .w-xxl-15-t {
+    width: 14.75rem;
   }
-  .b-xxl-15-h {
-    bottom: 14.5rem;
+  .h-xxl-15-t {
+    height: 14.75rem;
   }
-  .s-xxl-15-h {
-    left: 14.5rem;
+  .maxw-xxl-15-t {
+    max-width: 14.75rem;
   }
-  .e-xxl-15-h {
-    right: 14.5rem;
+  .maxh-xxl-15-t {
+    max-height: 14.75rem;
   }
-  .t-xxl-n15-h {
-    top: -14.5rem;
+  .minw-xxl-15-t {
+    min-width: 14.75rem;
   }
-  .b-xxl-n15-h {
-    bottom: -14.5rem;
-  }
-  .s-xxl-n15-h {
-    left: -14.5rem;
-  }
-  .e-xxl-n15-h {
-    right: -14.5rem;
+  .minh-xxl-15-t {
+    min-height: 14.75rem;
   }
   .w-xxl-15-f {
     width: 15rem;
@@ -37683,29 +36385,23 @@ textarea.form-control-lg {
   .minh-xxl-16-h {
     min-height: 15.5rem;
   }
-  .t-xxl-16-h {
-    top: 15.5rem;
+  .w-xxl-16-t {
+    width: 15.75rem;
   }
-  .b-xxl-16-h {
-    bottom: 15.5rem;
+  .h-xxl-16-t {
+    height: 15.75rem;
   }
-  .s-xxl-16-h {
-    left: 15.5rem;
+  .maxw-xxl-16-t {
+    max-width: 15.75rem;
   }
-  .e-xxl-16-h {
-    right: 15.5rem;
+  .maxh-xxl-16-t {
+    max-height: 15.75rem;
   }
-  .t-xxl-n16-h {
-    top: -15.5rem;
+  .minw-xxl-16-t {
+    min-width: 15.75rem;
   }
-  .b-xxl-n16-h {
-    bottom: -15.5rem;
-  }
-  .s-xxl-n16-h {
-    left: -15.5rem;
-  }
-  .e-xxl-n16-h {
-    right: -15.5rem;
+  .minh-xxl-16-t {
+    min-height: 15.75rem;
   }
   .w-xxl-16-f {
     width: 16rem;
@@ -37767,29 +36463,23 @@ textarea.form-control-lg {
   .minh-xxl-17-h {
     min-height: 16.5rem;
   }
-  .t-xxl-17-h {
-    top: 16.5rem;
+  .w-xxl-17-t {
+    width: 16.75rem;
   }
-  .b-xxl-17-h {
-    bottom: 16.5rem;
+  .h-xxl-17-t {
+    height: 16.75rem;
   }
-  .s-xxl-17-h {
-    left: 16.5rem;
+  .maxw-xxl-17-t {
+    max-width: 16.75rem;
   }
-  .e-xxl-17-h {
-    right: 16.5rem;
+  .maxh-xxl-17-t {
+    max-height: 16.75rem;
   }
-  .t-xxl-n17-h {
-    top: -16.5rem;
+  .minw-xxl-17-t {
+    min-width: 16.75rem;
   }
-  .b-xxl-n17-h {
-    bottom: -16.5rem;
-  }
-  .s-xxl-n17-h {
-    left: -16.5rem;
-  }
-  .e-xxl-n17-h {
-    right: -16.5rem;
+  .minh-xxl-17-t {
+    min-height: 16.75rem;
   }
   .w-xxl-17-f {
     width: 17rem;
@@ -37851,29 +36541,23 @@ textarea.form-control-lg {
   .minh-xxl-18-h {
     min-height: 17.5rem;
   }
-  .t-xxl-18-h {
-    top: 17.5rem;
+  .w-xxl-18-t {
+    width: 17.75rem;
   }
-  .b-xxl-18-h {
-    bottom: 17.5rem;
+  .h-xxl-18-t {
+    height: 17.75rem;
   }
-  .s-xxl-18-h {
-    left: 17.5rem;
+  .maxw-xxl-18-t {
+    max-width: 17.75rem;
   }
-  .e-xxl-18-h {
-    right: 17.5rem;
+  .maxh-xxl-18-t {
+    max-height: 17.75rem;
   }
-  .t-xxl-n18-h {
-    top: -17.5rem;
+  .minw-xxl-18-t {
+    min-width: 17.75rem;
   }
-  .b-xxl-n18-h {
-    bottom: -17.5rem;
-  }
-  .s-xxl-n18-h {
-    left: -17.5rem;
-  }
-  .e-xxl-n18-h {
-    right: -17.5rem;
+  .minh-xxl-18-t {
+    min-height: 17.75rem;
   }
   .w-xxl-18-f {
     width: 18rem;
@@ -37935,29 +36619,23 @@ textarea.form-control-lg {
   .minh-xxl-19-h {
     min-height: 18.5rem;
   }
-  .t-xxl-19-h {
-    top: 18.5rem;
+  .w-xxl-19-t {
+    width: 18.75rem;
   }
-  .b-xxl-19-h {
-    bottom: 18.5rem;
+  .h-xxl-19-t {
+    height: 18.75rem;
   }
-  .s-xxl-19-h {
-    left: 18.5rem;
+  .maxw-xxl-19-t {
+    max-width: 18.75rem;
   }
-  .e-xxl-19-h {
-    right: 18.5rem;
+  .maxh-xxl-19-t {
+    max-height: 18.75rem;
   }
-  .t-xxl-n19-h {
-    top: -18.5rem;
+  .minw-xxl-19-t {
+    min-width: 18.75rem;
   }
-  .b-xxl-n19-h {
-    bottom: -18.5rem;
-  }
-  .s-xxl-n19-h {
-    left: -18.5rem;
-  }
-  .e-xxl-n19-h {
-    right: -18.5rem;
+  .minh-xxl-19-t {
+    min-height: 18.75rem;
   }
   .w-xxl-19-f {
     width: 19rem;
@@ -38019,29 +36697,23 @@ textarea.form-control-lg {
   .minh-xxl-20-h {
     min-height: 19.5rem;
   }
-  .t-xxl-20-h {
-    top: 19.5rem;
+  .w-xxl-20-t {
+    width: 19.75rem;
   }
-  .b-xxl-20-h {
-    bottom: 19.5rem;
+  .h-xxl-20-t {
+    height: 19.75rem;
   }
-  .s-xxl-20-h {
-    left: 19.5rem;
+  .maxw-xxl-20-t {
+    max-width: 19.75rem;
   }
-  .e-xxl-20-h {
-    right: 19.5rem;
+  .maxh-xxl-20-t {
+    max-height: 19.75rem;
   }
-  .t-xxl-n20-h {
-    top: -19.5rem;
+  .minw-xxl-20-t {
+    min-width: 19.75rem;
   }
-  .b-xxl-n20-h {
-    bottom: -19.5rem;
-  }
-  .s-xxl-n20-h {
-    left: -19.5rem;
-  }
-  .e-xxl-n20-h {
-    right: -19.5rem;
+  .minh-xxl-20-t {
+    min-height: 19.75rem;
   }
   .w-xxl-20-f {
     width: 20rem;
@@ -38103,29 +36775,23 @@ textarea.form-control-lg {
   .minh-xxl-21-h {
     min-height: 20.5rem;
   }
-  .t-xxl-21-h {
-    top: 20.5rem;
+  .w-xxl-21-t {
+    width: 20.75rem;
   }
-  .b-xxl-21-h {
-    bottom: 20.5rem;
+  .h-xxl-21-t {
+    height: 20.75rem;
   }
-  .s-xxl-21-h {
-    left: 20.5rem;
+  .maxw-xxl-21-t {
+    max-width: 20.75rem;
   }
-  .e-xxl-21-h {
-    right: 20.5rem;
+  .maxh-xxl-21-t {
+    max-height: 20.75rem;
   }
-  .t-xxl-n21-h {
-    top: -20.5rem;
+  .minw-xxl-21-t {
+    min-width: 20.75rem;
   }
-  .b-xxl-n21-h {
-    bottom: -20.5rem;
-  }
-  .s-xxl-n21-h {
-    left: -20.5rem;
-  }
-  .e-xxl-n21-h {
-    right: -20.5rem;
+  .minh-xxl-21-t {
+    min-height: 20.75rem;
   }
   .w-xxl-21-f {
     width: 21rem;
@@ -38187,29 +36853,23 @@ textarea.form-control-lg {
   .minh-xxl-22-h {
     min-height: 21.5rem;
   }
-  .t-xxl-22-h {
-    top: 21.5rem;
+  .w-xxl-22-t {
+    width: 21.75rem;
   }
-  .b-xxl-22-h {
-    bottom: 21.5rem;
+  .h-xxl-22-t {
+    height: 21.75rem;
   }
-  .s-xxl-22-h {
-    left: 21.5rem;
+  .maxw-xxl-22-t {
+    max-width: 21.75rem;
   }
-  .e-xxl-22-h {
-    right: 21.5rem;
+  .maxh-xxl-22-t {
+    max-height: 21.75rem;
   }
-  .t-xxl-n22-h {
-    top: -21.5rem;
+  .minw-xxl-22-t {
+    min-width: 21.75rem;
   }
-  .b-xxl-n22-h {
-    bottom: -21.5rem;
-  }
-  .s-xxl-n22-h {
-    left: -21.5rem;
-  }
-  .e-xxl-n22-h {
-    right: -21.5rem;
+  .minh-xxl-22-t {
+    min-height: 21.75rem;
   }
   .w-xxl-22-f {
     width: 22rem;
@@ -38271,29 +36931,23 @@ textarea.form-control-lg {
   .minh-xxl-23-h {
     min-height: 22.5rem;
   }
-  .t-xxl-23-h {
-    top: 22.5rem;
+  .w-xxl-23-t {
+    width: 22.75rem;
   }
-  .b-xxl-23-h {
-    bottom: 22.5rem;
+  .h-xxl-23-t {
+    height: 22.75rem;
   }
-  .s-xxl-23-h {
-    left: 22.5rem;
+  .maxw-xxl-23-t {
+    max-width: 22.75rem;
   }
-  .e-xxl-23-h {
-    right: 22.5rem;
+  .maxh-xxl-23-t {
+    max-height: 22.75rem;
   }
-  .t-xxl-n23-h {
-    top: -22.5rem;
+  .minw-xxl-23-t {
+    min-width: 22.75rem;
   }
-  .b-xxl-n23-h {
-    bottom: -22.5rem;
-  }
-  .s-xxl-n23-h {
-    left: -22.5rem;
-  }
-  .e-xxl-n23-h {
-    right: -22.5rem;
+  .minh-xxl-23-t {
+    min-height: 22.75rem;
   }
   .w-xxl-23-f {
     width: 23rem;
@@ -38355,29 +37009,23 @@ textarea.form-control-lg {
   .minh-xxl-24-h {
     min-height: 23.5rem;
   }
-  .t-xxl-24-h {
-    top: 23.5rem;
+  .w-xxl-24-t {
+    width: 23.75rem;
   }
-  .b-xxl-24-h {
-    bottom: 23.5rem;
+  .h-xxl-24-t {
+    height: 23.75rem;
   }
-  .s-xxl-24-h {
-    left: 23.5rem;
+  .maxw-xxl-24-t {
+    max-width: 23.75rem;
   }
-  .e-xxl-24-h {
-    right: 23.5rem;
+  .maxh-xxl-24-t {
+    max-height: 23.75rem;
   }
-  .t-xxl-n24-h {
-    top: -23.5rem;
+  .minw-xxl-24-t {
+    min-width: 23.75rem;
   }
-  .b-xxl-n24-h {
-    bottom: -23.5rem;
-  }
-  .s-xxl-n24-h {
-    left: -23.5rem;
-  }
-  .e-xxl-n24-h {
-    right: -23.5rem;
+  .minh-xxl-24-t {
+    min-height: 23.75rem;
   }
   .w-xxl-24-f {
     width: 24rem;
@@ -38439,29 +37087,23 @@ textarea.form-control-lg {
   .minh-xxl-25-h {
     min-height: 24.5rem;
   }
-  .t-xxl-25-h {
-    top: 24.5rem;
+  .w-xxl-25-t {
+    width: 24.75rem;
   }
-  .b-xxl-25-h {
-    bottom: 24.5rem;
+  .h-xxl-25-t {
+    height: 24.75rem;
   }
-  .s-xxl-25-h {
-    left: 24.5rem;
+  .maxw-xxl-25-t {
+    max-width: 24.75rem;
   }
-  .e-xxl-25-h {
-    right: 24.5rem;
+  .maxh-xxl-25-t {
+    max-height: 24.75rem;
   }
-  .t-xxl-n25-h {
-    top: -24.5rem;
+  .minw-xxl-25-t {
+    min-width: 24.75rem;
   }
-  .b-xxl-n25-h {
-    bottom: -24.5rem;
-  }
-  .s-xxl-n25-h {
-    left: -24.5rem;
-  }
-  .e-xxl-n25-h {
-    right: -24.5rem;
+  .minh-xxl-25-t {
+    min-height: 24.75rem;
   }
   .w-xxl-25-f {
     width: 25rem;
@@ -38523,29 +37165,23 @@ textarea.form-control-lg {
   .minh-xxl-26-h {
     min-height: 25.5rem;
   }
-  .t-xxl-26-h {
-    top: 25.5rem;
+  .w-xxl-26-t {
+    width: 25.75rem;
   }
-  .b-xxl-26-h {
-    bottom: 25.5rem;
+  .h-xxl-26-t {
+    height: 25.75rem;
   }
-  .s-xxl-26-h {
-    left: 25.5rem;
+  .maxw-xxl-26-t {
+    max-width: 25.75rem;
   }
-  .e-xxl-26-h {
-    right: 25.5rem;
+  .maxh-xxl-26-t {
+    max-height: 25.75rem;
   }
-  .t-xxl-n26-h {
-    top: -25.5rem;
+  .minw-xxl-26-t {
+    min-width: 25.75rem;
   }
-  .b-xxl-n26-h {
-    bottom: -25.5rem;
-  }
-  .s-xxl-n26-h {
-    left: -25.5rem;
-  }
-  .e-xxl-n26-h {
-    right: -25.5rem;
+  .minh-xxl-26-t {
+    min-height: 25.75rem;
   }
   .w-xxl-26-f {
     width: 26rem;
@@ -38607,29 +37243,23 @@ textarea.form-control-lg {
   .minh-xxl-27-h {
     min-height: 26.5rem;
   }
-  .t-xxl-27-h {
-    top: 26.5rem;
+  .w-xxl-27-t {
+    width: 26.75rem;
   }
-  .b-xxl-27-h {
-    bottom: 26.5rem;
+  .h-xxl-27-t {
+    height: 26.75rem;
   }
-  .s-xxl-27-h {
-    left: 26.5rem;
+  .maxw-xxl-27-t {
+    max-width: 26.75rem;
   }
-  .e-xxl-27-h {
-    right: 26.5rem;
+  .maxh-xxl-27-t {
+    max-height: 26.75rem;
   }
-  .t-xxl-n27-h {
-    top: -26.5rem;
+  .minw-xxl-27-t {
+    min-width: 26.75rem;
   }
-  .b-xxl-n27-h {
-    bottom: -26.5rem;
-  }
-  .s-xxl-n27-h {
-    left: -26.5rem;
-  }
-  .e-xxl-n27-h {
-    right: -26.5rem;
+  .minh-xxl-27-t {
+    min-height: 26.75rem;
   }
   .w-xxl-27-f {
     width: 27rem;
@@ -38691,29 +37321,23 @@ textarea.form-control-lg {
   .minh-xxl-28-h {
     min-height: 27.5rem;
   }
-  .t-xxl-28-h {
-    top: 27.5rem;
+  .w-xxl-28-t {
+    width: 27.75rem;
   }
-  .b-xxl-28-h {
-    bottom: 27.5rem;
+  .h-xxl-28-t {
+    height: 27.75rem;
   }
-  .s-xxl-28-h {
-    left: 27.5rem;
+  .maxw-xxl-28-t {
+    max-width: 27.75rem;
   }
-  .e-xxl-28-h {
-    right: 27.5rem;
+  .maxh-xxl-28-t {
+    max-height: 27.75rem;
   }
-  .t-xxl-n28-h {
-    top: -27.5rem;
+  .minw-xxl-28-t {
+    min-width: 27.75rem;
   }
-  .b-xxl-n28-h {
-    bottom: -27.5rem;
-  }
-  .s-xxl-n28-h {
-    left: -27.5rem;
-  }
-  .e-xxl-n28-h {
-    right: -27.5rem;
+  .minh-xxl-28-t {
+    min-height: 27.75rem;
   }
   .w-xxl-28-f {
     width: 28rem;
@@ -38775,29 +37399,23 @@ textarea.form-control-lg {
   .minh-xxl-29-h {
     min-height: 28.5rem;
   }
-  .t-xxl-29-h {
-    top: 28.5rem;
+  .w-xxl-29-t {
+    width: 28.75rem;
   }
-  .b-xxl-29-h {
-    bottom: 28.5rem;
+  .h-xxl-29-t {
+    height: 28.75rem;
   }
-  .s-xxl-29-h {
-    left: 28.5rem;
+  .maxw-xxl-29-t {
+    max-width: 28.75rem;
   }
-  .e-xxl-29-h {
-    right: 28.5rem;
+  .maxh-xxl-29-t {
+    max-height: 28.75rem;
   }
-  .t-xxl-n29-h {
-    top: -28.5rem;
+  .minw-xxl-29-t {
+    min-width: 28.75rem;
   }
-  .b-xxl-n29-h {
-    bottom: -28.5rem;
-  }
-  .s-xxl-n29-h {
-    left: -28.5rem;
-  }
-  .e-xxl-n29-h {
-    right: -28.5rem;
+  .minh-xxl-29-t {
+    min-height: 28.75rem;
   }
   .w-xxl-29-f {
     width: 29rem;
@@ -38859,29 +37477,23 @@ textarea.form-control-lg {
   .minh-xxl-30-h {
     min-height: 29.5rem;
   }
-  .t-xxl-30-h {
-    top: 29.5rem;
+  .w-xxl-30-t {
+    width: 29.75rem;
   }
-  .b-xxl-30-h {
-    bottom: 29.5rem;
+  .h-xxl-30-t {
+    height: 29.75rem;
   }
-  .s-xxl-30-h {
-    left: 29.5rem;
+  .maxw-xxl-30-t {
+    max-width: 29.75rem;
   }
-  .e-xxl-30-h {
-    right: 29.5rem;
+  .maxh-xxl-30-t {
+    max-height: 29.75rem;
   }
-  .t-xxl-n30-h {
-    top: -29.5rem;
+  .minw-xxl-30-t {
+    min-width: 29.75rem;
   }
-  .b-xxl-n30-h {
-    bottom: -29.5rem;
-  }
-  .s-xxl-n30-h {
-    left: -29.5rem;
-  }
-  .e-xxl-n30-h {
-    right: -29.5rem;
+  .minh-xxl-30-t {
+    min-height: 29.75rem;
   }
   .w-xxl-30-f {
     width: 30rem;
@@ -38943,29 +37555,23 @@ textarea.form-control-lg {
   .minh-xxl-31-h {
     min-height: 30.5rem;
   }
-  .t-xxl-31-h {
-    top: 30.5rem;
+  .w-xxl-31-t {
+    width: 30.75rem;
   }
-  .b-xxl-31-h {
-    bottom: 30.5rem;
+  .h-xxl-31-t {
+    height: 30.75rem;
   }
-  .s-xxl-31-h {
-    left: 30.5rem;
+  .maxw-xxl-31-t {
+    max-width: 30.75rem;
   }
-  .e-xxl-31-h {
-    right: 30.5rem;
+  .maxh-xxl-31-t {
+    max-height: 30.75rem;
   }
-  .t-xxl-n31-h {
-    top: -30.5rem;
+  .minw-xxl-31-t {
+    min-width: 30.75rem;
   }
-  .b-xxl-n31-h {
-    bottom: -30.5rem;
-  }
-  .s-xxl-n31-h {
-    left: -30.5rem;
-  }
-  .e-xxl-n31-h {
-    right: -30.5rem;
+  .minh-xxl-31-t {
+    min-height: 30.75rem;
   }
   .w-xxl-31-f {
     width: 31rem;
@@ -39027,29 +37633,23 @@ textarea.form-control-lg {
   .minh-xxl-32-h {
     min-height: 31.5rem;
   }
-  .t-xxl-32-h {
-    top: 31.5rem;
+  .w-xxl-32-t {
+    width: 31.75rem;
   }
-  .b-xxl-32-h {
-    bottom: 31.5rem;
+  .h-xxl-32-t {
+    height: 31.75rem;
   }
-  .s-xxl-32-h {
-    left: 31.5rem;
+  .maxw-xxl-32-t {
+    max-width: 31.75rem;
   }
-  .e-xxl-32-h {
-    right: 31.5rem;
+  .maxh-xxl-32-t {
+    max-height: 31.75rem;
   }
-  .t-xxl-n32-h {
-    top: -31.5rem;
+  .minw-xxl-32-t {
+    min-width: 31.75rem;
   }
-  .b-xxl-n32-h {
-    bottom: -31.5rem;
-  }
-  .s-xxl-n32-h {
-    left: -31.5rem;
-  }
-  .e-xxl-n32-h {
-    right: -31.5rem;
+  .minh-xxl-32-t {
+    min-height: 31.75rem;
   }
   .w-xxl-32-f {
     width: 32rem;
@@ -39111,29 +37711,23 @@ textarea.form-control-lg {
   .minh-xxl-33-h {
     min-height: 32.5rem;
   }
-  .t-xxl-33-h {
-    top: 32.5rem;
+  .w-xxl-33-t {
+    width: 32.75rem;
   }
-  .b-xxl-33-h {
-    bottom: 32.5rem;
+  .h-xxl-33-t {
+    height: 32.75rem;
   }
-  .s-xxl-33-h {
-    left: 32.5rem;
+  .maxw-xxl-33-t {
+    max-width: 32.75rem;
   }
-  .e-xxl-33-h {
-    right: 32.5rem;
+  .maxh-xxl-33-t {
+    max-height: 32.75rem;
   }
-  .t-xxl-n33-h {
-    top: -32.5rem;
+  .minw-xxl-33-t {
+    min-width: 32.75rem;
   }
-  .b-xxl-n33-h {
-    bottom: -32.5rem;
-  }
-  .s-xxl-n33-h {
-    left: -32.5rem;
-  }
-  .e-xxl-n33-h {
-    right: -32.5rem;
+  .minh-xxl-33-t {
+    min-height: 32.75rem;
   }
   .w-xxl-33-f {
     width: 33rem;
@@ -39195,29 +37789,23 @@ textarea.form-control-lg {
   .minh-xxl-34-h {
     min-height: 33.5rem;
   }
-  .t-xxl-34-h {
-    top: 33.5rem;
+  .w-xxl-34-t {
+    width: 33.75rem;
   }
-  .b-xxl-34-h {
-    bottom: 33.5rem;
+  .h-xxl-34-t {
+    height: 33.75rem;
   }
-  .s-xxl-34-h {
-    left: 33.5rem;
+  .maxw-xxl-34-t {
+    max-width: 33.75rem;
   }
-  .e-xxl-34-h {
-    right: 33.5rem;
+  .maxh-xxl-34-t {
+    max-height: 33.75rem;
   }
-  .t-xxl-n34-h {
-    top: -33.5rem;
+  .minw-xxl-34-t {
+    min-width: 33.75rem;
   }
-  .b-xxl-n34-h {
-    bottom: -33.5rem;
-  }
-  .s-xxl-n34-h {
-    left: -33.5rem;
-  }
-  .e-xxl-n34-h {
-    right: -33.5rem;
+  .minh-xxl-34-t {
+    min-height: 33.75rem;
   }
   .w-xxl-34-f {
     width: 34rem;
@@ -39279,29 +37867,23 @@ textarea.form-control-lg {
   .minh-xxl-35-h {
     min-height: 34.5rem;
   }
-  .t-xxl-35-h {
-    top: 34.5rem;
+  .w-xxl-35-t {
+    width: 34.75rem;
   }
-  .b-xxl-35-h {
-    bottom: 34.5rem;
+  .h-xxl-35-t {
+    height: 34.75rem;
   }
-  .s-xxl-35-h {
-    left: 34.5rem;
+  .maxw-xxl-35-t {
+    max-width: 34.75rem;
   }
-  .e-xxl-35-h {
-    right: 34.5rem;
+  .maxh-xxl-35-t {
+    max-height: 34.75rem;
   }
-  .t-xxl-n35-h {
-    top: -34.5rem;
+  .minw-xxl-35-t {
+    min-width: 34.75rem;
   }
-  .b-xxl-n35-h {
-    bottom: -34.5rem;
-  }
-  .s-xxl-n35-h {
-    left: -34.5rem;
-  }
-  .e-xxl-n35-h {
-    right: -34.5rem;
+  .minh-xxl-35-t {
+    min-height: 34.75rem;
   }
   .w-xxl-35-f {
     width: 35rem;
@@ -39363,29 +37945,23 @@ textarea.form-control-lg {
   .minh-xxl-36-h {
     min-height: 35.5rem;
   }
-  .t-xxl-36-h {
-    top: 35.5rem;
+  .w-xxl-36-t {
+    width: 35.75rem;
   }
-  .b-xxl-36-h {
-    bottom: 35.5rem;
+  .h-xxl-36-t {
+    height: 35.75rem;
   }
-  .s-xxl-36-h {
-    left: 35.5rem;
+  .maxw-xxl-36-t {
+    max-width: 35.75rem;
   }
-  .e-xxl-36-h {
-    right: 35.5rem;
+  .maxh-xxl-36-t {
+    max-height: 35.75rem;
   }
-  .t-xxl-n36-h {
-    top: -35.5rem;
+  .minw-xxl-36-t {
+    min-width: 35.75rem;
   }
-  .b-xxl-n36-h {
-    bottom: -35.5rem;
-  }
-  .s-xxl-n36-h {
-    left: -35.5rem;
-  }
-  .e-xxl-n36-h {
-    right: -35.5rem;
+  .minh-xxl-36-t {
+    min-height: 35.75rem;
   }
   .w-xxl-36-f {
     width: 36rem;
@@ -39447,29 +38023,23 @@ textarea.form-control-lg {
   .minh-xxl-37-h {
     min-height: 36.5rem;
   }
-  .t-xxl-37-h {
-    top: 36.5rem;
+  .w-xxl-37-t {
+    width: 36.75rem;
   }
-  .b-xxl-37-h {
-    bottom: 36.5rem;
+  .h-xxl-37-t {
+    height: 36.75rem;
   }
-  .s-xxl-37-h {
-    left: 36.5rem;
+  .maxw-xxl-37-t {
+    max-width: 36.75rem;
   }
-  .e-xxl-37-h {
-    right: 36.5rem;
+  .maxh-xxl-37-t {
+    max-height: 36.75rem;
   }
-  .t-xxl-n37-h {
-    top: -36.5rem;
+  .minw-xxl-37-t {
+    min-width: 36.75rem;
   }
-  .b-xxl-n37-h {
-    bottom: -36.5rem;
-  }
-  .s-xxl-n37-h {
-    left: -36.5rem;
-  }
-  .e-xxl-n37-h {
-    right: -36.5rem;
+  .minh-xxl-37-t {
+    min-height: 36.75rem;
   }
   .w-xxl-37-f {
     width: 37rem;
@@ -39531,29 +38101,23 @@ textarea.form-control-lg {
   .minh-xxl-38-h {
     min-height: 37.5rem;
   }
-  .t-xxl-38-h {
-    top: 37.5rem;
+  .w-xxl-38-t {
+    width: 37.75rem;
   }
-  .b-xxl-38-h {
-    bottom: 37.5rem;
+  .h-xxl-38-t {
+    height: 37.75rem;
   }
-  .s-xxl-38-h {
-    left: 37.5rem;
+  .maxw-xxl-38-t {
+    max-width: 37.75rem;
   }
-  .e-xxl-38-h {
-    right: 37.5rem;
+  .maxh-xxl-38-t {
+    max-height: 37.75rem;
   }
-  .t-xxl-n38-h {
-    top: -37.5rem;
+  .minw-xxl-38-t {
+    min-width: 37.75rem;
   }
-  .b-xxl-n38-h {
-    bottom: -37.5rem;
-  }
-  .s-xxl-n38-h {
-    left: -37.5rem;
-  }
-  .e-xxl-n38-h {
-    right: -37.5rem;
+  .minh-xxl-38-t {
+    min-height: 37.75rem;
   }
   .w-xxl-38-f {
     width: 38rem;
@@ -39615,29 +38179,23 @@ textarea.form-control-lg {
   .minh-xxl-39-h {
     min-height: 38.5rem;
   }
-  .t-xxl-39-h {
-    top: 38.5rem;
+  .w-xxl-39-t {
+    width: 38.75rem;
   }
-  .b-xxl-39-h {
-    bottom: 38.5rem;
+  .h-xxl-39-t {
+    height: 38.75rem;
   }
-  .s-xxl-39-h {
-    left: 38.5rem;
+  .maxw-xxl-39-t {
+    max-width: 38.75rem;
   }
-  .e-xxl-39-h {
-    right: 38.5rem;
+  .maxh-xxl-39-t {
+    max-height: 38.75rem;
   }
-  .t-xxl-n39-h {
-    top: -38.5rem;
+  .minw-xxl-39-t {
+    min-width: 38.75rem;
   }
-  .b-xxl-n39-h {
-    bottom: -38.5rem;
-  }
-  .s-xxl-n39-h {
-    left: -38.5rem;
-  }
-  .e-xxl-n39-h {
-    right: -38.5rem;
+  .minh-xxl-39-t {
+    min-height: 38.75rem;
   }
   .w-xxl-39-f {
     width: 39rem;
@@ -39699,29 +38257,23 @@ textarea.form-control-lg {
   .minh-xxl-40-h {
     min-height: 39.5rem;
   }
-  .t-xxl-40-h {
-    top: 39.5rem;
+  .w-xxl-40-t {
+    width: 39.75rem;
   }
-  .b-xxl-40-h {
-    bottom: 39.5rem;
+  .h-xxl-40-t {
+    height: 39.75rem;
   }
-  .s-xxl-40-h {
-    left: 39.5rem;
+  .maxw-xxl-40-t {
+    max-width: 39.75rem;
   }
-  .e-xxl-40-h {
-    right: 39.5rem;
+  .maxh-xxl-40-t {
+    max-height: 39.75rem;
   }
-  .t-xxl-n40-h {
-    top: -39.5rem;
+  .minw-xxl-40-t {
+    min-width: 39.75rem;
   }
-  .b-xxl-n40-h {
-    bottom: -39.5rem;
-  }
-  .s-xxl-n40-h {
-    left: -39.5rem;
-  }
-  .e-xxl-n40-h {
-    right: -39.5rem;
+  .minh-xxl-40-t {
+    min-height: 39.75rem;
   }
   .w-xxl-40-f {
     width: 40rem;
